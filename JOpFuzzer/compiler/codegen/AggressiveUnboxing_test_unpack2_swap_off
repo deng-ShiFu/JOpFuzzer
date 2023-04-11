@@ -1,0 +1,4 @@
+CompileCommand: exclude compiler/codegen/TestCharVect2.test_unpack2_swap
+Testing Char vectors
+Warmup
+Verification

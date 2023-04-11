@@ -1,0 +1,498 @@
+                              @ 15   jdk.internal.misc.Unsafe::getObjectAcquire (7 bytes)   inline
+                                @ 3   jdk.internal.misc.Unsafe::getObjectVolatile (0 bytes)   native method
+                              @ 1   java.lang.String::isLatin1 (19 bytes)   inline
+                              @ 12   java.lang.StringLatin1::charAt (28 bytes)   inline
+                                @ 15  java/lang/StringIndexOutOfBoundsException::<init> (not loaded)   not inlineable
+                              @ 21  java/lang/StringUTF16::charAt (not loaded)   not inlineable
+                              @ 19   java.lang.String::isLatin1 (19 bytes)   inline
+                              @ 29   java.lang.StringLatin1::hashCode (42 bytes)   callee is too large
+                              @ 39  java/lang/StringUTF16::hashCode (not loaded)   not inlineable
+                              @ 1   java.util.ImmutableCollections$SetN$SetNIterator::hasNext (13 bytes)   inline
+                              @ 15   java.util.ImmutableCollections$SetN$SetNIterator::nextIndex (56 bytes)   callee is too large
+                              @ 43  java/util/NoSuchElementException::<init> (not loaded)   not inlineable
+                              @ 17   java.lang.Object::hashCode (0 bytes)   no static binding
+                              @ 20   java.util.concurrent.ConcurrentHashMap::spread (10 bytes)   inline
+                              @ 69   java.util.concurrent.ConcurrentHashMap::tabAt (22 bytes)   inline
+                                @ 15   jdk.internal.misc.Unsafe::getObjectAcquire (7 bytes)   inline
+                                  @ 3   jdk.internal.misc.Unsafe::getObjectVolatile (0 bytes)   native method
+                              @ 91   java.util.concurrent.ConcurrentHashMap$Node::<init> (20 bytes)   inline
+                                @ 1   java.lang.Object::<init> (1 bytes)   inline
+                              @ 94   java.util.concurrent.ConcurrentHashMap::casTabAt (21 bytes)   inline
+                                @ 17   jdk.internal.misc.Unsafe::compareAndSetObject (0 bytes)   native method
+                              @ 120   java.util.concurrent.ConcurrentHashMap::helpTransfer (123 bytes)   callee is too large
+                              @ 159   java.lang.Object::equals (11 bytes)   no static binding
+                              @ 192   java.util.concurrent.ConcurrentHashMap::tabAt (22 bytes)   inline
+                                @ 15   jdk.internal.misc.Unsafe::getObjectAcquire (7 bytes)   inline
+                                  @ 3   jdk.internal.misc.Unsafe::getObjectVolatile (0 bytes)   native method
+                              @ 242   java.lang.Object::equals (11 bytes)   no static binding
+                              @ 293   java.util.concurrent.ConcurrentHashMap$Node::<init> (20 bytes)   inline
+                                @ 1   java.lang.Object::<init> (1 bytes)   inline
+                              @ 331  java/util/concurrent/ConcurrentHashMap$TreeBin::putTreeVal (not loaded)   not inlineable
+                              @ 374  java/lang/IllegalStateException::<init> (not loaded)   not inlineable
+               !m             @ 409   java.util.concurrent.ConcurrentHashMap::treeifyBin (164 bytes)   callee is too large
+                              @ 427   java.util.concurrent.ConcurrentHashMap::addCount (279 bytes)   callee is too large
+               !              @ 49   java.util.concurrent.ConcurrentHashMap::initTable (112 bytes)   callee is too large
+                              @ 12   java.lang.NullPointerException::<init> (5 bytes)   don't inline Throwable constructors
+               !m             @ 4   java.util.concurrent.ConcurrentHashMap::putVal (432 bytes)   callee is too large
+                              @ 31   jdk.internal.misc.Unsafe::compareAndSetLong (0 bytes)   native method
+                              @ 58  java/util/concurrent/ThreadLocalRandom::getProbe (not loaded)   not inlineable
+                              @ 91   jdk.internal.misc.Unsafe::compareAndSetLong (0 bytes)   native method
+                              @ 115   java.util.concurrent.ConcurrentHashMap::sumCount (60 bytes)   callee is too large
+                              @ 161   java.util.concurrent.ConcurrentHashMap::resizeStamp (8 bytes)   inline
+                                @ 1   java.lang.Integer::numberOfLeadingZeros (78 bytes)   callee is too large
+                              @ 226   jdk.internal.misc.Unsafe::compareAndSetInt (0 bytes)   native method
+               !m             @ 237   java.util.concurrent.ConcurrentHashMap::transfer (828 bytes)   callee is too large
+                              @ 256   jdk.internal.misc.Unsafe::compareAndSetInt (0 bytes)   native method
+               !m             @ 266   java.util.concurrent.ConcurrentHashMap::transfer (828 bytes)   callee is too large
+                              @ 270   java.util.concurrent.ConcurrentHashMap::sumCount (60 bytes)   callee is too large
+               !              @ 104   java.util.concurrent.ConcurrentHashMap::fullAddCount (462 bytes)   callee is too large
+                              @ 6   java.lang.String::coder (15 bytes)   inline
+                              @ 9   java.lang.Object::hashCode (0 bytes)   no static binding
+                              @ 20   java.lang.String::coder (15 bytes)   inline
+                              @ 24   java.lang.String::coder (15 bytes)   inline
+                              @ 31   java.lang.String::isLatin1 (19 bytes)   inline
+                              @ 45   java.lang.StringLatin1::equals (36 bytes)   callee is too large
+                              @ 59  java/lang/StringUTF16::equals (not loaded)   not inlineable
+                              @ 8   java.lang.NullPointerException::<init> (5 bytes)   don't inline Throwable constructors
+                              @ 59   java.lang.Object::equals (11 bytes)   no static binding
+                              @ 94   java.util.HashMap$TreeNode::getTreeNode (22 bytes)   not inlineable
+                              @ 126   java.lang.Object::equals (11 bytes)   no static binding
+                              @ 2   java.util.HashMap::hash (20 bytes)   inline
+                                @ 9   java.lang.Object::hashCode (0 bytes)   no static binding
+                              @ 9   java.util.HashMap::putVal (300 bytes)   callee is too large
+                              @ 1   java.lang.Object::<init> (1 bytes)   inline
+                              @ 9   java.util.HashMap$Node::<init> (26 bytes)   inline
+                                @ 1   java.lang.Object::<init> (1 bytes)   inline
+                              @ 2   java.util.HashMap::hash (20 bytes)   inline
+                                @ 9   java.lang.Object::hashCode (0 bytes)   no static binding
+                              @ 6   java.util.HashMap::getNode (148 bytes)   callee is too large
+                              @ 20   java.util.HashMap::resize (356 bytes)   callee is too large
+                              @ 56   java.util.HashMap::newNode (13 bytes)   no static binding
+                              @ 91   java.lang.Object::equals (11 bytes)   no static binding
+                              @ 123   java.util.HashMap$TreeNode::putTreeVal (314 bytes)   not inlineable
+                              @ 152   java.util.HashMap::newNode (13 bytes)   no static binding
+                              @ 169   java.util.HashMap::treeifyBin (110 bytes)   callee is too large
+                              @ 203   java.lang.Object::equals (11 bytes)   no static binding
+                              @ 253   java.util.HashMap::afterNodeAccess (1 bytes)   no static binding
+                              @ 288   java.util.HashMap::resize (356 bytes)   callee is too large
+                              @ 295   java.util.HashMap::afterNodeInsertion (1 bytes)   no static binding
+                              @ 1   java.lang.module.ResolvedModule::reference (5 bytes)   inline
+                              @ 4   java.lang.module.ModuleReference::descriptor (5 bytes)   inline
+                              @ 7   java.lang.module.ModuleDescriptor::name (5 bytes)   inline
+                              @ 1   java.util.AbstractCollection::size (0 bytes)   no static binding
+                              @ 8   java.util.HashMap::put (13 bytes)   inline
+                                @ 2   java.util.HashMap::hash (20 bytes)   inline
+                                  @ 9   java.lang.Object::hashCode (0 bytes)   no static binding
+                                @ 9   java.util.HashMap::putVal (300 bytes)   callee is too large
+                              @ 88  java/util/NoSuchElementException::<init> (not loaded)   not inlineable
+                              @ 4   java.util.Set::isEmpty (0 bytes)   no static binding
+                              @ 1   java.lang.Object::<init> (1 bytes)   inline
+                              @ 11   java.lang.Object::equals (11 bytes)   no static binding
+                              @ 1   java.util.AbstractMap::<init> (5 bytes)   inline
+                                @ 1   java.lang.Object::<init> (1 bytes)   inline
+                              @ 3   java.lang.Math::floorDiv (22 bytes)   inline
+                              @ 1   java.lang.Object::hashCode (0 bytes)   no static binding
+                              @ 9   java.lang.Math::floorMod (10 bytes)   inline
+                                @ 3   java.lang.Math::floorDiv (22 bytes)   inline
+                              @ 31   java.lang.Object::equals (11 bytes)   no static binding
+                              @ 1   java.lang.Object::<init> (1 bytes)   inline
+                              @ 5   java.util.ImmutableCollections$Set12$1::<init> (21 bytes)   inline
+                                @ 6   java.lang.Object::<init> (1 bytes)   inline
+                                @ 14   java.util.ImmutableCollections$Set12::size (13 bytes)   inline
+                              @ 4   java.util.Iterator::hasNext (0 bytes)   no static binding
+                              @ 16   java.util.Iterator::hasNext (0 bytes)   no static binding
+                              @ 217   java.util.HashMap$TreeNode::split (218 bytes)   not inlineable
+                              @ 4   java.util.Iterator::hasNext (0 bytes)   no static binding
+                              @ 16   java.util.Iterator::next (0 bytes)   no static binding
+                              @ 26   java.util.Iterator::hasNext (0 bytes)   no static binding
+                              @ 38   java.util.Iterator::next (0 bytes)   no static binding
+                              @ 48  java/util/NoSuchElementException::<init> (not loaded)   not inlineable
+                              @ 2   java.util.HashMap::hash (20 bytes)   inline
+                                @ 9   java.lang.Object::hashCode (0 bytes)   no static binding
+                              @ 9   java.util.HashMap::putVal (300 bytes)   callee is too large
+                              @ 1   java.lang.Object::hashCode (0 bytes)   no static binding
+                              @ 11   java.lang.Math::floorMod (10 bytes)   inline
+                                @ 3   java.lang.Math::floorDiv (22 bytes)   inline
+                              @ 35   java.lang.Object::equals (11 bytes)   no static binding
+                              @ 1   java.lang.StringLatin1::canEncode (13 bytes)   inline
+Warmup
+Verification
+  test_incrc
+                              @ 13  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 18   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+               !m             @ 38   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 51   compiler.runtime.Test7196199::test_incrc (40 bytes)   inlining prohibited by policy
+                              @ 57   compiler.runtime.Test7196199::test_incrv (42 bytes)   inlining prohibited by policy
+                              @ 62   compiler.runtime.Test7196199::test_addc (48 bytes)   inlining prohibited by policy
+                              @ 69   compiler.runtime.Test7196199::test_addv (47 bytes)   inlining prohibited by policy
+               !m             @ 83   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+               !m             @ 111   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 124   compiler.runtime.Test7196199::test_incrc (40 bytes)   inlining prohibited by policy
+                              @ 148   compiler.runtime.Test7196199::verify (25 bytes)   inline
+                                @ 13  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 18   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+               !m             @ 175   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 190   compiler.runtime.Test7196199::test_incrv (42 bytes)   inlining prohibited by policy
+                              @ 214   compiler.runtime.Test7196199::verify (25 bytes)   inline
+                                @ 13  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 18   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+               !m             @ 241   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 255   compiler.runtime.Test7196199::test_addc (48 bytes)   inlining prohibited by policy
+                              @ 286   compiler.runtime.Test7196199::verify (25 bytes)   inline
+                                @ 13  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 18   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+               !m             @ 313   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 329   compiler.runtime.Test7196199::test_addv (47 bytes)   inlining prohibited by policy
+                              @ 360   compiler.runtime.Test7196199::verify (25 bytes)   inline
+                                @ 13  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 18   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+               !m             @ 393   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 396   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 412   compiler.runtime.Test7196199::test_incrc (40 bytes)   inlining prohibited by policy
+                              @ 421   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 433  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 438   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 441   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 459   compiler.runtime.Test7196199::test_incrv (42 bytes)   inlining prohibited by policy
+                              @ 468   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 480  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 485   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 488   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 505   compiler.runtime.Test7196199::test_addc (48 bytes)   inlining prohibited by policy
+                              @ 514   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 526  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 531   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 534   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 553   compiler.runtime.Test7196199::test_addv (47 bytes)   inlining prohibited by policy
+                              @ 562   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 574  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 579   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+               !m             @ 38   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 51   compiler.runtime.Test7196199::test_incrc (40 bytes)   inlining prohibited by policy
+                              @ 57   compiler.runtime.Test7196199::test_incrv (42 bytes)   inlining prohibited by policy
+                              @ 62   compiler.runtime.Test7196199::test_addc (48 bytes)   inlining prohibited by policy
+                              @ 69   compiler.runtime.Test7196199::test_addv (47 bytes)   inlining prohibited by policy
+               !m             @ 83   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+               !m             @ 111   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 124   compiler.runtime.Test7196199::test_incrc (40 bytes)   inlining prohibited by policy
+                              @ 148   compiler.runtime.Test7196199::verify (25 bytes)   inline
+                                @ 13  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 18   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+               !m             @ 175   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 190   compiler.runtime.Test7196199::test_incrv (42 bytes)   inlining prohibited by policy
+                              @ 214   compiler.runtime.Test7196199::verify (25 bytes)   inline
+                                @ 13  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 18   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+               !m             @ 241   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 255   compiler.runtime.Test7196199::test_addc (48 bytes)   inlining prohibited by policy
+                              @ 286   compiler.runtime.Test7196199::verify (25 bytes)   inline
+                                @ 13  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 18   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+               !m             @ 313   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 329   compiler.runtime.Test7196199::test_addv (47 bytes)   inlining prohibited by policy
+                              @ 360   compiler.runtime.Test7196199::verify (25 bytes)   inline
+                                @ 13  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 18   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+               !m             @ 393   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 396   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 412   compiler.runtime.Test7196199::test_incrc (40 bytes)   inlining prohibited by policy
+                              @ 421   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 433  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 438   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 441   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 459   compiler.runtime.Test7196199::test_incrv (42 bytes)   inlining prohibited by policy
+                              @ 468   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 480  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 485   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 488   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 505   compiler.runtime.Test7196199::test_addc (48 bytes)   inlining prohibited by policy
+                              @ 514   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 526  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 531   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 534   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 553   compiler.runtime.Test7196199::test_addv (47 bytes)   inlining prohibited by policy
+                              @ 562   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 574  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 579   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 148   compiler.runtime.Test7196199::verify (25 bytes)   already compiled into a big method
+                              @ 124   compiler.runtime.Test7196199::test_incrc (40 bytes)   already compiled into a big method
+  test_incrv
+               !m             @ 38   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 51   compiler.runtime.Test7196199::test_incrc (40 bytes)   inlining prohibited by policy
+                              @ 57   compiler.runtime.Test7196199::test_incrv (42 bytes)   inlining prohibited by policy
+                              @ 62   compiler.runtime.Test7196199::test_addc (48 bytes)   inlining prohibited by policy
+                              @ 69   compiler.runtime.Test7196199::test_addv (47 bytes)   inlining prohibited by policy
+               !m             @ 83   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+               !m             @ 111   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 124   compiler.runtime.Test7196199::test_incrc (40 bytes)   inlining prohibited by policy
+                              @ 148   compiler.runtime.Test7196199::verify (25 bytes)   inline
+                                @ 13  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 18   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+               !m             @ 175   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 190   compiler.runtime.Test7196199::test_incrv (42 bytes)   inlining prohibited by policy
+                              @ 214   compiler.runtime.Test7196199::verify (25 bytes)   inline
+                                @ 13  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 18   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+               !m             @ 241   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 255   compiler.runtime.Test7196199::test_addc (48 bytes)   inlining prohibited by policy
+                              @ 286   compiler.runtime.Test7196199::verify (25 bytes)   inline
+                                @ 13  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 18   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+               !m             @ 313   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 329   compiler.runtime.Test7196199::test_addv (47 bytes)   inlining prohibited by policy
+                              @ 360   compiler.runtime.Test7196199::verify (25 bytes)   inline
+                                @ 13  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 18   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+               !m             @ 393   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 396   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 412   compiler.runtime.Test7196199::test_incrc (40 bytes)   inlining prohibited by policy
+                              @ 421   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 433  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 438   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 441   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 459   compiler.runtime.Test7196199::test_incrv (42 bytes)   inlining prohibited by policy
+                              @ 468   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 480  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 485   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 488   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 505   compiler.runtime.Test7196199::test_addc (48 bytes)   inlining prohibited by policy
+                              @ 514   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 526  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 531   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 534   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 553   compiler.runtime.Test7196199::test_addv (47 bytes)   inlining prohibited by policy
+                              @ 562   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 574  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 579   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 214   compiler.runtime.Test7196199::verify (25 bytes)   already compiled into a big method
+                              @ 190   compiler.runtime.Test7196199::test_incrv (42 bytes)   already compiled into a big method

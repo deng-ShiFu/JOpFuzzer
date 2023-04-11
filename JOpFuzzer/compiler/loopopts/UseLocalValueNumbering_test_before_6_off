@@ -1,0 +1,1 @@
+CompileCommand: exclude compiler/loopopts/TestMoveStoresOutOfLoops.test_before_6

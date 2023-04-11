@@ -1,0 +1,37 @@
+Testing Char vectors
+Warmup
+Verification
+Time
+test_ci: 1
+test_vi: 1
+test_cp: 11
+test_2ci: 1977
+test_2vi: 135
+test_ci_neg: 126
+test_vi_neg: 98
+test_cp_neg: 173
+test_2ci_neg: 1418
+test_2vi_neg: 214
+test_ci_oppos: 252
+test_vi_oppos: 174
+test_cp_oppos: 152
+test_2ci_oppos: 1554
+test_2vi_oppos: 219
+test_ci_off: 63
+test_vi_off: 3
+test_cp_off: 113
+test_2ci_off: 1544
+test_2vi_off: 93
+test_ci_inv: 61
+test_vi_inv: 8
+test_cp_inv: 150
+test_2ci_inv: 1382
+test_2vi_inv: 137
+test_ci_scl: 302
+test_vi_scl: 249
+test_cp_scl: 274
+test_2ci_scl: 1541
+test_2vi_scl: 7
+test_cp_alndst: 4
+test_cp_alnsrc: 73
+test_2ci_aln: 141

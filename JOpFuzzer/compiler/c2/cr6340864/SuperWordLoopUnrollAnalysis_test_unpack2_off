@@ -1,0 +1,22 @@
+CompileCommand: exclude compiler/c2/cr6340864/TestShortVect.test_unpack2
+Testing Short vectors
+Warmup
+Verification
+Time
+test_sum: 3
+test_addc: 8
+test_addv: 182
+test_adda: 0
+test_subc: 0
+test_subv: 0
+test_suba: 4
+test_mulc: 109
+test_mulv: 0
+test_mula: 1
+test_divc: 10
+test_divv: 29
+test_diva: 116
+test_mulc_n: 0
+test_mulv_n: 0
+test_mula_n: 0
+test_divc_n: 12

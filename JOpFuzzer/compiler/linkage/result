@@ -1,0 +1,7 @@
+Exception in thread "main" java.lang.ClassNotFoundException: compiler.linkage.CallSites
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:581)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:315)
+	at compiler.linkage.LinkageErrors.main(LinkageErrors.java:84)

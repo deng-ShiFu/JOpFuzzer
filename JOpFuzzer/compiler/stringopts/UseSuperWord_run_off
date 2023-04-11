@@ -1,0 +1,4 @@
+CompileCommand: exclude compiler/stringopts/TestStringObjectInitialization.run
+[6.075s][warning][os,thread] Failed to start thread "Unknown thread" - pthread_create failed (EAGAIN) for attributes: stacksize: 1024k, guardsize: 0k, detached.
+Error occurred during initialization of VM
+java.lang.OutOfMemoryError: unable to create native thread: possibly out of memory or process/resource limits reached

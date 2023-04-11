@@ -1,0 +1,5 @@
+CompileCommand: exclude compiler/uncommontrap/TestDeoptOOM.consume_all_memory
+Error occurred during initialization of VM
+java.lang.OutOfMemoryError: Requested array size exceeds VM limit
+	<<no stack trace available>>
+

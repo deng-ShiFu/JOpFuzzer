@@ -1,0 +1,7 @@
+OpenJDK 64-Bit Server VM warning: Disabling counted safepoints implies no loop strip mining: setting LoopStripMiningIter to 0
+CompileCommand: exclude compiler/loopopts/superword/ReductionPerf.sumDouble
+Warmup ...
+ Warmup is done in 24397 msec
+sum int:    490
+sum long:   241
+sum float:  337

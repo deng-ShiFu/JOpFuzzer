@@ -1,0 +1,4 @@
+CompileCommand: exclude compiler/c2/cr6340864/TestShortVect.test_unpack4
+Testing Short vectors
+Warmup
+Verification

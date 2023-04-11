@@ -1,0 +1,24 @@
+[5.928s][warning][os,thread] Failed to start thread "Unknown thread" - pthread_create failed (EAGAIN) for attributes: stacksize: 1024k, guardsize: 0k, detached.
+[5.929s][warning][os,thread] Failed to start the native thread for java.lang.Thread "Common-Cleaner"
+Error: A JNI error has occurred, please check your installation and try again
+Exception in thread "main" java.lang.OutOfMemoryError: unable to create native thread: possibly out of memory or process/resource limits reached
+	at java.base/java.lang.Thread.start0(Native Method)
+	at java.base/java.lang.Thread.start(Thread.java:798)
+	at java.base/jdk.internal.ref.CleanerImpl.start(CleanerImpl.java:118)
+	at java.base/java.lang.ref.Cleaner.create(Cleaner.java:203)
+	at java.base/jdk.internal.ref.CleanerFactory.<clinit>(CleanerFactory.java:40)
+	at java.base/java.io.FileCleanable.register(FileCleanable.java:77)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:160)
+	at java.base/jdk.internal.loader.URLClassPath$FileLoader$1.getInputStream(URLClassPath.java:1262)
+	at java.base/jdk.internal.loader.Resource.cachedInputStream(Resource.java:77)
+	at java.base/jdk.internal.loader.Resource.getByteBuffer(Resource.java:161)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:791)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:698)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:621)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:579)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:178)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:522)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:398)
+	at java.base/sun.launcher.LauncherHelper.loadMainClass(LauncherHelper.java:791)
+	at java.base/sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:686)

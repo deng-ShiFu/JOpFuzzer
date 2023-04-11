@@ -1,0 +1,47 @@
+CompileCommand: exclude compiler/codegen/TestCharVect2.test_unpack4
+Testing Char vectors
+Warmup
+Verification
+Time
+test_sum: 5
+test_addc: 30
+test_addv: 504
+test_adda: 0
+test_subc: 0
+test_subv: 0
+test_suba: 10
+test_mulc: 301
+test_mulv: 0
+test_mula: 0
+test_divc: 7
+test_divv: 49
+test_diva: 232
+test_mulc_n: 15
+test_mulv_n: 0
+test_mula_n: 1
+test_divc_n: 32
+test_divv_n: 160
+test_diva_n: 32
+test_andc: 1
+test_andv: 0
+test_anda: 15
+test_orc: 74
+test_orv: 0
+test_ora: 0
+test_xorc: 1
+test_xorv: 9
+test_xora: 79
+test_sllc: 0
+test_sllv: 0
+test_srlc: 0
+test_srlv: 7
+test_srac: 75
+test_srav: 0
+test_sllc_n: 0
+test_sllv_n: 0
+test_srlc_n: 7
+test_srlv_n: 79
+test_srac_n: 0
+test_srav_n: 1
+test_sllc_o: 1
+test_sllv_o: 8

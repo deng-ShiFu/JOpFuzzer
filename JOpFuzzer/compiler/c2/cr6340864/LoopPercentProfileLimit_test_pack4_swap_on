@@ -1,0 +1,11 @@
+Testing Short vectors
+Warmup
+Verification
+Time
+test_sum: 8
+test_addc: 35
+test_addv: 1518
+test_adda: 143
+test_subc: 182
+test_subv: 327
+test_suba: 270

@@ -1,0 +1,1 @@
+CompileCommand: exclude compiler/runtime/safepoints/TestRegisterRestoring.main

@@ -1,0 +1,2 @@
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at compiler.intrinsics.math.TestFpMinMaxIntrinsics.main(TestFpMinMaxIntrinsics.java:193)

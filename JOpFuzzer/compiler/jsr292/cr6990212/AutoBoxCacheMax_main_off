@@ -1,0 +1,5 @@
+CompileCommand: exclude compiler/jsr292/cr6990212/Test6990212.main
+Error occurred during initialization of VM
+java.lang.OutOfMemoryError: Requested array size exceeds VM limit
+	<<no stack trace available>>
+

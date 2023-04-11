@@ -1,0 +1,23 @@
+CompileCommand: exclude compiler/c2/cr8004867/TestIntAtomicVolatile.main
+Testing Integer array atomic volatile operations
+Warmup
+Verification
+Time
+test_ci: 83
+test_vi: 13
+test_cp: 143
+test_2ci: 6256
+test_2vi: 275
+test_ci_neg: 8
+test_vi_neg: 5
+test_cp_neg: 189
+test_2ci_neg: 2952
+test_2vi_neg: 289
+test_ci_oppos: 116
+test_vi_oppos: 176
+test_cp_oppos: 229
+test_2ci_oppos: 2406
+test_2vi_oppos: 117
+test_ci_off: 39
+test_vi_off: 30
+test_cp_off: 34

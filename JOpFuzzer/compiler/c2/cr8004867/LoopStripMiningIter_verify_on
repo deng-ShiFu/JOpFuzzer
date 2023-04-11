@@ -1,0 +1,18 @@
+OpenJDK 64-Bit Server VM warning: Disabling counted safepoints implies no loop strip mining: setting LoopStripMiningIter to 0
+Testing Integer array atomic volatile operations
+Warmup
+Verification
+Time
+test_ci: 82
+test_vi: 6
+test_cp: 206
+test_2ci: 6954
+test_2vi: 163
+test_ci_neg: 202
+test_vi_neg: 189
+test_cp_neg: 279
+test_2ci_neg: 2806
+test_2vi_neg: 352
+test_ci_oppos: 157
+test_vi_oppos: 242
+test_cp_oppos: 160

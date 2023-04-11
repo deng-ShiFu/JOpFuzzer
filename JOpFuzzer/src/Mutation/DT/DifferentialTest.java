@@ -52,6 +52,7 @@ public class DifferentialTest {
                 randomSelectOption();
                 executeOption(new ArrayList<>());
             } else {
+                //分析突变的结构，选择合适的优化选项
                 options = analyzeChangedStructure(changedStructure);
                 if (options == null)
                     return;
@@ -79,8 +80,12 @@ public class DifferentialTest {
         for (Map.Entry<String, String> p : optionProfiles.entrySet()) {
             profile = " -XX:+" + p.getValue() + " ";
             option = getOptionNon_defaultValue(p.getKey());
-            cmd = jdkPath + "/bin/java -cp -Xbatch -XX:+IgnoreUnrecognizedVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+UnlockExperimentalVMOptions " + test.getCanonicalPath() + " " + profile + " Test " + " > " + test.getCanonicalPath() + "/default.log";
-            String cmdProfile = jdkPath + "/bin/java -cp -Xbatch -XX:+IgnoreUnrecognizedVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+UnlockExperimentalVMOptions " + test.getCanonicalPath() + " " + profile + " " + option + " Test " + " > " + test.getCanonicalPath() + "/profile.log";
+            //cmd = jdkPath + "/bin/java -cp -Xbatch -XX:+IgnoreUnrecognizedVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+UnlockExperimentalVMOptions " + test.getCanonicalPath() + " " + profile + " Test " + " > " + test.getCanonicalPath() + "/default.log";
+            //String cmdProfile = jdkPath + "/bin/java -cp -Xbatch -XX:+IgnoreUnrecognizedVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+UnlockExperimentalVMOptions " + test.getCanonicalPath() + " " + profile + " " + option + " Test " + " > " + test.getCanonicalPath() + "/profile.log";
+            cmd = jdkPath + "/bin/java -Xbatch -XX:+IgnoreUnrecognizedVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+UnlockExperimentalVMOptions " +" " + profile + " -cp " + test.getCanonicalPath() + " Test " + " > " + test.getCanonicalPath() + "/default.log";
+            String cmdProfile = jdkPath + "/bin/java -Xbatch -XX:+IgnoreUnrecognizedVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+UnlockExperimentalVMOptions " + " " + profile + " " + option + " -cp " + test.getCanonicalPath() + " Test " + " > " + test.getCanonicalPath() + "/profile.log";
+            System.out.println("cmd: "+cmd);
+            System.out.println("cmdProfile: "+cmdProfile);
             int exitValue = execute(cmd);
             int exitValueProfile = execute(cmdProfile);
             if (exitValue != 0 || exitValueProfile != 0) {
@@ -89,18 +94,21 @@ public class DifferentialTest {
                 isSafe = false;
                 return;
             }
+            //计算两种运行结果的相似性
             double similarity = calculateProfileSimilarity();
             optionSimilarity.put(p.getKey(), similarity);
         }
         List<Map.Entry<String, Double>> optionSimilarityList = new ArrayList<>(optionSimilarity.entrySet());
+        //递减排序
         optionSimilarityList.sort((o1, o2) -> o2.getValue().compareTo(o1.getValue()));
-
-        if (Double.parseDouble(optionSimilarityList.get(0).getKey()) > threshold && Double.parseDouble(optionSimilarityList.get(1).getKey()) > threshold && Double.parseDouble(optionSimilarityList.get(2).getKey()) > threshold) {
+        //if (Double.parseDouble(optionSimilarityList.get(0).getKey()) > threshold && Double.parseDouble(optionSimilarityList.get(1).getKey()) > threshold && Double.parseDouble(optionSimilarityList.get(2).getKey()) > threshold) {
+        if (optionSimilarityList.get(0).getValue() > threshold && optionSimilarityList.get(1).getValue() > threshold && optionSimilarityList.get(2).getValue() > threshold) {
             isWorthToSave = false;
             return;
         }
         for (int i = 0; i < selectOptionNumber; i++) {
             newOption.add(optionSimilarityList.get(i).getKey());
+            System.out.println(optionSimilarityList.get(i).getKey());
         }
     }
 
@@ -167,8 +175,10 @@ public class DifferentialTest {
         String cmd;
         int testNumber = (int) Math.pow(2, optionSet.size());
         ExecutorService threadPool = Executors.newFixedThreadPool(testNumber);
+        //根据选择的选项，每次只开启一个选项
         for (int i = 0; i < testNumber; i++) {
-            cmd = "timeout 30s " + jdkPath + "/bin/java -cp -Xbatch -XX:+IgnoreUnrecognizedVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+UnlockExperimentalVMOptions " + test.getCanonicalPath() + " " + solveStringSet(optionSet, i) + " Test > " + test.getCanonicalPath() + "/" + i + ".log";
+            //cmd = "timeout 30s " + jdkPath + "/bin/java -cp -Xbatch -XX:+IgnoreUnrecognizedVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+UnlockExperimentalVMOptions " + test.getCanonicalPath() + " " + solveStringSet(optionSet, i) + " Test > " + test.getCanonicalPath() + "/" + i + ".log";
+            cmd = "timeout 30s " + jdkPath + "/bin/java -Xbatch -XX:+IgnoreUnrecognizedVMOptions -XX:+UnlockDiagnosticVMOptions -XX:+UnlockExperimentalVMOptions " + solveStringSet(optionSet, i) + " -cp " + test.getCanonicalPath() + " "  + " Test > " + test.getCanonicalPath() + "/" + i + ".log";
             Future<Integer> result = threadPool.submit(new Task(cmd));
             if (result.get() != 0) {
                 System.err.println("Option Error:" + cmd + " failed");
@@ -182,6 +192,7 @@ public class DifferentialTest {
         }
         if (!isSafe)
             return;
+        //将本次生成的log文件与未启用选项时生成的result文件进行比较
         compareResult(testNumber);
         options = new ArrayList<>(optionSet);
     }
@@ -232,7 +243,9 @@ public class DifferentialTest {
         List<String> options = new ArrayList<>();
         float[] optionRelation = new float[Option.values().length];
         HashMap<Integer, Float> finalOptionRelation = new HashMap<>();
+        //structure 如“ifStmt”
         for (String structure : changedStructure) {
+            //获取给定枚举常量的序号
             int index = SourceCodeFeature.valueOf(structure).ordinal();
             for (int i = 0; i < Option.values().length; i++) {
                 optionRelation[i] += StructureOptionRelation[index][i];
@@ -243,17 +256,48 @@ public class DifferentialTest {
             if (!Float.isNaN(optionRelation[i]))
                 sum += optionRelation[i];
         }
+        System.out.println("sum: "+sum);
+        //这里取出了selectOptionNumber个选项 与原文描述不一样
+        //从头开始进行减，只能说 optionRelation 值越大在减法之后更可能会被出现r<=0，更会被选择。而不是随即选择selectOptionNumber个选项开启
         Random random = new Random();
-        for (int i = 0; i < selectOptionNumber; i++) {
+        String s = "";
+        //无法保证强制选择selectOptionNumber个选项，因为可能会选择相同的选项
+        Set set = new HashSet();
+        while(!(set.size()==selectOptionNumber)){
             float r = random.nextFloat() * sum;
+            //System.out.println("r: "+r+" Option.values().length: "+Option.values().length+" sum: "+sum);
             for (int j = 0; j < Option.values().length; j++) {
-                r -= optionRelation[j];
+                if(!Float.isNaN(optionRelation[j])){ //原代码 某一个optionRelation[j]为NaN，导致r变成NaN
+                    r -= optionRelation[j];
+                }
                 if (r <= 0) {
-                    options.add(Option.values()[j].toString());
+                    if(!set.contains(Option.values()[j].toString())){
+                        set.add(Option.values()[j].toString());
+                        options.add(Option.values()[j].toString());
+
+                        s+=Option.values()[j].toString()+" ";
+                    }
                     break;
                 }
             }
         }
+        /*
+        for (int i = 0; i < selectOptionNumber; i++) {
+            float r = random.nextFloat() * sum;
+            for (int j = 0; j < Option.values().length; j++) {
+                if(!Float.isNaN(optionRelation[j])){ //原代码 某一个optionRelation[j]为NaN，导致r变成NaN
+                    r -= optionRelation[j];
+                }
+                if (r <= 0) {
+                    options.add(Option.values()[j].toString());
+                    s+=Option.values()[j].toString()+" ";
+                    break;
+                }
+            }
+        }
+
+         */
+        System.out.println("选择的优化选项为: "+s);
         return options;
     }
 

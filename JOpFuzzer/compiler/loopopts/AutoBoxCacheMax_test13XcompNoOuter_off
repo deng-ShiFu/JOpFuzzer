@@ -1,0 +1,5 @@
+CompileCommand: exclude compiler/loopopts/PartialPeelingUnswitch.test13XcompNoOuter
+Error occurred during initialization of VM
+java.lang.OutOfMemoryError: Requested array size exceeds VM limit
+	<<no stack trace available>>
+

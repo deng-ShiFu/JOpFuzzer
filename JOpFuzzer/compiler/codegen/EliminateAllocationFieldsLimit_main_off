@@ -1,0 +1,44 @@
+CompileCommand: exclude compiler/codegen/TestCharVect.main
+Testing Char vectors
+Warmup
+Verification
+Time
+test_ci: 0
+test_vi: 0
+test_cp: 11
+test_2ci: 824
+test_2vi: 1
+test_ci_neg: 0
+test_vi_neg: 0
+test_cp_neg: 9
+test_2ci_neg: 901
+test_2vi_neg: 0
+test_ci_oppos: 3
+test_vi_oppos: 8
+test_cp_oppos: 46
+test_2ci_oppos: 959
+test_2vi_oppos: 26
+test_ci_off: 70
+test_vi_off: 0
+test_cp_off: 13
+test_2ci_off: 883
+test_2vi_off: 0
+test_ci_inv: 6
+test_vi_inv: 51
+test_cp_inv: 53
+test_2ci_inv: 887
+test_2vi_inv: 106
+test_ci_scl: 38
+test_vi_scl: 66
+test_cp_scl: 111
+test_2ci_scl: 1089
+test_2vi_scl: 172
+test_cp_alndst: 45
+test_cp_alnsrc: 48
+test_2ci_aln: 26
+test_2vi_aln: 782
+test_cp_unalndst: 8
+test_cp_unalnsrc: 4
+test_2ci_unaln: 19
+test_2vi_unaln: 44
+PASSED

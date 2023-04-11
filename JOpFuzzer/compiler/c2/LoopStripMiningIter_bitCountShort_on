@@ -1,0 +1,6 @@
+OpenJDK 64-Bit Server VM warning: Disabling counted safepoints implies no loop strip mining: setting LoopStripMiningIter to 0
+1: 1344
+2: 1242
+3: 1647
+4: 1948
+doNotOptimizeOut value: -100663296

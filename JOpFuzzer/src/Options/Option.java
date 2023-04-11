@@ -1,5 +1,7 @@
 package Options;
 
+//先手动收集所有选项，并根据开发
+//人员推荐的选项值范围对它们进行初始化
 public enum Option { // return {default, min, max}
     AlwaysIncrementalInline { // do all inlining incrementally
 

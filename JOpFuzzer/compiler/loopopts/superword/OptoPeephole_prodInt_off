@@ -1,0 +1,7 @@
+CompileCommand: exclude compiler/loopopts/superword/ReductionPerf.prodInt
+Warmup ...
+ Warmup is done in 20605 msec
+sum int:    225
+sum long:   1296
+sum float:  1125
+sum double: 842

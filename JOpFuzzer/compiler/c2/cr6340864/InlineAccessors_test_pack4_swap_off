@@ -1,0 +1,875 @@
+CompileCommand: exclude compiler/c2/cr6340864/TestShortVect.test_pack4_swap
+                              @ 15   jdk.internal.misc.Unsafe::getObjectAcquire (7 bytes)   not inlineable
+                              @ 3   jdk.internal.misc.Unsafe::getObjectVolatile (0 bytes)   not inlineable
+                              @ 1   java.lang.String::isLatin1 (19 bytes)   not inlineable
+                              @ 12   java.lang.StringLatin1::charAt (28 bytes)   not inlineable
+                              @ 21  java/lang/StringUTF16::charAt (not loaded)   not inlineable
+                              @ 15  java/lang/StringIndexOutOfBoundsException::<init> (not loaded)   not inlineable
+                              @ 19   java.lang.String::isLatin1 (19 bytes)   not inlineable
+                              @ 29   java.lang.StringLatin1::hashCode (42 bytes)   not inlineable
+                              @ 39  java/lang/StringUTF16::hashCode (not loaded)   not inlineable
+                              @ 1   java.util.ImmutableCollections$SetN$SetNIterator::hasNext (13 bytes)   not inlineable
+                              @ 15   java.util.ImmutableCollections$SetN$SetNIterator::nextIndex (56 bytes)   not inlineable
+                              @ 43  java/util/NoSuchElementException::<init> (not loaded)   not inlineable
+                              @ 17   java.lang.Object::hashCode (0 bytes)   not inlineable
+                              @ 20   java.util.concurrent.ConcurrentHashMap::spread (10 bytes)   not inlineable
+                              @ 69   java.util.concurrent.ConcurrentHashMap::tabAt (22 bytes)   not inlineable
+                              @ 91   java.util.concurrent.ConcurrentHashMap$Node::<init> (20 bytes)   not inlineable
+                              @ 94   java.util.concurrent.ConcurrentHashMap::casTabAt (21 bytes)   not inlineable
+                              @ 120   java.util.concurrent.ConcurrentHashMap::helpTransfer (123 bytes)   not inlineable
+                              @ 159   java.lang.Object::equals (11 bytes)   not inlineable
+                              @ 192   java.util.concurrent.ConcurrentHashMap::tabAt (22 bytes)   not inlineable
+                              @ 242   java.lang.Object::equals (11 bytes)   not inlineable
+                              @ 293   java.util.concurrent.ConcurrentHashMap$Node::<init> (20 bytes)   not inlineable
+                              @ 331  java/util/concurrent/ConcurrentHashMap$TreeBin::putTreeVal (not loaded)   not inlineable
+                              @ 374  java/lang/IllegalStateException::<init> (not loaded)   not inlineable
+               !m             @ 409   java.util.concurrent.ConcurrentHashMap::treeifyBin (164 bytes)   not inlineable
+                              @ 427   java.util.concurrent.ConcurrentHashMap::addCount (279 bytes)   not inlineable
+               !              @ 49   java.util.concurrent.ConcurrentHashMap::initTable (112 bytes)   not inlineable
+                              @ 12   java.lang.NullPointerException::<init> (5 bytes)   not inlineable
+                              @ 31   jdk.internal.misc.Unsafe::compareAndSetLong (0 bytes)   not inlineable
+                              @ 58  java/util/concurrent/ThreadLocalRandom::getProbe (not loaded)   not inlineable
+                              @ 91   jdk.internal.misc.Unsafe::compareAndSetLong (0 bytes)   not inlineable
+                              @ 115   java.util.concurrent.ConcurrentHashMap::sumCount (60 bytes)   not inlineable
+                              @ 161   java.util.concurrent.ConcurrentHashMap::resizeStamp (8 bytes)   not inlineable
+                              @ 226   jdk.internal.misc.Unsafe::compareAndSetInt (0 bytes)   not inlineable
+               !m             @ 237   java.util.concurrent.ConcurrentHashMap::transfer (828 bytes)   not inlineable
+                              @ 256   jdk.internal.misc.Unsafe::compareAndSetInt (0 bytes)   not inlineable
+               !m             @ 266   java.util.concurrent.ConcurrentHashMap::transfer (828 bytes)   not inlineable
+                              @ 270   java.util.concurrent.ConcurrentHashMap::sumCount (60 bytes)   not inlineable
+               !              @ 104   java.util.concurrent.ConcurrentHashMap::fullAddCount (462 bytes)   not inlineable
+                              @ 1   java.lang.Object::<init> (1 bytes)   not inlineable
+                              @ 17   jdk.internal.misc.Unsafe::compareAndSetObject (0 bytes)   not inlineable
+                              @ 6   java.lang.String::coder (15 bytes)   not inlineable
+               !m             @ 4   java.util.concurrent.ConcurrentHashMap::putVal (432 bytes)   not inlineable
+                              @ 9   java.lang.Object::hashCode (0 bytes)   not inlineable
+                              @ 20   java.lang.String::coder (15 bytes)   not inlineable
+                              @ 24   java.lang.String::coder (15 bytes)   not inlineable
+                              @ 31   java.lang.String::isLatin1 (19 bytes)   not inlineable
+                              @ 45   java.lang.StringLatin1::equals (36 bytes)   not inlineable
+                              @ 59  java/lang/StringUTF16::equals (not loaded)   not inlineable
+                              @ 8   java.lang.NullPointerException::<init> (5 bytes)   not inlineable
+                              @ 59   java.lang.Object::equals (11 bytes)   not inlineable
+                              @ 94   java.util.HashMap$TreeNode::getTreeNode (22 bytes)   not inlineable
+                              @ 126   java.lang.Object::equals (11 bytes)   not inlineable
+                              @ 2   java.util.HashMap::hash (20 bytes)   not inlineable
+                              @ 9   java.util.HashMap::putVal (300 bytes)   not inlineable
+                              @ 20   java.util.HashMap::resize (356 bytes)   not inlineable
+                              @ 56   java.util.HashMap::newNode (13 bytes)   not inlineable
+                              @ 91   java.lang.Object::equals (11 bytes)   not inlineable
+                              @ 123   java.util.HashMap$TreeNode::putTreeVal (314 bytes)   not inlineable
+                              @ 152   java.util.HashMap::newNode (13 bytes)   not inlineable
+                              @ 169   java.util.HashMap::treeifyBin (110 bytes)   not inlineable
+                              @ 203   java.lang.Object::equals (11 bytes)   not inlineable
+                              @ 253   java.util.HashMap::afterNodeAccess (1 bytes)   not inlineable
+                              @ 288   java.util.HashMap::resize (356 bytes)   not inlineable
+                              @ 295   java.util.HashMap::afterNodeInsertion (1 bytes)   not inlineable
+                              @ 1   java.lang.Object::<init> (1 bytes)   not inlineable
+                              @ 9   java.util.HashMap$Node::<init> (26 bytes)   not inlineable
+                              @ 2   java.util.HashMap::hash (20 bytes)   not inlineable
+                              @ 6   java.util.HashMap::getNode (148 bytes)   not inlineable
+                              @ 1   java.lang.module.ResolvedModule::reference (5 bytes)   not inlineable
+                              @ 4   java.lang.module.ModuleReference::descriptor (5 bytes)   not inlineable
+                              @ 7   java.lang.module.ModuleDescriptor::name (5 bytes)   not inlineable
+                              @ 1   java.util.AbstractCollection::size (0 bytes)   not inlineable
+                              @ 88  java/util/NoSuchElementException::<init> (not loaded)   not inlineable
+                              @ 8   java.util.HashMap::put (13 bytes)   not inlineable
+                              @ 4   java.util.Set::isEmpty (0 bytes)   not inlineable
+                              @ 1   java.lang.Object::<init> (1 bytes)   not inlineable
+                              @ 217   java.util.HashMap$TreeNode::split (218 bytes)   not inlineable
+                              @ 1   java.util.AbstractMap::<init> (5 bytes)   not inlineable
+                              @ 11   java.lang.Object::equals (11 bytes)   not inlineable
+                              @ 3   java.lang.Math::floorDiv (22 bytes)   not inlineable
+                              @ 1   java.lang.Object::hashCode (0 bytes)   not inlineable
+                              @ 9   java.lang.Math::floorMod (10 bytes)   not inlineable
+                              @ 31   java.lang.Object::equals (11 bytes)   not inlineable
+                              @ 1   java.lang.Object::<init> (1 bytes)   not inlineable
+                              @ 5   java.util.ImmutableCollections$Set12$1::<init> (21 bytes)   not inlineable
+                              @ 6   java.lang.Object::<init> (1 bytes)   not inlineable
+                              @ 14   java.util.ImmutableCollections$Set12::size (13 bytes)   not inlineable
+                              @ 4   java.util.Iterator::hasNext (0 bytes)   not inlineable
+                              @ 16   java.util.Iterator::hasNext (0 bytes)   not inlineable
+                              @ 1   java.lang.Object::hashCode (0 bytes)   not inlineable
+                              @ 11   java.lang.Math::floorMod (10 bytes)   not inlineable
+                              @ 35   java.lang.Object::equals (11 bytes)   not inlineable
+                              @ 4   java.util.Iterator::hasNext (0 bytes)   not inlineable
+                              @ 16   java.util.Iterator::next (0 bytes)   not inlineable
+                              @ 26   java.util.Iterator::hasNext (0 bytes)   not inlineable
+                              @ 38   java.util.Iterator::next (0 bytes)   not inlineable
+                              @ 48  java/util/NoSuchElementException::<init> (not loaded)   not inlineable
+                              @ 2   java.util.HashMap::hash (20 bytes)   not inlineable
+                              @ 9   java.util.HashMap::putVal (300 bytes)   not inlineable
+                              @ 1   java.lang.StringLatin1::canEncode (13 bytes)   not inlineable
+Testing Short vectors
+Warmup
+Verification
+                              @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 17   java.io.PrintStream::println (24 bytes)   not inlineable
+               !m             @ 112   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 127   compiler.c2.cr6340864.TestShortVect::test_sum (24 bytes)   not inlineable
+                              @ 133   compiler.c2.cr6340864.TestShortVect::test_addc (25 bytes)   not inlineable
+                              @ 140   compiler.c2.cr6340864.TestShortVect::test_addv (24 bytes)   not inlineable
+                              @ 146   compiler.c2.cr6340864.TestShortVect::test_adda (26 bytes)   not inlineable
+                              @ 151   compiler.c2.cr6340864.TestShortVect::test_subc (25 bytes)   not inlineable
+                              @ 158   compiler.c2.cr6340864.TestShortVect::test_subv (24 bytes)   not inlineable
+                              @ 164   compiler.c2.cr6340864.TestShortVect::test_suba (26 bytes)   not inlineable
+                              @ 169   compiler.c2.cr6340864.TestShortVect::test_mulc (25 bytes)   not inlineable
+                              @ 176   compiler.c2.cr6340864.TestShortVect::test_mulv (24 bytes)   not inlineable
+                              @ 182   compiler.c2.cr6340864.TestShortVect::test_mula (26 bytes)   not inlineable
+                              @ 187   compiler.c2.cr6340864.TestShortVect::test_divc (25 bytes)   not inlineable
+                              @ 194   compiler.c2.cr6340864.TestShortVect::test_divv (24 bytes)   not inlineable
+                              @ 200   compiler.c2.cr6340864.TestShortVect::test_diva (26 bytes)   not inlineable
+                              @ 205   compiler.c2.cr6340864.TestShortVect::test_mulc_n (25 bytes)   not inlineable
+                              @ 212   compiler.c2.cr6340864.TestShortVect::test_mulv (24 bytes)   not inlineable
+                              @ 218   compiler.c2.cr6340864.TestShortVect::test_mula (26 bytes)   not inlineable
+                              @ 223   compiler.c2.cr6340864.TestShortVect::test_divc_n (25 bytes)   not inlineable
+                              @ 230   compiler.c2.cr6340864.TestShortVect::test_divv (24 bytes)   not inlineable
+                              @ 236   compiler.c2.cr6340864.TestShortVect::test_diva (26 bytes)   not inlineable
+                              @ 241   compiler.c2.cr6340864.TestShortVect::test_andc (25 bytes)   not inlineable
+                              @ 249   compiler.c2.cr6340864.TestShortVect::test_andv (24 bytes)   not inlineable
+                              @ 256   compiler.c2.cr6340864.TestShortVect::test_anda (26 bytes)   not inlineable
+                              @ 261   compiler.c2.cr6340864.TestShortVect::test_orc (25 bytes)   not inlineable
+                              @ 269   compiler.c2.cr6340864.TestShortVect::test_orv (24 bytes)   not inlineable
+                              @ 276   compiler.c2.cr6340864.TestShortVect::test_ora (26 bytes)   not inlineable
+                              @ 281   compiler.c2.cr6340864.TestShortVect::test_xorc (25 bytes)   not inlineable
+                              @ 289   compiler.c2.cr6340864.TestShortVect::test_xorv (24 bytes)   not inlineable
+                              @ 296   compiler.c2.cr6340864.TestShortVect::test_xora (26 bytes)   not inlineable
+                              @ 301   compiler.c2.cr6340864.TestShortVect::test_sllc (25 bytes)   not inlineable
+                              @ 308   compiler.c2.cr6340864.TestShortVect::test_sllv (24 bytes)   not inlineable
+                              @ 313   compiler.c2.cr6340864.TestShortVect::test_srlc (25 bytes)   not inlineable
+                              @ 320   compiler.c2.cr6340864.TestShortVect::test_srlv (24 bytes)   not inlineable
+                              @ 325   compiler.c2.cr6340864.TestShortVect::test_srac (25 bytes)   not inlineable
+                              @ 332   compiler.c2.cr6340864.TestShortVect::test_srav (24 bytes)   not inlineable
+                              @ 337   compiler.c2.cr6340864.TestShortVect::test_sllc_n (25 bytes)   not inlineable
+                              @ 344   compiler.c2.cr6340864.TestShortVect::test_sllv (24 bytes)   not inlineable
+                              @ 349   compiler.c2.cr6340864.TestShortVect::test_srlc_n (25 bytes)   not inlineable
+                              @ 356   compiler.c2.cr6340864.TestShortVect::test_srlv (24 bytes)   not inlineable
+                              @ 361   compiler.c2.cr6340864.TestShortVect::test_srac_n (25 bytes)   not inlineable
+                              @ 368   compiler.c2.cr6340864.TestShortVect::test_srav (24 bytes)   not inlineable
+                              @ 373   compiler.c2.cr6340864.TestShortVect::test_sllc_o (25 bytes)   not inlineable
+                              @ 380   compiler.c2.cr6340864.TestShortVect::test_sllv (24 bytes)   not inlineable
+                              @ 385   compiler.c2.cr6340864.TestShortVect::test_srlc_o (25 bytes)   not inlineable
+                              @ 392   compiler.c2.cr6340864.TestShortVect::test_srlv (24 bytes)   not inlineable
+                              @ 397   compiler.c2.cr6340864.TestShortVect::test_srac_o (25 bytes)   not inlineable
+                              @ 404   compiler.c2.cr6340864.TestShortVect::test_srav (24 bytes)   not inlineable
+                              @ 409   compiler.c2.cr6340864.TestShortVect::test_sllc_on (25 bytes)   not inlineable
+                              @ 416   compiler.c2.cr6340864.TestShortVect::test_sllv (24 bytes)   not inlineable
+                              @ 421   compiler.c2.cr6340864.TestShortVect::test_srlc_on (25 bytes)   not inlineable
+                              @ 428   compiler.c2.cr6340864.TestShortVect::test_srlv (24 bytes)   not inlineable
+                              @ 433   compiler.c2.cr6340864.TestShortVect::test_srac_on (25 bytes)   not inlineable
+                              @ 440   compiler.c2.cr6340864.TestShortVect::test_srav (24 bytes)   not inlineable
+                              @ 445   compiler.c2.cr6340864.TestShortVect::test_sllc_add (29 bytes)   not inlineable
+                              @ 453   compiler.c2.cr6340864.TestShortVect::test_sllv_add (27 bytes)   not inlineable
+                              @ 458   compiler.c2.cr6340864.TestShortVect::test_srlc_add (29 bytes)   not inlineable
+                              @ 466   compiler.c2.cr6340864.TestShortVect::test_srlv_add (27 bytes)   not inlineable
+                              @ 471   compiler.c2.cr6340864.TestShortVect::test_srac_add (29 bytes)   not inlineable
+                              @ 479   compiler.c2.cr6340864.TestShortVect::test_srav_add (27 bytes)   not inlineable
+                              @ 484   compiler.c2.cr6340864.TestShortVect::test_sllc_and (28 bytes)   not inlineable
+                              @ 491   compiler.c2.cr6340864.TestShortVect::test_sllv_and (27 bytes)   not inlineable
+                              @ 496   compiler.c2.cr6340864.TestShortVect::test_srlc_and (28 bytes)   not inlineable
+                              @ 503   compiler.c2.cr6340864.TestShortVect::test_srlv_and (27 bytes)   not inlineable
+                              @ 508   compiler.c2.cr6340864.TestShortVect::test_srac_and (28 bytes)   not inlineable
+                              @ 515   compiler.c2.cr6340864.TestShortVect::test_srav_and (27 bytes)   not inlineable
+                              @ 521   compiler.c2.cr6340864.TestShortVect::test_pack2 (55 bytes)   not inlineable
+                              @ 527   compiler.c2.cr6340864.TestShortVect::test_unpack2 (53 bytes)   not inlineable
+                              @ 533   compiler.c2.cr6340864.TestShortVect::test_pack2_swap (55 bytes)   not inlineable
+                              @ 539   compiler.c2.cr6340864.TestShortVect::test_unpack2_swap (53 bytes)   not inlineable
+                              @ 545   compiler.c2.cr6340864.TestShortVect::test_pack4 (102 bytes)   not inlineable
+                              @ 551   compiler.c2.cr6340864.TestShortVect::test_unpack4 (82 bytes)   not inlineable
+                              @ 557   compiler.c2.cr6340864.TestShortVect::test_pack4_swap (102 bytes)   not inlineable
+                              @ 563   compiler.c2.cr6340864.TestShortVect::test_unpack4_swap (82 bytes)   not inlineable
+               !m             @ 577   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 584   compiler.c2.cr6340864.TestShortVect::test_sum (24 bytes)   not inlineable
+                              @ 603  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 608   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 616   compiler.c2.cr6340864.TestShortVect::test_addc (25 bytes)   not inlineable
+                              @ 651   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 667   compiler.c2.cr6340864.TestShortVect::test_addv (24 bytes)   not inlineable
+                              @ 702   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 717   compiler.c2.cr6340864.TestShortVect::test_adda (26 bytes)   not inlineable
+                              @ 752   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 766   compiler.c2.cr6340864.TestShortVect::test_subc (25 bytes)   not inlineable
+                              @ 801   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 817   compiler.c2.cr6340864.TestShortVect::test_subv (24 bytes)   not inlineable
+                              @ 852   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 867   compiler.c2.cr6340864.TestShortVect::test_suba (26 bytes)   not inlineable
+                              @ 902   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 916   compiler.c2.cr6340864.TestShortVect::test_mulc (25 bytes)   not inlineable
+                              @ 951   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 967   compiler.c2.cr6340864.TestShortVect::test_mulv (24 bytes)   not inlineable
+                              @ 1002   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 1017   compiler.c2.cr6340864.TestShortVect::test_mula (26 bytes)   not inlineable
+                              @ 1052   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 1066   compiler.c2.cr6340864.TestShortVect::test_divc (25 bytes)   not inlineable
+                              @ 1101   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 1117   compiler.c2.cr6340864.TestShortVect::test_divv (24 bytes)   not inlineable
+                              @ 1152   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 1167   compiler.c2.cr6340864.TestShortVect::test_diva (26 bytes)   not inlineable
+                              @ 1202   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 1216   compiler.c2.cr6340864.TestShortVect::test_mulc_n (25 bytes)   not inlineable
+                              @ 1251   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 1267   compiler.c2.cr6340864.TestShortVect::test_mulv (24 bytes)   not inlineable
+                              @ 1302   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 1317   compiler.c2.cr6340864.TestShortVect::test_mula (26 bytes)   not inlineable
+                              @ 1352   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 1366   compiler.c2.cr6340864.TestShortVect::test_divc_n (25 bytes)   not inlineable
+                              @ 1401   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 1417   compiler.c2.cr6340864.TestShortVect::test_divv (24 bytes)   not inlineable
+                              @ 1452   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 1467   compiler.c2.cr6340864.TestShortVect::test_diva (26 bytes)   not inlineable
+                              @ 1502   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 1516   compiler.c2.cr6340864.TestShortVect::test_andc (25 bytes)   not inlineable
+                              @ 1551   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 1568   compiler.c2.cr6340864.TestShortVect::test_andv (24 bytes)   not inlineable
+                              @ 1603   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 1619   compiler.c2.cr6340864.TestShortVect::test_anda (26 bytes)   not inlineable
+                              @ 1654   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 1668   compiler.c2.cr6340864.TestShortVect::test_orc (25 bytes)   not inlineable
+                              @ 1703   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 1720   compiler.c2.cr6340864.TestShortVect::test_orv (24 bytes)   not inlineable
+                              @ 1755   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 1771   compiler.c2.cr6340864.TestShortVect::test_ora (26 bytes)   not inlineable
+                              @ 1806   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 1820   compiler.c2.cr6340864.TestShortVect::test_xorc (25 bytes)   not inlineable
+                              @ 1855   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 1872   compiler.c2.cr6340864.TestShortVect::test_xorv (24 bytes)   not inlineable
+                              @ 1907   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 1923   compiler.c2.cr6340864.TestShortVect::test_xora (26 bytes)   not inlineable
+                              @ 1958   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 1972   compiler.c2.cr6340864.TestShortVect::test_sllc (25 bytes)   not inlineable
+                              @ 2007   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 2023   compiler.c2.cr6340864.TestShortVect::test_sllv (24 bytes)   not inlineable
+                              @ 2058   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 2072   compiler.c2.cr6340864.TestShortVect::test_srlc (25 bytes)   not inlineable
+                              @ 2107   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 2123   compiler.c2.cr6340864.TestShortVect::test_srlv (24 bytes)   not inlineable
+                              @ 2158   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 2172   compiler.c2.cr6340864.TestShortVect::test_srac (25 bytes)   not inlineable
+                              @ 2207   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 2223   compiler.c2.cr6340864.TestShortVect::test_srav (24 bytes)   not inlineable
+                              @ 2258   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 2272   compiler.c2.cr6340864.TestShortVect::test_sllc_n (25 bytes)   not inlineable
+                              @ 2307   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 2323   compiler.c2.cr6340864.TestShortVect::test_sllv (24 bytes)   not inlineable
+                              @ 2358   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 2372   compiler.c2.cr6340864.TestShortVect::test_srlc_n (25 bytes)   not inlineable
+                              @ 2407   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 2423   compiler.c2.cr6340864.TestShortVect::test_srlv (24 bytes)   not inlineable
+                              @ 2458   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 2472   compiler.c2.cr6340864.TestShortVect::test_srac_n (25 bytes)   not inlineable
+                              @ 2507   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 2523   compiler.c2.cr6340864.TestShortVect::test_srav (24 bytes)   not inlineable
+                              @ 2558   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 2572   compiler.c2.cr6340864.TestShortVect::test_sllc_o (25 bytes)   not inlineable
+                              @ 2607   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 2623   compiler.c2.cr6340864.TestShortVect::test_sllv (24 bytes)   not inlineable
+                              @ 2658   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 2672   compiler.c2.cr6340864.TestShortVect::test_srlc_o (25 bytes)   not inlineable
+                              @ 2707   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 2723   compiler.c2.cr6340864.TestShortVect::test_srlv (24 bytes)   not inlineable
+                              @ 2758   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 2772   compiler.c2.cr6340864.TestShortVect::test_srac_o (25 bytes)   not inlineable
+                              @ 2807   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 2823   compiler.c2.cr6340864.TestShortVect::test_srav (24 bytes)   not inlineable
+                              @ 2858   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 2872   compiler.c2.cr6340864.TestShortVect::test_sllc_on (25 bytes)   not inlineable
+                              @ 2907   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 2923   compiler.c2.cr6340864.TestShortVect::test_sllv (24 bytes)   not inlineable
+                              @ 2958   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 2972   compiler.c2.cr6340864.TestShortVect::test_srlc_on (25 bytes)   not inlineable
+                              @ 3007   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 3023   compiler.c2.cr6340864.TestShortVect::test_srlv (24 bytes)   not inlineable
+                              @ 3058   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 3072   compiler.c2.cr6340864.TestShortVect::test_srac_on (25 bytes)   not inlineable
+                              @ 3107   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 3123   compiler.c2.cr6340864.TestShortVect::test_srav (24 bytes)   not inlineable
+                              @ 3158   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 3172   compiler.c2.cr6340864.TestShortVect::test_sllc_add (29 bytes)   not inlineable
+                              @ 3211   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 3228   compiler.c2.cr6340864.TestShortVect::test_sllv_add (27 bytes)   not inlineable
+                              @ 3267   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 3281   compiler.c2.cr6340864.TestShortVect::test_srlc_add (29 bytes)   not inlineable
+                              @ 3320   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 3337   compiler.c2.cr6340864.TestShortVect::test_srlv_add (27 bytes)   not inlineable
+                              @ 3376   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 3390   compiler.c2.cr6340864.TestShortVect::test_srac_add (29 bytes)   not inlineable
+                              @ 3429   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 3446   compiler.c2.cr6340864.TestShortVect::test_srav_add (27 bytes)   not inlineable
+                              @ 3485   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 3499   compiler.c2.cr6340864.TestShortVect::test_sllc_and (28 bytes)   not inlineable
+                              @ 3537   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 3553   compiler.c2.cr6340864.TestShortVect::test_sllv_and (27 bytes)   not inlineable
+                              @ 3591   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 3605   compiler.c2.cr6340864.TestShortVect::test_srlc_and (28 bytes)   not inlineable
+                              @ 3643   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 3659   compiler.c2.cr6340864.TestShortVect::test_srlv_and (27 bytes)   not inlineable
+                              @ 3697   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 3711   compiler.c2.cr6340864.TestShortVect::test_srac_and (28 bytes)   not inlineable
+                              @ 3749   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 3765   compiler.c2.cr6340864.TestShortVect::test_srav_and (27 bytes)   not inlineable
+                              @ 3803   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 3818   compiler.c2.cr6340864.TestShortVect::test_pack2 (55 bytes)   not inlineable
+                              @ 3868   compiler.c2.cr6340864.TestShortVect::verify (30 bytes)   not inlineable
+                              @ 3905   compiler.c2.cr6340864.TestShortVect::test_unpack2 (53 bytes)   not inlineable
+                              @ 3936   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 3951   compiler.c2.cr6340864.TestShortVect::test_pack2_swap (55 bytes)   not inlineable
+                              @ 4001   compiler.c2.cr6340864.TestShortVect::verify (30 bytes)   not inlineable
+                              @ 4038   compiler.c2.cr6340864.TestShortVect::test_unpack2_swap (53 bytes)   not inlineable
+                              @ 4069   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 4084   compiler.c2.cr6340864.TestShortVect::test_pack4 (102 bytes)   not inlineable
+                              @ 4181   compiler.c2.cr6340864.TestShortVect::verify (33 bytes)   not inlineable
+                              @ 4218   compiler.c2.cr6340864.TestShortVect::test_unpack4 (82 bytes)   not inlineable
+                              @ 4249   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 4264   compiler.c2.cr6340864.TestShortVect::test_pack4_swap (102 bytes)   not inlineable
+                              @ 4361   compiler.c2.cr6340864.TestShortVect::verify (33 bytes)   not inlineable
+                              @ 4398   compiler.c2.cr6340864.TestShortVect::test_unpack4_swap (82 bytes)   not inlineable
+                              @ 4429   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+               !m             @ 4454   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 4457   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 4474   compiler.c2.cr6340864.TestShortVect::test_sum (24 bytes)   not inlineable
+                              @ 4484   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 4497  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 4502   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 4505   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 4523   compiler.c2.cr6340864.TestShortVect::test_addc (25 bytes)   not inlineable
+                              @ 4532   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 4545  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 4550   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 4553   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 4573   compiler.c2.cr6340864.TestShortVect::test_addv (24 bytes)   not inlineable
+                              @ 4582   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 4595  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 4600   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 4603   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 4622   compiler.c2.cr6340864.TestShortVect::test_adda (26 bytes)   not inlineable
+                              @ 4631   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 4644  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 4649   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 4652   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 4670   compiler.c2.cr6340864.TestShortVect::test_subc (25 bytes)   not inlineable
+                              @ 4679   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 4692  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 4697   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 4700   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 4720   compiler.c2.cr6340864.TestShortVect::test_subv (24 bytes)   not inlineable
+                              @ 4729   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 4742  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 4747   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 4750   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 4769   compiler.c2.cr6340864.TestShortVect::test_suba (26 bytes)   not inlineable
+                              @ 4778   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 4791  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 4796   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 4799   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 4817   compiler.c2.cr6340864.TestShortVect::test_mulc (25 bytes)   not inlineable
+                              @ 4826   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 4839  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 4844   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 4847   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 4867   compiler.c2.cr6340864.TestShortVect::test_mulv (24 bytes)   not inlineable
+                              @ 4876   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 4889  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 4894   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 4897   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 4916   compiler.c2.cr6340864.TestShortVect::test_mula (26 bytes)   not inlineable
+                              @ 4925   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 4938  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 4943   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 4946   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 4964   compiler.c2.cr6340864.TestShortVect::test_divc (25 bytes)   not inlineable
+                              @ 4973   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 4986  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 4991   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 4994   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 5014   compiler.c2.cr6340864.TestShortVect::test_divv (24 bytes)   not inlineable
+                              @ 5023   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 5036  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 5041   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 5044   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 5063   compiler.c2.cr6340864.TestShortVect::test_diva (26 bytes)   not inlineable
+                              @ 5072   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 5085  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 5090   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 5093   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 5111   compiler.c2.cr6340864.TestShortVect::test_mulc_n (25 bytes)   not inlineable
+                              @ 5120   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 5133  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 5138   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 5141   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 5161   compiler.c2.cr6340864.TestShortVect::test_mulv (24 bytes)   not inlineable
+                              @ 5170   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 5183  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 5188   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 5191   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 5210   compiler.c2.cr6340864.TestShortVect::test_mula (26 bytes)   not inlineable
+                              @ 5219   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 5232  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 5237   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 5240   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 5258   compiler.c2.cr6340864.TestShortVect::test_divc_n (25 bytes)   not inlineable
+                              @ 5267   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 5280  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 5285   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 5288   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 5308   compiler.c2.cr6340864.TestShortVect::test_divv (24 bytes)   not inlineable
+                              @ 5317   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 5330  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 5335   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 5338   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 5357   compiler.c2.cr6340864.TestShortVect::test_diva (26 bytes)   not inlineable
+                              @ 5366   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 5379  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 5384   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 5387   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 5405   compiler.c2.cr6340864.TestShortVect::test_andc (25 bytes)   not inlineable
+                              @ 5414   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 5427  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 5432   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 5435   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 5456   compiler.c2.cr6340864.TestShortVect::test_andv (24 bytes)   not inlineable
+                              @ 5465   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 5478  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 5483   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 5486   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 5506   compiler.c2.cr6340864.TestShortVect::test_anda (26 bytes)   not inlineable
+                              @ 5515   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 5528  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 5533   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 5536   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 5554   compiler.c2.cr6340864.TestShortVect::test_orc (25 bytes)   not inlineable
+                              @ 5563   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 5576  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 5581   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 5584   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 5605   compiler.c2.cr6340864.TestShortVect::test_orv (24 bytes)   not inlineable
+                              @ 5614   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 5627  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 5632   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 5635   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 5655   compiler.c2.cr6340864.TestShortVect::test_ora (26 bytes)   not inlineable
+                              @ 5664   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 5677  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 5682   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 5685   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 5703   compiler.c2.cr6340864.TestShortVect::test_xorc (25 bytes)   not inlineable
+                              @ 5712   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 5725  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 5730   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 5733   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 5754   compiler.c2.cr6340864.TestShortVect::test_xorv (24 bytes)   not inlineable
+                              @ 5763   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 5776  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 5781   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 5784   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 5804   compiler.c2.cr6340864.TestShortVect::test_xora (26 bytes)   not inlineable
+                              @ 5813   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 5826  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 5831   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 5834   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 5852   compiler.c2.cr6340864.TestShortVect::test_sllc (25 bytes)   not inlineable
+                              @ 5861   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 5874  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 5879   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 5882   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 5902   compiler.c2.cr6340864.TestShortVect::test_sllv (24 bytes)   not inlineable
+                              @ 5911   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 5924  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 5929   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 5932   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 5950   compiler.c2.cr6340864.TestShortVect::test_srlc (25 bytes)   not inlineable
+                              @ 5959   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 5972  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 5977   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 5980   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 6000   compiler.c2.cr6340864.TestShortVect::test_srlv (24 bytes)   not inlineable
+                              @ 6009   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 6022  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 6027   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 6030   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 6048   compiler.c2.cr6340864.TestShortVect::test_srac (25 bytes)   not inlineable
+                              @ 6057   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 6070  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 6075   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 6078   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 6098   compiler.c2.cr6340864.TestShortVect::test_srav (24 bytes)   not inlineable
+                              @ 6107   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 6120  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 6125   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 6128   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 6146   compiler.c2.cr6340864.TestShortVect::test_sllc_n (25 bytes)   not inlineable
+                              @ 6155   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 6168  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 6173   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 6176   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 6196   compiler.c2.cr6340864.TestShortVect::test_sllv (24 bytes)   not inlineable
+                              @ 6205   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 6218  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 6223   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 6226   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 6244   compiler.c2.cr6340864.TestShortVect::test_srlc_n (25 bytes)   not inlineable
+                              @ 6253   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 6266  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 6271   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 6274   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 6294   compiler.c2.cr6340864.TestShortVect::test_srlv (24 bytes)   not inlineable
+                              @ 6303   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 6316  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 6321   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 6324   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 6342   compiler.c2.cr6340864.TestShortVect::test_srac_n (25 bytes)   not inlineable
+                              @ 6351   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 6364  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 6369   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 6372   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 6392   compiler.c2.cr6340864.TestShortVect::test_srav (24 bytes)   not inlineable
+                              @ 6401   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 6414  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 6419   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 6422   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 6440   compiler.c2.cr6340864.TestShortVect::test_sllc_o (25 bytes)   not inlineable
+                              @ 6449   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 6462  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 6467   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 6470   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 6490   compiler.c2.cr6340864.TestShortVect::test_sllv (24 bytes)   not inlineable
+                              @ 6499   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 6512  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 6517   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 6520   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 6538   compiler.c2.cr6340864.TestShortVect::test_srlc_o (25 bytes)   not inlineable
+                              @ 6547   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 6560  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 6565   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 6568   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 6588   compiler.c2.cr6340864.TestShortVect::test_srlv (24 bytes)   not inlineable
+                              @ 6597   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 6610  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 6615   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 6618   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 6636   compiler.c2.cr6340864.TestShortVect::test_srac_o (25 bytes)   not inlineable
+                              @ 6645   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 6658  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 6663   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 6666   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 6686   compiler.c2.cr6340864.TestShortVect::test_srav (24 bytes)   not inlineable
+                              @ 6695   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 6708  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 6713   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 6716   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 6734   compiler.c2.cr6340864.TestShortVect::test_sllc_on (25 bytes)   not inlineable
+                              @ 6743   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 6756  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 6761   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 6764   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 6784   compiler.c2.cr6340864.TestShortVect::test_sllv (24 bytes)   not inlineable
+                              @ 6793   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 6806  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 6811   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 6814   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 6832   compiler.c2.cr6340864.TestShortVect::test_srlc_on (25 bytes)   not inlineable
+                              @ 6841   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 6854  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 6859   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 6862   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 6882   compiler.c2.cr6340864.TestShortVect::test_srlv (24 bytes)   not inlineable
+                              @ 6891   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 6904  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 6909   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 6912   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 6930   compiler.c2.cr6340864.TestShortVect::test_srac_on (25 bytes)   not inlineable
+                              @ 6939   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 6952  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 6957   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 6960   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 6980   compiler.c2.cr6340864.TestShortVect::test_srav (24 bytes)   not inlineable
+                              @ 6989   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 7002  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 7007   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 7010   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 7028   compiler.c2.cr6340864.TestShortVect::test_sllc_add (29 bytes)   not inlineable
+                              @ 7037   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 7050  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 7055   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 7058   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 7079   compiler.c2.cr6340864.TestShortVect::test_sllv_add (27 bytes)   not inlineable
+                              @ 7088   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 7101  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 7106   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 7109   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 7127   compiler.c2.cr6340864.TestShortVect::test_srlc_add (29 bytes)   not inlineable
+                              @ 7136   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 7149  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 7154   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 7157   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 7178   compiler.c2.cr6340864.TestShortVect::test_srlv_add (27 bytes)   not inlineable
+                              @ 7187   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 7200  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 7205   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 7208   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 7226   compiler.c2.cr6340864.TestShortVect::test_srac_add (29 bytes)   not inlineable
+                              @ 7235   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 7248  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 7253   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 7256   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 7277   compiler.c2.cr6340864.TestShortVect::test_srav_add (27 bytes)   not inlineable
+                              @ 7286   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 7299  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 7304   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 7307   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 7325   compiler.c2.cr6340864.TestShortVect::test_sllc_and (28 bytes)   not inlineable
+                              @ 7334   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 7347  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 7352   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 7355   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 7375   compiler.c2.cr6340864.TestShortVect::test_sllv_and (27 bytes)   not inlineable
+                              @ 7384   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 7397  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 7402   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 7405   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 7423   compiler.c2.cr6340864.TestShortVect::test_srlc_and (28 bytes)   not inlineable
+                              @ 7432   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 7445  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 7450   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 7453   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 7473   compiler.c2.cr6340864.TestShortVect::test_srlv_and (27 bytes)   not inlineable
+                              @ 7482   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 7495  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 7500   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 7503   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 7521   compiler.c2.cr6340864.TestShortVect::test_srac_and (28 bytes)   not inlineable
+                              @ 7530   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 7543  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 7548   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 7551   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 7571   compiler.c2.cr6340864.TestShortVect::test_srav_and (27 bytes)   not inlineable
+                              @ 7580   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 7593  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 7598   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 7601   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 7620   compiler.c2.cr6340864.TestShortVect::test_pack2 (55 bytes)   not inlineable
+                              @ 7629   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 7642  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 7647   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 7650   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 7669   compiler.c2.cr6340864.TestShortVect::test_unpack2 (53 bytes)   not inlineable
+                              @ 7678   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 7691  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 7696   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 7699   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 7718   compiler.c2.cr6340864.TestShortVect::test_pack2_swap (55 bytes)   not inlineable
+                              @ 7727   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 7740  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 7745   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 7748   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 7767   compiler.c2.cr6340864.TestShortVect::test_unpack2_swap (53 bytes)   not inlineable
+                              @ 7776   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 7789  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 7794   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 7797   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 7816   compiler.c2.cr6340864.TestShortVect::test_pack4 (102 bytes)   not inlineable
+                              @ 7825   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 7838  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 7843   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 7846   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 7865   compiler.c2.cr6340864.TestShortVect::test_unpack4 (82 bytes)   not inlineable
+                              @ 7874   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 7887  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 7892   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 7895   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 7914   compiler.c2.cr6340864.TestShortVect::test_pack4_swap (102 bytes)   not inlineable
+                              @ 7923   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 7936  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 7941   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 7944   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 7963   compiler.c2.cr6340864.TestShortVect::test_unpack4_swap (82 bytes)   not inlineable
+                              @ 7972   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 7985  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 7990   java.io.PrintStream::println (24 bytes)   not inlineable
+               !m             @ 112   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 127   compiler.c2.cr6340864.TestShortVect::test_sum (24 bytes)   not inlineable
+                              @ 133   compiler.c2.cr6340864.TestShortVect::test_addc (25 bytes)   not inlineable
+                              @ 140   compiler.c2.cr6340864.TestShortVect::test_addv (24 bytes)   not inlineable
+                              @ 146   compiler.c2.cr6340864.TestShortVect::test_adda (26 bytes)   not inlineable
+                              @ 151   compiler.c2.cr6340864.TestShortVect::test_subc (25 bytes)   not inlineable
+                              @ 158   compiler.c2.cr6340864.TestShortVect::test_subv (24 bytes)   not inlineable
+                              @ 164   compiler.c2.cr6340864.TestShortVect::test_suba (26 bytes)   not inlineable
+                              @ 169   compiler.c2.cr6340864.TestShortVect::test_mulc (25 bytes)   not inlineable
+                              @ 176   compiler.c2.cr6340864.TestShortVect::test_mulv (24 bytes)   not inlineable
+                              @ 182   compiler.c2.cr6340864.TestShortVect::test_mula (26 bytes)   not inlineable
+                              @ 187   compiler.c2.cr6340864.TestShortVect::test_divc (25 bytes)   not inlineable
+                              @ 194   compiler.c2.cr6340864.TestShortVect::test_divv (24 bytes)   not inlineable
+                              @ 200   compiler.c2.cr6340864.TestShortVect::test_diva (26 bytes)   not inlineable
+                              @ 205   compiler.c2.cr6340864.TestShortVect::test_mulc_n (25 bytes)   not inlineable
+                              @ 212   compiler.c2.cr6340864.TestShortVect::test_mulv (24 bytes)   not inlineable
+                              @ 218   compiler.c2.cr6340864.TestShortVect::test_mula (26 bytes)   not inlineable
+                              @ 223   compiler.c2.cr6340864.TestShortVect::test_divc_n (25 bytes)   not inlineable
+                              @ 230   compiler.c2.cr6340864.TestShortVect::test_divv (24 bytes)   not inlineable
+                              @ 236   compiler.c2.cr6340864.TestShortVect::test_diva (26 bytes)   not inlineable
+                              @ 241   compiler.c2.cr6340864.TestShortVect::test_andc (25 bytes)   not inlineable
+                              @ 249   compiler.c2.cr6340864.TestShortVect::test_andv (24 bytes)   not inlineable
+                              @ 256   compiler.c2.cr6340864.TestShortVect::test_anda (26 bytes)   not inlineable
+                              @ 261   compiler.c2.cr6340864.TestShortVect::test_orc (25 bytes)   not inlineable
+                              @ 269   compiler.c2.cr6340864.TestShortVect::test_orv (24 bytes)   not inlineable
+                              @ 276   compiler.c2.cr6340864.TestShortVect::test_ora (26 bytes)   not inlineable
+                              @ 281   compiler.c2.cr6340864.TestShortVect::test_xorc (25 bytes)   not inlineable
+                              @ 289   compiler.c2.cr6340864.TestShortVect::test_xorv (24 bytes)   not inlineable
+                              @ 296   compiler.c2.cr6340864.TestShortVect::test_xora (26 bytes)   not inlineable
+                              @ 301   compiler.c2.cr6340864.TestShortVect::test_sllc (25 bytes)   not inlineable
+                              @ 308   compiler.c2.cr6340864.TestShortVect::test_sllv (24 bytes)   not inlineable
+                              @ 313   compiler.c2.cr6340864.TestShortVect::test_srlc (25 bytes)   not inlineable
+                              @ 320   compiler.c2.cr6340864.TestShortVect::test_srlv (24 bytes)   not inlineable
+                              @ 325   compiler.c2.cr6340864.TestShortVect::test_srac (25 bytes)   not inlineable
+                              @ 332   compiler.c2.cr6340864.TestShortVect::test_srav (24 bytes)   not inlineable
+                              @ 337   compiler.c2.cr6340864.TestShortVect::test_sllc_n (25 bytes)   not inlineable
+                              @ 344   compiler.c2.cr6340864.TestShortVect::test_sllv (24 bytes)   not inlineable
+                              @ 349   compiler.c2.cr6340864.TestShortVect::test_srlc_n (25 bytes)   not inlineable
+                              @ 356   compiler.c2.cr6340864.TestShortVect::test_srlv (24 bytes)   not inlineable
+                              @ 361   compiler.c2.cr6340864.TestShortVect::test_srac_n (25 bytes)   not inlineable
+                              @ 368   compiler.c2.cr6340864.TestShortVect::test_srav (24 bytes)   not inlineable
+                              @ 373   compiler.c2.cr6340864.TestShortVect::test_sllc_o (25 bytes)   not inlineable
+                              @ 380   compiler.c2.cr6340864.TestShortVect::test_sllv (24 bytes)   not inlineable
+                              @ 385   compiler.c2.cr6340864.TestShortVect::test_srlc_o (25 bytes)   not inlineable
+                              @ 392   compiler.c2.cr6340864.TestShortVect::test_srlv (24 bytes)   not inlineable
+                              @ 397   compiler.c2.cr6340864.TestShortVect::test_srac_o (25 bytes)   not inlineable
+                              @ 404   compiler.c2.cr6340864.TestShortVect::test_srav (24 bytes)   not inlineable
+                              @ 409   compiler.c2.cr6340864.TestShortVect::test_sllc_on (25 bytes)   not inlineable
+                              @ 416   compiler.c2.cr6340864.TestShortVect::test_sllv (24 bytes)   not inlineable
+                              @ 421   compiler.c2.cr6340864.TestShortVect::test_srlc_on (25 bytes)   not inlineable
+                              @ 428   compiler.c2.cr6340864.TestShortVect::test_srlv (24 bytes)   not inlineable
+                              @ 433   compiler.c2.cr6340864.TestShortVect::test_srac_on (25 bytes)   not inlineable
+                              @ 440   compiler.c2.cr6340864.TestShortVect::test_srav (24 bytes)   not inlineable
+                              @ 445   compiler.c2.cr6340864.TestShortVect::test_sllc_add (29 bytes)   not inlineable
+                              @ 453   compiler.c2.cr6340864.TestShortVect::test_sllv_add (27 bytes)   not inlineable
+                              @ 458   compiler.c2.cr6340864.TestShortVect::test_srlc_add (29 bytes)   not inlineable
+                              @ 466   compiler.c2.cr6340864.TestShortVect::test_srlv_add (27 bytes)   not inlineable
+                              @ 471   compiler.c2.cr6340864.TestShortVect::test_srac_add (29 bytes)   not inlineable
+                              @ 479   compiler.c2.cr6340864.TestShortVect::test_srav_add (27 bytes)   not inlineable
+                              @ 484   compiler.c2.cr6340864.TestShortVect::test_sllc_and (28 bytes)   not inlineable
+                              @ 491   compiler.c2.cr6340864.TestShortVect::test_sllv_and (27 bytes)   not inlineable
+                              @ 496   compiler.c2.cr6340864.TestShortVect::test_srlc_and (28 bytes)   not inlineable
+                              @ 503   compiler.c2.cr6340864.TestShortVect::test_srlv_and (27 bytes)   not inlineable
+                              @ 508   compiler.c2.cr6340864.TestShortVect::test_srac_and (28 bytes)   not inlineable
+                              @ 515   compiler.c2.cr6340864.TestShortVect::test_srav_and (27 bytes)   not inlineable
+                              @ 521   compiler.c2.cr6340864.TestShortVect::test_pack2 (55 bytes)   not inlineable
+                              @ 527   compiler.c2.cr6340864.TestShortVect::test_unpack2 (53 bytes)   not inlineable
+                              @ 533   compiler.c2.cr6340864.TestShortVect::test_pack2_swap (55 bytes)   not inlineable
+                              @ 539   compiler.c2.cr6340864.TestShortVect::test_unpack2_swap (53 bytes)   not inlineable
+                              @ 545   compiler.c2.cr6340864.TestShortVect::test_pack4 (102 bytes)   not inlineable
+                              @ 551   compiler.c2.cr6340864.TestShortVect::test_unpack4 (82 bytes)   not inlineable
+                              @ 557   compiler.c2.cr6340864.TestShortVect::test_pack4_swap (102 bytes)   not inlineable
+                              @ 563   compiler.c2.cr6340864.TestShortVect::test_unpack4_swap (82 bytes)   not inlineable
+               !m             @ 577   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 584   compiler.c2.cr6340864.TestShortVect::test_sum (24 bytes)   not inlineable
+                              @ 603  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 608   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 616   compiler.c2.cr6340864.TestShortVect::test_addc (25 bytes)   not inlineable
+                              @ 651   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 667   compiler.c2.cr6340864.TestShortVect::test_addv (24 bytes)   not inlineable
+                              @ 702   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 717   compiler.c2.cr6340864.TestShortVect::test_adda (26 bytes)   not inlineable
+                              @ 752   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 766   compiler.c2.cr6340864.TestShortVect::test_subc (25 bytes)   not inlineable
+                              @ 801   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 817   compiler.c2.cr6340864.TestShortVect::test_subv (24 bytes)   not inlineable
+                              @ 852   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 867   compiler.c2.cr6340864.TestShortVect::test_suba (26 bytes)   not inlineable
+                              @ 902   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 916   compiler.c2.cr6340864.TestShortVect::test_mulc (25 bytes)   not inlineable
+                              @ 951   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 967   compiler.c2.cr6340864.TestShortVect::test_mulv (24 bytes)   not inlineable
+                              @ 1002   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 1017   compiler.c2.cr6340864.TestShortVect::test_mula (26 bytes)   not inlineable
+                              @ 1052   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 1066   compiler.c2.cr6340864.TestShortVect::test_divc (25 bytes)   not inlineable
+                              @ 1101   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 1117   compiler.c2.cr6340864.TestShortVect::test_divv (24 bytes)   not inlineable
+                              @ 1152   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 1167   compiler.c2.cr6340864.TestShortVect::test_diva (26 bytes)   not inlineable
+                              @ 1202   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 1216   compiler.c2.cr6340864.TestShortVect::test_mulc_n (25 bytes)   not inlineable
+                              @ 1251   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 1267   compiler.c2.cr6340864.TestShortVect::test_mulv (24 bytes)   not inlineable
+                              @ 1302   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 1317   compiler.c2.cr6340864.TestShortVect::test_mula (26 bytes)   not inlineable
+                              @ 1352   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 1366   compiler.c2.cr6340864.TestShortVect::test_divc_n (25 bytes)   not inlineable
+                              @ 1401   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 1417   compiler.c2.cr6340864.TestShortVect::test_divv (24 bytes)   not inlineable
+                              @ 1452   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 1467   compiler.c2.cr6340864.TestShortVect::test_diva (26 bytes)   not inlineable
+                              @ 1502   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 1516   compiler.c2.cr6340864.TestShortVect::test_andc (25 bytes)   not inlineable
+                              @ 1551   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 1568   compiler.c2.cr6340864.TestShortVect::test_andv (24 bytes)   not inlineable
+                              @ 1603   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 1619   compiler.c2.cr6340864.TestShortVect::test_anda (26 bytes)   not inlineable
+                              @ 1654   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 1668   compiler.c2.cr6340864.TestShortVect::test_orc (25 bytes)   not inlineable
+                              @ 1703   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 1720   compiler.c2.cr6340864.TestShortVect::test_orv (24 bytes)   not inlineable
+                              @ 1755   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 1771   compiler.c2.cr6340864.TestShortVect::test_ora (26 bytes)   not inlineable
+                              @ 1806   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 1820   compiler.c2.cr6340864.TestShortVect::test_xorc (25 bytes)   not inlineable
+                              @ 1855   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 1872   compiler.c2.cr6340864.TestShortVect::test_xorv (24 bytes)   not inlineable
+                              @ 1907   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 1923   compiler.c2.cr6340864.TestShortVect::test_xora (26 bytes)   not inlineable
+                              @ 1958   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 1972   compiler.c2.cr6340864.TestShortVect::test_sllc (25 bytes)   not inlineable
+                              @ 2007   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 2023   compiler.c2.cr6340864.TestShortVect::test_sllv (24 bytes)   not inlineable
+                              @ 2058   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 2072   compiler.c2.cr6340864.TestShortVect::test_srlc (25 bytes)   not inlineable
+                              @ 2107   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 2123   compiler.c2.cr6340864.TestShortVect::test_srlv (24 bytes)   not inlineable
+                              @ 2158   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 2172   compiler.c2.cr6340864.TestShortVect::test_srac (25 bytes)   not inlineable
+                              @ 2207   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 2223   compiler.c2.cr6340864.TestShortVect::test_srav (24 bytes)   not inlineable
+                              @ 2258   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 2272   compiler.c2.cr6340864.TestShortVect::test_sllc_n (25 bytes)   not inlineable
+                              @ 2307   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 2323   compiler.c2.cr6340864.TestShortVect::test_sllv (24 bytes)   not inlineable
+                              @ 2358   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 2372   compiler.c2.cr6340864.TestShortVect::test_srlc_n (25 bytes)   not inlineable
+                              @ 2407   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 2423   compiler.c2.cr6340864.TestShortVect::test_srlv (24 bytes)   not inlineable
+                              @ 2458   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 2472   compiler.c2.cr6340864.TestShortVect::test_srac_n (25 bytes)   not inlineable
+                              @ 2507   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 2523   compiler.c2.cr6340864.TestShortVect::test_srav (24 bytes)   not inlineable
+                              @ 2558   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 2572   compiler.c2.cr6340864.TestShortVect::test_sllc_o (25 bytes)   not inlineable
+                              @ 2607   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 2623   compiler.c2.cr6340864.TestShortVect::test_sllv (24 bytes)   not inlineable
+                              @ 2658   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 2672   compiler.c2.cr6340864.TestShortVect::test_srlc_o (25 bytes)   not inlineable
+                              @ 2707   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 2723   compiler.c2.cr6340864.TestShortVect::test_srlv (24 bytes)   not inlineable
+                              @ 2758   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 2772   compiler.c2.cr6340864.TestShortVect::test_srac_o (25 bytes)   not inlineable
+                              @ 2807   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 2823   compiler.c2.cr6340864.TestShortVect::test_srav (24 bytes)   not inlineable
+                              @ 2858   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 2872   compiler.c2.cr6340864.TestShortVect::test_sllc_on (25 bytes)   not inlineable
+                              @ 2907   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 2923   compiler.c2.cr6340864.TestShortVect::test_sllv (24 bytes)   not inlineable
+                              @ 2958   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 2972   compiler.c2.cr6340864.TestShortVect::test_srlc_on (25 bytes)   not inlineable
+                              @ 3007   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 3023   compiler.c2.cr6340864.TestShortVect::test_srlv (24 bytes)   not inlineable
+                              @ 3058   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 3072   compiler.c2.cr6340864.TestShortVect::test_srac_on (25 bytes)   not inlineable
+                              @ 3107   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 3123   compiler.c2.cr6340864.TestShortVect::test_srav (24 bytes)   not inlineable
+                              @ 3158   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 3172   compiler.c2.cr6340864.TestShortVect::test_sllc_add (29 bytes)   not inlineable
+                              @ 3211   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 3228   compiler.c2.cr6340864.TestShortVect::test_sllv_add (27 bytes)   not inlineable
+                              @ 3267   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 3281   compiler.c2.cr6340864.TestShortVect::test_srlc_add (29 bytes)   not inlineable
+                              @ 3320   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 3337   compiler.c2.cr6340864.TestShortVect::test_srlv_add (27 bytes)   not inlineable
+                              @ 3376   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   not inlineable
+                              @ 3390   compiler.c2.cr6340864.TestShortVect::test_srac_add (29 bytes)   not inlineable

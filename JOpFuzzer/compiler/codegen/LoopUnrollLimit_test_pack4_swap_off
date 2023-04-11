@@ -1,0 +1,17 @@
+CompileCommand: exclude compiler/codegen/TestCharVect2.test_pack4_swap
+Testing Char vectors
+Warmup
+Verification
+Time
+test_sum: 9
+test_addc: 23
+test_addv: 1938
+test_adda: 16
+test_subc: 97
+test_subv: 226
+test_suba: 50
+test_mulc: 778
+test_mulv: 5
+test_mula: 88
+test_divc: 80
+test_divv: 111

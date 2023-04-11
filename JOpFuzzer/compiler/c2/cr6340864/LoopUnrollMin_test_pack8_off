@@ -1,0 +1,16 @@
+CompileCommand: exclude compiler/c2/cr6340864/TestByteVect.test_pack8
+Testing Byte vectors
+Warmup
+Verification
+Time
+test_sum: 41
+test_addc: 6
+test_addv: 32
+test_adda: 65
+test_subc: 96
+test_subv: 50
+test_suba: 52
+test_mulc: 7
+test_mulv: 54
+test_mula: 27
+test_divc: 101

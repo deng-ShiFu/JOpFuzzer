@@ -1,0 +1,17 @@
+Testing Integer array atomic volatile operations
+Warmup
+Verification
+Time
+test_ci: 182
+test_vi: 144
+test_cp: 118
+test_2ci: 6045
+test_2vi: 196
+test_ci_neg: 110
+test_vi_neg: 131
+test_cp_neg: 136
+test_2ci_neg: 3771
+test_2vi_neg: 232
+test_ci_oppos: 93
+test_vi_oppos: 265
+test_cp_oppos: 193

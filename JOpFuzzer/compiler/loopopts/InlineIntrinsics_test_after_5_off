@@ -1,0 +1,332 @@
+CompileCommand: exclude compiler/loopopts/TestMoveStoresOutOfLoops.test_after_5
+                              @ 15   jdk.internal.misc.Unsafe::getObjectAcquire (7 bytes)   not inlineable
+                              @ 3   jdk.internal.misc.Unsafe::getObjectVolatile (0 bytes)   not inlineable
+                              @ 1   java.lang.String::isLatin1 (19 bytes)   not inlineable
+                              @ 12   java.lang.StringLatin1::charAt (28 bytes)   not inlineable
+                              @ 21  java/lang/StringUTF16::charAt (not loaded)   not inlineable
+                              @ 15  java/lang/StringIndexOutOfBoundsException::<init> (not loaded)   not inlineable
+                              @ 19   java.lang.String::isLatin1 (19 bytes)   not inlineable
+                              @ 29   java.lang.StringLatin1::hashCode (42 bytes)   not inlineable
+                              @ 39  java/lang/StringUTF16::hashCode (not loaded)   not inlineable
+                              @ 1   java.util.ImmutableCollections$SetN$SetNIterator::hasNext (13 bytes)   not inlineable
+                              @ 15   java.util.ImmutableCollections$SetN$SetNIterator::nextIndex (56 bytes)   not inlineable
+                              @ 43  java/util/NoSuchElementException::<init> (not loaded)   not inlineable
+                              @ 17   java.lang.Object::hashCode (0 bytes)   not inlineable
+                              @ 20   java.util.concurrent.ConcurrentHashMap::spread (10 bytes)   not inlineable
+                              @ 69   java.util.concurrent.ConcurrentHashMap::tabAt (22 bytes)   not inlineable
+                              @ 91   java.util.concurrent.ConcurrentHashMap$Node::<init> (20 bytes)   not inlineable
+                              @ 94   java.util.concurrent.ConcurrentHashMap::casTabAt (21 bytes)   not inlineable
+                              @ 120   java.util.concurrent.ConcurrentHashMap::helpTransfer (123 bytes)   not inlineable
+                              @ 159   java.lang.Object::equals (11 bytes)   not inlineable
+                              @ 192   java.util.concurrent.ConcurrentHashMap::tabAt (22 bytes)   not inlineable
+                              @ 242   java.lang.Object::equals (11 bytes)   not inlineable
+                              @ 293   java.util.concurrent.ConcurrentHashMap$Node::<init> (20 bytes)   not inlineable
+                              @ 331  java/util/concurrent/ConcurrentHashMap$TreeBin::putTreeVal (not loaded)   not inlineable
+                              @ 374  java/lang/IllegalStateException::<init> (not loaded)   not inlineable
+               !m             @ 409   java.util.concurrent.ConcurrentHashMap::treeifyBin (164 bytes)   not inlineable
+                              @ 427   java.util.concurrent.ConcurrentHashMap::addCount (279 bytes)   not inlineable
+               !              @ 49   java.util.concurrent.ConcurrentHashMap::initTable (112 bytes)   not inlineable
+                              @ 12   java.lang.NullPointerException::<init> (5 bytes)   not inlineable
+                              @ 31   jdk.internal.misc.Unsafe::compareAndSetLong (0 bytes)   not inlineable
+                              @ 58  java/util/concurrent/ThreadLocalRandom::getProbe (not loaded)   not inlineable
+                              @ 91   jdk.internal.misc.Unsafe::compareAndSetLong (0 bytes)   not inlineable
+                              @ 115   java.util.concurrent.ConcurrentHashMap::sumCount (60 bytes)   not inlineable
+                              @ 161   java.util.concurrent.ConcurrentHashMap::resizeStamp (8 bytes)   not inlineable
+                              @ 226   jdk.internal.misc.Unsafe::compareAndSetInt (0 bytes)   not inlineable
+               !m             @ 237   java.util.concurrent.ConcurrentHashMap::transfer (828 bytes)   not inlineable
+                              @ 256   jdk.internal.misc.Unsafe::compareAndSetInt (0 bytes)   not inlineable
+               !m             @ 266   java.util.concurrent.ConcurrentHashMap::transfer (828 bytes)   not inlineable
+                              @ 270   java.util.concurrent.ConcurrentHashMap::sumCount (60 bytes)   not inlineable
+               !              @ 104   java.util.concurrent.ConcurrentHashMap::fullAddCount (462 bytes)   not inlineable
+                              @ 1   java.lang.Object::<init> (1 bytes)   not inlineable
+                              @ 17   jdk.internal.misc.Unsafe::compareAndSetObject (0 bytes)   not inlineable
+               !m             @ 4   java.util.concurrent.ConcurrentHashMap::putVal (432 bytes)   not inlineable
+                              @ 6   java.lang.String::coder (15 bytes)   not inlineable
+                              @ 9   java.lang.Object::hashCode (0 bytes)   not inlineable
+                              @ 20   java.lang.String::coder (15 bytes)   not inlineable
+                              @ 24   java.lang.String::coder (15 bytes)   not inlineable
+                              @ 31   java.lang.String::isLatin1 (19 bytes)   not inlineable
+                              @ 45   java.lang.StringLatin1::equals (36 bytes)   not inlineable
+                              @ 59  java/lang/StringUTF16::equals (not loaded)   not inlineable
+                              @ 8   java.lang.NullPointerException::<init> (5 bytes)   not inlineable
+                              @ 59   java.lang.Object::equals (11 bytes)   not inlineable
+                              @ 94   java.util.HashMap$TreeNode::getTreeNode (22 bytes)   not inlineable
+                              @ 126   java.lang.Object::equals (11 bytes)   not inlineable
+                              @ 2   java.util.HashMap::hash (20 bytes)   not inlineable
+                              @ 9   java.util.HashMap::putVal (300 bytes)   not inlineable
+                              @ 20   java.util.HashMap::resize (356 bytes)   not inlineable
+                              @ 56   java.util.HashMap::newNode (13 bytes)   not inlineable
+                              @ 91   java.lang.Object::equals (11 bytes)   not inlineable
+                              @ 123   java.util.HashMap$TreeNode::putTreeVal (314 bytes)   not inlineable
+                              @ 152   java.util.HashMap::newNode (13 bytes)   not inlineable
+                              @ 169   java.util.HashMap::treeifyBin (110 bytes)   not inlineable
+                              @ 203   java.lang.Object::equals (11 bytes)   not inlineable
+                              @ 253   java.util.HashMap::afterNodeAccess (1 bytes)   not inlineable
+                              @ 288   java.util.HashMap::resize (356 bytes)   not inlineable
+                              @ 295   java.util.HashMap::afterNodeInsertion (1 bytes)   not inlineable
+                              @ 1   java.lang.Object::<init> (1 bytes)   not inlineable
+                              @ 9   java.util.HashMap$Node::<init> (26 bytes)   not inlineable
+                              @ 2   java.util.HashMap::hash (20 bytes)   not inlineable
+                              @ 6   java.util.HashMap::getNode (148 bytes)   not inlineable
+                              @ 1   java.lang.module.ResolvedModule::reference (5 bytes)   not inlineable
+                              @ 4   java.lang.module.ModuleReference::descriptor (5 bytes)   not inlineable
+                              @ 7   java.lang.module.ModuleDescriptor::name (5 bytes)   not inlineable
+                              @ 88  java/util/NoSuchElementException::<init> (not loaded)   not inlineable
+                              @ 1   java.util.AbstractCollection::size (0 bytes)   not inlineable
+                              @ 8   java.util.HashMap::put (13 bytes)   not inlineable
+                              @ 4   java.util.Set::isEmpty (0 bytes)   not inlineable
+                              @ 1   java.lang.Object::<init> (1 bytes)   not inlineable
+                              @ 217   java.util.HashMap$TreeNode::split (218 bytes)   not inlineable
+                              @ 11   java.lang.Object::equals (11 bytes)   not inlineable
+                              @ 1   java.util.AbstractMap::<init> (5 bytes)   not inlineable
+                              @ 3   java.lang.Math::floorDiv (22 bytes)   not inlineable
+                              @ 1   java.lang.Object::hashCode (0 bytes)   not inlineable
+                              @ 9   java.lang.Math::floorMod (10 bytes)   not inlineable
+                              @ 31   java.lang.Object::equals (11 bytes)   not inlineable
+                              @ 1   java.lang.Object::<init> (1 bytes)   not inlineable
+                              @ 5   java.util.ImmutableCollections$Set12$1::<init> (21 bytes)   not inlineable
+                              @ 6   java.lang.Object::<init> (1 bytes)   not inlineable
+                              @ 14   java.util.ImmutableCollections$Set12::size (13 bytes)   not inlineable
+                              @ 1   java.lang.Object::hashCode (0 bytes)   not inlineable
+                              @ 11   java.lang.Math::floorMod (10 bytes)   not inlineable
+                              @ 35   java.lang.Object::equals (11 bytes)   not inlineable
+                              @ 4   java.util.Iterator::hasNext (0 bytes)   not inlineable
+                              @ 16   java.util.Iterator::hasNext (0 bytes)   not inlineable
+                              @ 4   java.util.Iterator::hasNext (0 bytes)   not inlineable
+                              @ 16   java.util.Iterator::next (0 bytes)   not inlineable
+                              @ 26   java.util.Iterator::hasNext (0 bytes)   not inlineable
+                              @ 38   java.util.Iterator::next (0 bytes)   not inlineable
+                              @ 48  java/util/NoSuchElementException::<init> (not loaded)   not inlineable
+                              @ 2   java.util.HashMap::hash (20 bytes)   not inlineable
+                              @ 9   java.util.HashMap::putVal (300 bytes)   not inlineable
+                              @ 1   java.lang.StringLatin1::canEncode (13 bytes)   not inlineable
+                              @ 1   java.lang.Object::hashCode (0 bytes)   not inlineable
+                              @ 4   java.util.concurrent.ConcurrentHashMap::spread (10 bytes)   not inlineable
+                              @ 34   java.util.concurrent.ConcurrentHashMap::tabAt (22 bytes)   not inlineable
+                              @ 73   java.lang.Object::equals (11 bytes)   not inlineable
+                              @ 93   java.util.concurrent.ConcurrentHashMap$Node::find (52 bytes)   not inlineable
+                              @ 149   java.lang.Object::equals (11 bytes)   not inlineable
+                              @ 10   java.lang.Class::isPrimitive (0 bytes)   not inlineable
+                              @ 53   sun.invoke.util.Wrapper::asPrimitiveType (20 bytes)   not inlineable
+                              @ 149   sun.invoke.util.Wrapper::asWrapperType (18 bytes)   not inlineable
+                              @ 1   java.lang.Object::<init> (1 bytes)   not inlineable
+                              @ 1   java.util.Objects::requireNonNull (14 bytes)   not inlineable
+                              @ 14   java.lang.invoke.MethodHandleStatics::newIllegalArgumentException (9 bytes)   not inlineable
+                              @ 8   java.lang.Character::isSurrogate (18 bytes)   not inlineable
+                              @ 1   java.lang.String::isLatin1 (19 bytes)   not inlineable
+                              @ 13   java.lang.String::checkIndex (46 bytes)   not inlineable
+                              @ 37   java.lang.String::checkIndex (46 bytes)   not inlineable
+                              @ 46  java/lang/StringUTF16::codePointAt (not loaded)   not inlineable
+                              @ 17   java.lang.StringBuilder::<init> (7 bytes)   not inlineable
+                              @ 22   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 26   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 31   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 35   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 38   java.lang.StringBuilder::toString (35 bytes)   not inlineable
+                              @ 41  java/lang/StringIndexOutOfBoundsException::<init> (not loaded)   not inlineable
+                              @ 19   java.util.regex.Pattern::has (15 bytes)   not inlineable
+                              @ 27   java.util.regex.Pattern::peekPastWhitespace (56 bytes)   not inlineable
+                              @ 12   java.util.regex.Pattern::has (15 bytes)   not inlineable
+                              @ 20   java.util.regex.Pattern::peekPastWhitespace (56 bytes)   not inlineable
+                              @ 23   java.lang.System::arraycopy (0 bytes)   not inlineable
+                              @ 1   java.lang.Object::<init> (1 bytes)   not inlineable
+                              @ 17   java.lang.ref.ReferenceQueue::reallyPoll (65 bytes)   not inlineable
+                              @ 3   java.lang.invoke.MemberName::testAnyFlags (15 bytes)   not inlineable
+                              @ 3   java.lang.invoke.MemberName::testFlags (16 bytes)   not inlineable
+                              @ 6   java.lang.Object::hashCode (0 bytes)   not inlineable
+                              @ 40   java.lang.Object::hashCode (0 bytes)   not inlineable
+               !m             @ 4   java.lang.ref.ReferenceQueue::poll (28 bytes)   not inlineable
+                              @ 17   java.util.concurrent.ConcurrentMap::remove (10 bytes)   not inlineable
+                              @ 18   jdk.internal.org.objectweb.asm.ByteVector::enlarge (51 bytes)   not inlineable
+                              @ 14   java.lang.Class::initClassName (0 bytes)   not inlineable
+                              @ 180   java.lang.String::hashCode (49 bytes)   not inlineable
+                              @ 184   java.lang.String::hashCode (49 bytes)   not inlineable
+                              @ 166   java.lang.String::hashCode (49 bytes)   not inlineable
+                              @ 199   java.lang.String::hashCode (49 bytes)   not inlineable
+                              @ 203   java.lang.String::hashCode (49 bytes)   not inlineable
+                              @ 209   java.lang.String::hashCode (49 bytes)   not inlineable
+                              @ 33   jdk.internal.org.objectweb.asm.Item::isEqualTo (354 bytes)   not inlineable
+                              @ 1   java.lang.String::length (11 bytes)   not inlineable
+                              @ 15   java.lang.IllegalArgumentException::<init> (5 bytes)   not inlineable
+                              @ 41   jdk.internal.org.objectweb.asm.ByteVector::enlarge (51 bytes)   not inlineable
+                              @ 83   java.lang.String::charAt (25 bytes)   not inlineable
+                              @ 125   jdk.internal.org.objectweb.asm.ByteVector::encodeUTF8 (335 bytes)   not inlineable
+                              @ 5   jdk.internal.reflect.ByteVector::add (0 bytes)   not inlineable
+                              @ 24   jdk.internal.reflect.ByteVectorImpl::resize (44 bytes)   not inlineable
+                              @ 1   java.lang.String::isLatin1 (19 bytes)   already compiled into a big method
+                              @ 12   java.lang.StringLatin1::charAt (28 bytes)   not an accessor
+                              @ 28   java.lang.Integer::<init> (10 bytes)   not inlineable
+                              @ 0   compiler.loopopts.TestMoveStoresOutOfLoops::array_init (9 bytes)   not inlineable
+                              @ 7   jdk.internal.reflect.Reflection::getCallerClass (0 bytes)   not inlineable
+                              @ 21   java.lang.reflect.Modifier::isStatic (13 bytes)   not inlineable
+                              @ 32   java.lang.Object::getClass (0 bytes)   not inlineable
+                              @ 39   java.lang.reflect.AccessibleObject::checkAccess (40 bytes)   not inlineable
+                              @ 52   java.lang.reflect.Method::acquireMethodAccessor (44 bytes)   not inlineable
+                              @ 59   jdk.internal.reflect.MethodAccessor::invoke (0 bytes)   not inlineable
+                              @ 6   java.lang.reflect.AccessibleObject::verifyAccess (84 bytes)   not inlineable
+                              @ 17   jdk.internal.reflect.Reflection::newIllegalAccessException (276 bytes)   not inlineable
+                              @ 22   java.lang.reflect.AccessibleObject::printStackTraceWhenAccessFails (48 bytes)   not inlineable
+                              @ 33  java/lang/IllegalAccessException::printStackTrace (not loaded)   not inlineable
+                              @ 19   java.lang.reflect.Modifier::isProtected (12 bytes)   not inlineable
+                              @ 80   java.lang.reflect.AccessibleObject::slowVerifyAccess (62 bytes)   not inlineable
+                              @ 6   jdk.internal.reflect.MethodAccessorImpl::invoke (0 bytes)   not inlineable
+                              @ 4   compiler.loopopts.TestMoveStoresOutOfLoops::array_check (35 bytes)   not inlineable
+                              @ 7   java.lang.Boolean::valueOf (14 bytes)   not inlineable
+                              @ 25  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+                              @ 30  java/io/PrintStream::println (not loaded)   not inlineable
+                              @ 12  java/lang/IllegalArgumentException::<init> (not loaded)   not inlineable
+                              @ 33   java.lang.Byte::byteValue (5 bytes)   not inlineable
+                              @ 50   java.lang.Character::charValue (5 bytes)   not inlineable
+                              @ 67   java.lang.Short::shortValue (5 bytes)   not inlineable
+                              @ 84   java.lang.Integer::intValue (5 bytes)   not inlineable
+                              @ 98   compiler.loopopts.TestMoveStoresOutOfLoops::test_after_1 (23 bytes)   not inlineable
+                              @ 120  java/lang/reflect/InvocationTargetException::<init> (not loaded)   not inlineable
+                              @ 94  java/lang/IllegalArgumentException::<init> (not loaded)   not inlineable
+                              @ 103   java.lang.Object::toString (36 bytes)   not inlineable
+                              @ 111  java/lang/IllegalArgumentException::<init> (not loaded)   not inlineable
+                              @ 0   compiler.loopopts.TestMoveStoresOutOfLoops::array_init (9 bytes)   already compiled into a big method
+                              @ 7   jdk.internal.reflect.Reflection::getCallerClass (0 bytes)   native method
+                              @ 21   java.lang.reflect.Modifier::isStatic (13 bytes)   already compiled into a big method
+                              @ 39   java.lang.reflect.AccessibleObject::checkAccess (40 bytes)   not an accessor
+                              @ 59   jdk.internal.reflect.DelegatingMethodAccessorImpl::invoke (10 bytes)   not an accessor
+                               \-> TypeProfile (5119/5119 counts) = jdk/internal/reflect/DelegatingMethodAccessorImpl
+                              @ 6   java.lang.reflect.AccessibleObject::verifyAccess (84 bytes)   not an accessor
+               !              @ 6   jdk.internal.reflect.GeneratedMethodAccessor1::invoke (124 bytes)   not an accessor
+                               \-> TypeProfile (5119/5119 counts) = jdk/internal/reflect/GeneratedMethodAccessor1
+                              @ 4   compiler.loopopts.TestMoveStoresOutOfLoops::array_check (35 bytes)   not an accessor
+                              @ 7   java.lang.Boolean::valueOf (14 bytes)   already compiled into a big method
+                              @ 84   java.lang.Integer::intValue (5 bytes)   accessor
+                              @ 98   compiler.loopopts.TestMoveStoresOutOfLoops::test_after_1 (23 bytes)   already compiled into a big method
+                              @ 24   java.lang.AbstractStringBuilder::newCapacity (55 bytes)   not inlineable
+                              @ 32   java.util.Arrays::copyOf (19 bytes)   not inlineable
+                              @ 3   java.lang.ref.Reference::<init> (25 bytes)   not inlineable
+                              @ 10   jdk.internal.reflect.ClassFileAssembler::emitByte (11 bytes)   not inlineable
+                              @ 20   jdk.internal.reflect.ClassFileAssembler::emitByte (11 bytes)   not inlineable
+                              @ 13   java.lang.RuntimeException::<init> (6 bytes)   not inlineable
+                              @ 11   jdk.internal.reflect.ByteVectorImpl::resize (44 bytes)   not inlineable
+                              @ 7   jdk.internal.reflect.Reflection::getCallerClass (0 bytes)   not inlineable
+                              @ 21   java.lang.reflect.Modifier::isStatic (13 bytes)   not inlineable
+                              @ 32   java.lang.Object::getClass (0 bytes)   not inlineable
+                              @ 39   java.lang.reflect.AccessibleObject::checkAccess (40 bytes)   not inlineable
+                              @ 52   java.lang.reflect.Method::acquireMethodAccessor (44 bytes)   not inlineable
+                              @ 59   jdk.internal.reflect.MethodAccessor::invoke (0 bytes)   not inlineable
+               !              @ 6   jdk.internal.reflect.GeneratedMethodAccessor1::invoke (124 bytes)   already compiled into a big method
+                               \-> TypeProfile (5120/5251 counts) = jdk/internal/reflect/GeneratedMethodAccessor1
+                              @ 0   compiler.loopopts.TestMoveStoresOutOfLoops::array_init (9 bytes)   not inlineable
+                              @ 4   compiler.loopopts.TestMoveStoresOutOfLoops::array_check (35 bytes)   not inlineable
+                              @ 7   java.lang.Boolean::valueOf (14 bytes)   not inlineable
+                              @ 12  java/lang/IllegalArgumentException::<init> (not loaded)   not inlineable
+                              @ 33   java.lang.Byte::byteValue (5 bytes)   not inlineable
+                              @ 50   java.lang.Character::charValue (5 bytes)   not inlineable
+                              @ 67   java.lang.Short::shortValue (5 bytes)   not inlineable
+                              @ 84   java.lang.Integer::intValue (5 bytes)   not inlineable
+                              @ 98   compiler.loopopts.TestMoveStoresOutOfLoops::test_after_2 (33 bytes)   not inlineable
+                              @ 120  java/lang/reflect/InvocationTargetException::<init> (not loaded)   not inlineable
+                              @ 94  java/lang/IllegalArgumentException::<init> (not loaded)   not inlineable
+                              @ 103   java.lang.Object::toString (36 bytes)   not inlineable
+                              @ 111  java/lang/IllegalArgumentException::<init> (not loaded)   not inlineable
+                              @ 7   jdk.internal.reflect.Reflection::getCallerClass (0 bytes)   native method
+                              @ 21   java.lang.reflect.Modifier::isStatic (13 bytes)   already compiled into a big method
+                              @ 39   java.lang.reflect.AccessibleObject::checkAccess (40 bytes)   already compiled into a big method
+                              @ 52   java.lang.reflect.Method::acquireMethodAccessor (44 bytes)   too big
+                              @ 59   jdk.internal.reflect.DelegatingMethodAccessorImpl::invoke (10 bytes)   already compiled into a big method
+                               \-> TypeProfile (10240/10240 counts) = jdk/internal/reflect/DelegatingMethodAccessorImpl
+                              @ 0   compiler.loopopts.TestMoveStoresOutOfLoops::array_init (9 bytes)   already compiled into a big method
+                              @ 4   compiler.loopopts.TestMoveStoresOutOfLoops::array_check (35 bytes)   already compiled into a big method
+                              @ 7   java.lang.Boolean::valueOf (14 bytes)   already compiled into a big method
+                              @ 84   java.lang.Integer::intValue (5 bytes)   accessor
+                              @ 98   compiler.loopopts.TestMoveStoresOutOfLoops::test_after_2 (33 bytes)   already compiled into a big method
+                              @ 1   java.lang.String::isLatin1 (19 bytes)   not inlineable
+                              @ 13   java.lang.StringLatin1::indexOf (61 bytes)   not inlineable
+                              @ 25  java/lang/StringUTF16::indexOf (not loaded)   not inlineable
+                              @ 1   java.lang.Object::<init> (1 bytes)   not inlineable
+                              @ 8   jdk.internal.org.objectweb.asm.Item::set (219 bytes)   not inlineable
+                              @ 16   jdk.internal.org.objectweb.asm.ClassWriter::get (49 bytes)   not inlineable
+                              @ 29   jdk.internal.org.objectweb.asm.ByteVector::putByte (39 bytes)   not inlineable
+                              @ 33   jdk.internal.org.objectweb.asm.ByteVector::putUTF8 (142 bytes)   not inlineable
+                              @ 56   jdk.internal.org.objectweb.asm.Item::<init> (66 bytes)   not inlineable
+                              @ 62   jdk.internal.org.objectweb.asm.ClassWriter::put (152 bytes)   not inlineable
+                              @ 1   java.lang.String::length (11 bytes)   not inlineable
+                              @ 16   java.lang.String::charAt (25 bytes)   not inlineable
+                              @ 1   java.lang.String::length (11 bytes)   not inlineable
+                              @ 6   jdk.internal.reflect.UTF8::utf8Length (81 bytes)   not inlineable
+                              @ 26   java.lang.String::charAt (25 bytes)   not inlineable
+                              @ 185  java/lang/InternalError::<init> (not loaded)   not inlineable
+               !              @ 1   jdk.internal.reflect.UTF8::encode (191 bytes)   not inlineable
+                              @ 7   jdk.internal.reflect.ClassFileAssembler::emitByte (11 bytes)   not inlineable
+                              @ 14   jdk.internal.reflect.ClassFileAssembler::emitShort (24 bytes)   not inlineable
+                              @ 29   jdk.internal.reflect.ClassFileAssembler::emitByte (11 bytes)   not inlineable
+                              @ 0   compiler.loopopts.TestMoveStoresOutOfLoops::array_init (9 bytes)   not inlineable
+                              @ 4   compiler.loopopts.TestMoveStoresOutOfLoops::array_check (35 bytes)   not inlineable
+                              @ 7   java.lang.Boolean::valueOf (14 bytes)   not inlineable
+                              @ 12  java/lang/IllegalArgumentException::<init> (not loaded)   not inlineable
+                              @ 33   java.lang.Byte::byteValue (5 bytes)   not inlineable
+                              @ 50   java.lang.Character::charValue (5 bytes)   not inlineable
+                              @ 67   java.lang.Short::shortValue (5 bytes)   not inlineable
+                              @ 84   java.lang.Integer::intValue (5 bytes)   not inlineable
+                              @ 98   compiler.loopopts.TestMoveStoresOutOfLoops::test_after_3 (38 bytes)   not inlineable
+                              @ 120  java/lang/reflect/InvocationTargetException::<init> (not loaded)   not inlineable
+                              @ 94  java/lang/IllegalArgumentException::<init> (not loaded)   not inlineable
+                              @ 103   java.lang.Object::toString (36 bytes)   not inlineable
+                              @ 111  java/lang/IllegalArgumentException::<init> (not loaded)   not inlineable
+                              @ 0   compiler.loopopts.TestMoveStoresOutOfLoops::array_init (9 bytes)   already compiled into a big method
+                              @ 4   compiler.loopopts.TestMoveStoresOutOfLoops::array_check (35 bytes)   already compiled into a big method
+                              @ 7   java.lang.Boolean::valueOf (14 bytes)   already compiled into a big method
+                              @ 84   java.lang.Integer::intValue (5 bytes)   accessor
+                              @ 98   compiler.loopopts.TestMoveStoresOutOfLoops::test_after_3 (38 bytes)   already compiled into a big method
+                              @ 3   java.lang.String::indexOf (29 bytes)   not inlineable
+                              @ 18   jdk.internal.org.objectweb.asm.ByteVector::enlarge (51 bytes)   not inlineable
+                              @ 1   java.lang.Object::<init> (1 bytes)   not inlineable
+                              @ 5   jdk.internal.reflect.ByteVectorImpl::add (38 bytes)   not an accessor
+                               \-> TypeProfile (5119/5119 counts) = jdk/internal/reflect/ByteVectorImpl
+                              @ 24   jdk.internal.reflect.ByteVectorImpl::resize (44 bytes)   too big
+                              @ 0   compiler.loopopts.TestMoveStoresOutOfLoops::array_init (9 bytes)   not inlineable
+                              @ 4   compiler.loopopts.TestMoveStoresOutOfLoops::array_check (35 bytes)   not inlineable
+                              @ 7   java.lang.Boolean::valueOf (14 bytes)   not inlineable
+                              @ 12  java/lang/IllegalArgumentException::<init> (not loaded)   not inlineable
+                              @ 33   java.lang.Byte::byteValue (5 bytes)   not inlineable
+                              @ 50   java.lang.Character::charValue (5 bytes)   not inlineable
+                              @ 67   java.lang.Short::shortValue (5 bytes)   not inlineable
+                              @ 84   java.lang.Integer::intValue (5 bytes)   not inlineable
+                              @ 98   compiler.loopopts.TestMoveStoresOutOfLoops::test_after_4 (38 bytes)   not inlineable
+                              @ 120  java/lang/reflect/InvocationTargetException::<init> (not loaded)   not inlineable
+                              @ 94  java/lang/IllegalArgumentException::<init> (not loaded)   not inlineable
+                              @ 103   java.lang.Object::toString (36 bytes)   not inlineable
+                              @ 111  java/lang/IllegalArgumentException::<init> (not loaded)   not inlineable
+                              @ 5   java.util.HashMap::get (23 bytes)   not inlineable
+                              @ 25   java.lang.Runnable::run (0 bytes)   not inlineable
+                              @ 40   java.lang.Integer::valueOf (32 bytes)   not inlineable
+                              @ 44   java.lang.reflect.Method::invoke (65 bytes)   not inlineable
+                              @ 58   java.util.function.Function::apply (0 bytes)   not inlineable
+                              @ 66   java.lang.Boolean::booleanValue (5 bytes)   not inlineable
+                              @ 5   java.util.HashMap::get (23 bytes)   not inlineable
+                              @ 25   java.lang.Runnable::run (0 bytes)   not inlineable
+                              @ 40   java.lang.Integer::valueOf (32 bytes)   not inlineable
+                              @ 44   java.lang.reflect.Method::invoke (65 bytes)   not inlineable
+                              @ 58   java.util.function.Function::apply (0 bytes)   not inlineable
+                              @ 66   java.lang.Boolean::booleanValue (5 bytes)   not inlineable
+                              @ 0   compiler.loopopts.TestMoveStoresOutOfLoops::array_init (9 bytes)   already compiled into a big method
+                              @ 4   compiler.loopopts.TestMoveStoresOutOfLoops::array_check (35 bytes)   already compiled into a big method
+                              @ 7   java.lang.Boolean::valueOf (14 bytes)   already compiled into a big method
+                              @ 84   java.lang.Integer::intValue (5 bytes)   accessor
+                              @ 98   compiler.loopopts.TestMoveStoresOutOfLoops::test_after_4 (38 bytes)   already compiled into a big method
+                              @ 0   compiler.loopopts.TestMoveStoresOutOfLoops::array_init2 (23 bytes)   not inlineable
+                              @ 4   compiler.loopopts.TestMoveStoresOutOfLoops::array_check2 (50 bytes)   not inlineable
+                              @ 7   java.lang.Boolean::valueOf (14 bytes)   not inlineable
+                              @ 34  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+                              @ 39  java/io/PrintStream::println (not loaded)   not inlineable
+                              @ 12  java/lang/IllegalArgumentException::<init> (not loaded)   not inlineable
+                              @ 33   java.lang.Byte::byteValue (5 bytes)   not inlineable
+                              @ 50   java.lang.Character::charValue (5 bytes)   not inlineable
+                              @ 67   java.lang.Short::shortValue (5 bytes)   not inlineable
+                              @ 84   java.lang.Integer::intValue (5 bytes)   not inlineable
+                              @ 98   compiler.loopopts.TestMoveStoresOutOfLoops::test_after_5 (68 bytes)   not inlineable
+                              @ 120  java/lang/reflect/InvocationTargetException::<init> (not loaded)   not inlineable
+                              @ 94  java/lang/IllegalArgumentException::<init> (not loaded)   not inlineable
+                              @ 103   java.lang.Object::toString (36 bytes)   not inlineable
+                              @ 111  java/lang/IllegalArgumentException::<init> (not loaded)   not inlineable
+                              @ 0   compiler.loopopts.TestMoveStoresOutOfLoops::array_init2 (23 bytes)   already compiled into a big method
+                              @ 4   compiler.loopopts.TestMoveStoresOutOfLoops::array_check2 (50 bytes)   already compiled into a big method
+                              @ 7   java.lang.Boolean::valueOf (14 bytes)   already compiled into a big method
+                              @ 84   java.lang.Integer::intValue (5 bytes)   accessor
+                              @ 98   compiler.loopopts.TestMoveStoresOutOfLoops::test_after_5 (68 bytes)   disallowed by CompileCommand

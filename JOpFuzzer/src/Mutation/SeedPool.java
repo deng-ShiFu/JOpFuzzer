@@ -25,6 +25,7 @@ public class SeedPool {
         File rootDir = new File("./JavaFuzzer/tests/");
         for (File dir : Objects.requireNonNull(rootDir.listFiles())) {
             if (dir.isDirectory())
+                //一个目录 对应一系列选项
                 seedPoolOptionPair.put(dir, Collections.singletonList(""));
         }
     }

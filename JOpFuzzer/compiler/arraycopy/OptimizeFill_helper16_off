@@ -1,0 +1,1 @@
+CompileCommand: exclude compiler/arraycopy/TestArrayCopyAsLoadsStores.helper16

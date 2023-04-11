@@ -1,0 +1,2 @@
+CompileCommand: exclude compiler/osr/TestRangeCheck.test
+Expected ArrayIndexOutOfBoundsException was thrown

@@ -1,0 +1,17 @@
+[5.063s][warning][os,thread] Failed to start thread "Unknown thread" - pthread_create failed (EAGAIN) for attributes: stacksize: 1024k, guardsize: 0k, detached.
+[5.064s][warning][os,thread] Failed to start the native thread for java.lang.Thread "Thread-38"
+Exception in thread "main" java.lang.OutOfMemoryError: unable to create native thread: possibly out of memory or process/resource limits reached
+	at java.base/java.lang.Thread.start0(Native Method)
+	at java.base/java.lang.Thread.start(Thread.java:798)
+	at compiler.stringopts.TestStringObjectInitialization.main(TestStringObjectInitialization.java:53)
+[28.850s][warning][os,thread] Failed to start thread "GC Thread#1" - pthread_create failed (EAGAIN) for attributes: stacksize: 1024k, guardsize: 4k, detached.
+[34.022s][warning][os,thread] Failed to start thread "Unknown thread" - pthread_create failed (EAGAIN) for attributes: stacksize: 1024k, guardsize: 0k, detached.
+[34.022s][warning][os,thread] Failed to start the native thread for java.lang.Thread "SIGTERM handler"
+OpenJDK 64-Bit Server VM warning: Exception java.lang.OutOfMemoryError occurred dispatching signal SIGTERM to handler- the VM may need to be forcibly terminated
+[34.023s][warning][os,thread] Failed to start thread "Unknown thread" - pthread_create failed (EAGAIN) for attributes: stacksize: 1024k, guardsize: 0k, detached.
+[34.023s][warning][os,thread] Failed to start the native thread for java.lang.Thread "SIGTERM handler"
+OpenJDK 64-Bit Server VM warning: Exception java.lang.OutOfMemoryError occurred dispatching signal SIGTERM to handler- the VM may need to be forcibly terminated
+[34.207s][warning][os,thread] Failed to start thread "GC Thread#1" - pthread_create failed (EAGAIN) for attributes: stacksize: 1024k, guardsize: 4k, detached.
+[37.214s][warning][os,thread] Failed to start thread "GC Thread#1" - pthread_create failed (EAGAIN) for attributes: stacksize: 1024k, guardsize: 4k, detached.
+[37.633s][warning][os,thread] Failed to start thread "GC Thread#1" - pthread_create failed (EAGAIN) for attributes: stacksize: 1024k, guardsize: 4k, detached.
+[38.925s][warning][os,thread] Failed to start thread "GC Thread#1" - pthread_create failed (EAGAIN) for attributes: stacksize: 1024k, guardsize: 4k, detached.

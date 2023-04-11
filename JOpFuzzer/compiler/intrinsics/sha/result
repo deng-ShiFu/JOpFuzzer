@@ -1,0 +1,9 @@
+provider = SUN
+algorithm = SHA-1
+msgSize = 1024 bytes
+offset = 0
+iters = 100000
+hash [20]: 5b 00 66 9c 48 0d 5c ff bd fa 8b db a9 95 61 16 0f 2d 1b 77 
+TestSHA runtime = 0.383942102 seconds
+TestSHA throughput = 266.7068796742692 MB/s
+

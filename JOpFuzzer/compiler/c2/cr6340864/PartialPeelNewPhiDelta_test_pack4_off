@@ -1,0 +1,37 @@
+CompileCommand: exclude compiler/c2/cr6340864/TestShortVect.test_pack4
+Testing Short vectors
+Warmup
+Verification
+Time
+test_sum: 4
+test_addc: 21
+test_addv: 1415
+test_adda: 0
+test_subc: 1
+test_subv: 1
+test_suba: 6
+test_mulc: 1554
+test_mulv: 0
+test_mula: 0
+test_divc: 85
+test_divv: 622
+test_diva: 1125
+test_mulc_n: 1
+test_mulv_n: 0
+test_mula_n: 0
+test_divc_n: 61
+test_divv_n: 644
+test_diva_n: 97
+test_andc: 1
+test_andv: 0
+test_anda: 5
+test_orc: 225
+test_orv: 0
+test_ora: 0
+test_xorc: 0
+test_xorv: 4
+test_xora: 112
+test_sllc: 0
+test_sllv: 1
+test_srlc: 3
+test_srlv: 8

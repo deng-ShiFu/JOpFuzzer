@@ -1,0 +1,7 @@
+CompileCommand: exclude compiler/codegen/TestCharVect2.test_sum
+Testing Char vectors
+Warmup
+Verification
+Time
+test_sum: 3595
+test_addc: 24

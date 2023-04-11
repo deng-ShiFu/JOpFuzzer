@@ -1,0 +1,435 @@
+CompileCommand: exclude compiler/loopopts/TestMoveStoresOutOfLoops.test_after_5
+                              @ 15   jdk.internal.misc.Unsafe::getObjectAcquire (7 bytes)   inline
+                                @ 3   jdk.internal.misc.Unsafe::getObjectVolatile (0 bytes)   native method
+                              @ 1   java.lang.String::isLatin1 (19 bytes)   inline
+                              @ 12   java.lang.StringLatin1::charAt (28 bytes)   inline
+                                @ 15  java/lang/StringIndexOutOfBoundsException::<init> (not loaded)   not inlineable
+                              @ 21  java/lang/StringUTF16::charAt (not loaded)   not inlineable
+                              @ 19   java.lang.String::isLatin1 (19 bytes)   inline
+                              @ 29   java.lang.StringLatin1::hashCode (42 bytes)   callee is too large
+                              @ 39  java/lang/StringUTF16::hashCode (not loaded)   not inlineable
+                              @ 1   java.util.ImmutableCollections$SetN$SetNIterator::hasNext (13 bytes)   inline
+                              @ 15   java.util.ImmutableCollections$SetN$SetNIterator::nextIndex (56 bytes)   callee is too large
+                              @ 43  java/util/NoSuchElementException::<init> (not loaded)   not inlineable
+                              @ 17   java.lang.Object::hashCode (0 bytes)   no static binding
+                              @ 20   java.util.concurrent.ConcurrentHashMap::spread (10 bytes)   inline
+                              @ 69   java.util.concurrent.ConcurrentHashMap::tabAt (22 bytes)   inline
+                                @ 15   jdk.internal.misc.Unsafe::getObjectAcquire (7 bytes)   inline
+                                  @ 3   jdk.internal.misc.Unsafe::getObjectVolatile (0 bytes)   native method
+                              @ 91   java.util.concurrent.ConcurrentHashMap$Node::<init> (20 bytes)   inline
+                                @ 1   java.lang.Object::<init> (1 bytes)   inline
+                              @ 94   java.util.concurrent.ConcurrentHashMap::casTabAt (21 bytes)   inline
+                                @ 17   jdk.internal.misc.Unsafe::compareAndSetObject (0 bytes)   native method
+                              @ 120   java.util.concurrent.ConcurrentHashMap::helpTransfer (123 bytes)   callee is too large
+                              @ 159   java.lang.Object::equals (11 bytes)   no static binding
+                              @ 192   java.util.concurrent.ConcurrentHashMap::tabAt (22 bytes)   inline
+                                @ 15   jdk.internal.misc.Unsafe::getObjectAcquire (7 bytes)   inline
+                                  @ 3   jdk.internal.misc.Unsafe::getObjectVolatile (0 bytes)   native method
+                              @ 242   java.lang.Object::equals (11 bytes)   no static binding
+                              @ 293   java.util.concurrent.ConcurrentHashMap$Node::<init> (20 bytes)   inline
+                                @ 1   java.lang.Object::<init> (1 bytes)   inline
+                              @ 331  java/util/concurrent/ConcurrentHashMap$TreeBin::putTreeVal (not loaded)   not inlineable
+                              @ 374  java/lang/IllegalStateException::<init> (not loaded)   not inlineable
+               !m             @ 409   java.util.concurrent.ConcurrentHashMap::treeifyBin (164 bytes)   callee is too large
+                              @ 427   java.util.concurrent.ConcurrentHashMap::addCount (279 bytes)   callee is too large
+               !              @ 49   java.util.concurrent.ConcurrentHashMap::initTable (112 bytes)   callee is too large
+                              @ 12   java.lang.NullPointerException::<init> (5 bytes)   don't inline Throwable constructors
+                              @ 6   java.lang.String::coder (15 bytes)   inline
+               !m             @ 4   java.util.concurrent.ConcurrentHashMap::putVal (432 bytes)   callee is too large
+                              @ 31   jdk.internal.misc.Unsafe::compareAndSetLong (0 bytes)   native method
+                              @ 58  java/util/concurrent/ThreadLocalRandom::getProbe (not loaded)   not inlineable
+                              @ 91   jdk.internal.misc.Unsafe::compareAndSetLong (0 bytes)   native method
+                              @ 115   java.util.concurrent.ConcurrentHashMap::sumCount (60 bytes)   callee is too large
+                              @ 161   java.util.concurrent.ConcurrentHashMap::resizeStamp (8 bytes)   inline
+                                @ 1   java.lang.Integer::numberOfLeadingZeros (78 bytes)   callee is too large
+                              @ 226   jdk.internal.misc.Unsafe::compareAndSetInt (0 bytes)   native method
+               !m             @ 237   java.util.concurrent.ConcurrentHashMap::transfer (828 bytes)   callee is too large
+                              @ 256   jdk.internal.misc.Unsafe::compareAndSetInt (0 bytes)   native method
+               !m             @ 266   java.util.concurrent.ConcurrentHashMap::transfer (828 bytes)   callee is too large
+                              @ 270   java.util.concurrent.ConcurrentHashMap::sumCount (60 bytes)   callee is too large
+               !              @ 104   java.util.concurrent.ConcurrentHashMap::fullAddCount (462 bytes)   callee is too large
+                              @ 9   java.lang.Object::hashCode (0 bytes)   no static binding
+                              @ 20   java.lang.String::coder (15 bytes)   inline
+                              @ 24   java.lang.String::coder (15 bytes)   inline
+                              @ 31   java.lang.String::isLatin1 (19 bytes)   inline
+                              @ 45   java.lang.StringLatin1::equals (36 bytes)   callee is too large
+                              @ 59  java/lang/StringUTF16::equals (not loaded)   not inlineable
+                              @ 8   java.lang.NullPointerException::<init> (5 bytes)   don't inline Throwable constructors
+                              @ 59   java.lang.Object::equals (11 bytes)   no static binding
+                              @ 94   java.util.HashMap$TreeNode::getTreeNode (22 bytes)   not inlineable
+                              @ 126   java.lang.Object::equals (11 bytes)   no static binding
+                              @ 2   java.util.HashMap::hash (20 bytes)   inline
+                                @ 9   java.lang.Object::hashCode (0 bytes)   no static binding
+                              @ 9   java.util.HashMap::putVal (300 bytes)   callee is too large
+                              @ 1   java.lang.Object::<init> (1 bytes)   inline
+                              @ 9   java.util.HashMap$Node::<init> (26 bytes)   inline
+                                @ 1   java.lang.Object::<init> (1 bytes)   inline
+                              @ 2   java.util.HashMap::hash (20 bytes)   inline
+                                @ 9   java.lang.Object::hashCode (0 bytes)   no static binding
+                              @ 6   java.util.HashMap::getNode (148 bytes)   callee is too large
+                              @ 20   java.util.HashMap::resize (356 bytes)   callee is too large
+                              @ 56   java.util.HashMap::newNode (13 bytes)   no static binding
+                              @ 91   java.lang.Object::equals (11 bytes)   no static binding
+                              @ 123   java.util.HashMap$TreeNode::putTreeVal (314 bytes)   not inlineable
+                              @ 152   java.util.HashMap::newNode (13 bytes)   no static binding
+                              @ 169   java.util.HashMap::treeifyBin (110 bytes)   callee is too large
+                              @ 203   java.lang.Object::equals (11 bytes)   no static binding
+                              @ 253   java.util.HashMap::afterNodeAccess (1 bytes)   no static binding
+                              @ 288   java.util.HashMap::resize (356 bytes)   callee is too large
+                              @ 295   java.util.HashMap::afterNodeInsertion (1 bytes)   no static binding
+                              @ 1   java.lang.module.ResolvedModule::reference (5 bytes)   inline
+                              @ 4   java.lang.module.ModuleReference::descriptor (5 bytes)   inline
+                              @ 7   java.lang.module.ModuleDescriptor::name (5 bytes)   inline
+                              @ 8   java.util.HashMap::put (13 bytes)   inline
+                                @ 2   java.util.HashMap::hash (20 bytes)   inline
+                                  @ 9   java.lang.Object::hashCode (0 bytes)   no static binding
+                                @ 9   java.util.HashMap::putVal (300 bytes)   callee is too large
+                              @ 1   java.util.AbstractCollection::size (0 bytes)   no static binding
+                              @ 88  java/util/NoSuchElementException::<init> (not loaded)   not inlineable
+                              @ 217   java.util.HashMap$TreeNode::split (218 bytes)   not inlineable
+                              @ 4   java.util.Set::isEmpty (0 bytes)   no static binding
+                              @ 1   java.lang.Object::<init> (1 bytes)   inline
+                              @ 11   java.lang.Object::equals (11 bytes)   no static binding
+                              @ 1   java.util.AbstractMap::<init> (5 bytes)   inline
+                                @ 1   java.lang.Object::<init> (1 bytes)   inline
+                              @ 3   java.lang.Math::floorDiv (22 bytes)   inline
+                              @ 1   java.lang.Object::hashCode (0 bytes)   no static binding
+                              @ 9   java.lang.Math::floorMod (10 bytes)   inline
+                                @ 3   java.lang.Math::floorDiv (22 bytes)   inline
+                              @ 31   java.lang.Object::equals (11 bytes)   no static binding
+                              @ 1   java.lang.Object::<init> (1 bytes)   inline
+                              @ 5   java.util.ImmutableCollections$Set12$1::<init> (21 bytes)   inline
+                                @ 6   java.lang.Object::<init> (1 bytes)   inline
+                                @ 14   java.util.ImmutableCollections$Set12::size (13 bytes)   inline
+                              @ 1   java.lang.Object::hashCode (0 bytes)   no static binding
+                              @ 11   java.lang.Math::floorMod (10 bytes)   inline
+                                @ 3   java.lang.Math::floorDiv (22 bytes)   inline
+                              @ 35   java.lang.Object::equals (11 bytes)   no static binding
+                              @ 4   java.util.Iterator::hasNext (0 bytes)   no static binding
+                              @ 16   java.util.Iterator::hasNext (0 bytes)   no static binding
+                              @ 4   java.util.Iterator::hasNext (0 bytes)   no static binding
+                              @ 16   java.util.Iterator::next (0 bytes)   no static binding
+                              @ 26   java.util.Iterator::hasNext (0 bytes)   no static binding
+                              @ 38   java.util.Iterator::next (0 bytes)   no static binding
+                              @ 48  java/util/NoSuchElementException::<init> (not loaded)   not inlineable
+                              @ 2   java.util.HashMap::hash (20 bytes)   inline
+                                @ 9   java.lang.Object::hashCode (0 bytes)   no static binding
+                              @ 9   java.util.HashMap::putVal (300 bytes)   callee is too large
+                              @ 1   java.lang.StringLatin1::canEncode (13 bytes)   inline
+                              @ 1   java.lang.Object::hashCode (0 bytes)   no static binding
+                              @ 4   java.util.concurrent.ConcurrentHashMap::spread (10 bytes)   inline
+                              @ 34   java.util.concurrent.ConcurrentHashMap::tabAt (22 bytes)   inline
+                                @ 15   jdk.internal.misc.Unsafe::getObjectAcquire (7 bytes)   inline
+                                  @ 3   jdk.internal.misc.Unsafe::getObjectVolatile (0 bytes)   native method
+                              @ 73   java.lang.Object::equals (11 bytes)   no static binding
+                              @ 93   java.util.concurrent.ConcurrentHashMap$Node::find (52 bytes)   no static binding
+                              @ 149   java.lang.Object::equals (11 bytes)   no static binding
+                              @ 10   java.lang.Class::isPrimitive (0 bytes)   native method
+                              @ 53   sun.invoke.util.Wrapper::asPrimitiveType (20 bytes)   inline
+                                @ 1   sun.invoke.util.Wrapper::findWrapperType (25 bytes)   inline
+                                  @ 4   sun.invoke.util.Wrapper::hashWrap (62 bytes)   callee is too large
+                                @ 10   sun.invoke.util.Wrapper::primitiveType (5 bytes)   inline
+                                @ 14   sun.invoke.util.Wrapper::forceType (72 bytes)   callee is too large
+                              @ 149   sun.invoke.util.Wrapper::asWrapperType (18 bytes)   inline
+                                @ 1   java.lang.Class::isPrimitive (0 bytes)   native method
+                                @ 8   sun.invoke.util.Wrapper::forPrimitiveType (49 bytes)   callee is too large
+                                @ 12   sun.invoke.util.Wrapper::wrapperType (52 bytes)   callee is too large
+                              @ 1   java.lang.Object::<init> (1 bytes)   inline
+                              @ 1   java.util.Objects::requireNonNull (14 bytes)   inline
+                                @ 8   java.lang.NullPointerException::<init> (5 bytes)   don't inline Throwable constructors
+                              @ 14   java.lang.invoke.MethodHandleStatics::newIllegalArgumentException (9 bytes)   inline
+                                @ 5   java.lang.IllegalArgumentException::<init> (6 bytes)   don't inline Throwable constructors
+                              @ 8   java.lang.Character::isSurrogate (18 bytes)   inline
+                              @ 1   java.lang.String::isLatin1 (19 bytes)   inline
+                              @ 13   java.lang.String::checkIndex (46 bytes)   callee is too large
+                              @ 37   java.lang.String::checkIndex (46 bytes)   callee is too large
+                              @ 46  java/lang/StringUTF16::codePointAt (not loaded)   not inlineable
+                              @ 19   java.util.regex.Pattern::has (15 bytes)   inline
+                              @ 27   java.util.regex.Pattern::peekPastWhitespace (56 bytes)   callee is too large
+                              @ 12   java.util.regex.Pattern::has (15 bytes)   inline
+                              @ 20   java.util.regex.Pattern::peekPastWhitespace (56 bytes)   callee is too large
+                              @ 17   java.lang.StringBuilder::<init> (7 bytes)   inline
+                                @ 3   java.lang.AbstractStringBuilder::<init> (39 bytes)   callee is too large
+                              @ 22   java.lang.StringBuilder::append (8 bytes)   inline
+                                @ 2   java.lang.AbstractStringBuilder::append (45 bytes)   callee is too large
+                              @ 26   java.lang.StringBuilder::append (8 bytes)   inline
+                                @ 2   java.lang.AbstractStringBuilder::append (55 bytes)   callee is too large
+                              @ 31   java.lang.StringBuilder::append (8 bytes)   inline
+                                @ 2   java.lang.AbstractStringBuilder::append (45 bytes)   callee is too large
+                              @ 35   java.lang.StringBuilder::append (8 bytes)   inline
+                                @ 2   java.lang.AbstractStringBuilder::append (55 bytes)   callee is too large
+                              @ 38   java.lang.StringBuilder::toString (35 bytes)   inline
+                                @ 1   java.lang.AbstractStringBuilder::isLatin1 (19 bytes)   inline
+                                @ 16   java.lang.StringLatin1::newString (17 bytes)   inline
+                                  @ 9   java.util.Arrays::copyOfRange (63 bytes)   callee is too large
+                                  @ 13   java.lang.String::<init> (15 bytes)   inline
+                                    @ 1   java.lang.Object::<init> (1 bytes)   inline
+                                @ 31  java/lang/StringUTF16::newString (not loaded)   not inlineable
+                              @ 41  java/lang/StringIndexOutOfBoundsException::<init> (not loaded)   not inlineable
+                              @ 23   java.lang.System::arraycopy (0 bytes)   native method
+                              @ 1   java.lang.Object::<init> (1 bytes)   inline
+                              @ 17   java.lang.ref.ReferenceQueue::reallyPoll (65 bytes)   callee is too large
+                              @ 3   java.lang.invoke.MemberName::testAnyFlags (15 bytes)   inline
+                                @ 3   java.lang.invoke.MemberName::testFlags (16 bytes)   inline
+                              @ 6   java.lang.Object::hashCode (0 bytes)   native method
+                              @ 40   java.lang.Object::hashCode (0 bytes)   native method
+               !m             @ 4   java.lang.ref.ReferenceQueue::poll (28 bytes)   inline
+                                @ 17   java.lang.ref.ReferenceQueue::reallyPoll (65 bytes)   callee is too large
+                              @ 17   java.util.concurrent.ConcurrentMap::remove (10 bytes)   no static binding
+                              @ 18   jdk.internal.org.objectweb.asm.ByteVector::enlarge (51 bytes)   callee is too large
+                              @ 14   java.lang.Class::initClassName (0 bytes)   native method
+                              @ 180   java.lang.String::hashCode (49 bytes)   callee is too large
+                              @ 184   java.lang.String::hashCode (49 bytes)   callee is too large
+                              @ 166   java.lang.String::hashCode (49 bytes)   callee is too large
+                              @ 199   java.lang.String::hashCode (49 bytes)   callee is too large
+                              @ 203   java.lang.String::hashCode (49 bytes)   callee is too large
+                              @ 209   java.lang.String::hashCode (49 bytes)   callee is too large
+                              @ 33   jdk.internal.org.objectweb.asm.Item::isEqualTo (354 bytes)   callee is too large
+                              @ 1   java.lang.String::length (11 bytes)   inline
+                                @ 6   java.lang.String::coder (15 bytes)   inline
+                              @ 15   java.lang.IllegalArgumentException::<init> (5 bytes)   don't inline Throwable constructors
+                              @ 41   jdk.internal.org.objectweb.asm.ByteVector::enlarge (51 bytes)   callee is too large
+                              @ 83   java.lang.String::charAt (25 bytes)   inline
+                                @ 1   java.lang.String::isLatin1 (19 bytes)   inline
+                                @ 12   java.lang.StringLatin1::charAt (28 bytes)   inline
+                                  @ 15  java/lang/StringIndexOutOfBoundsException::<init> (not loaded)   not inlineable
+                                @ 21  java/lang/StringUTF16::charAt (not loaded)   not inlineable
+                              @ 125   jdk.internal.org.objectweb.asm.ByteVector::encodeUTF8 (335 bytes)   callee is too large
+                              @ 5   jdk.internal.reflect.ByteVectorImpl::add (38 bytes)   callee is too large
+                              @ 24   jdk.internal.reflect.ByteVectorImpl::resize (44 bytes)   callee is too large
+                              @ 1   java.lang.String::isLatin1 (19 bytes)   inline (hot)
+                              @ 12   java.lang.StringLatin1::charAt (28 bytes)   inline (hot)
+                              @ 28   java.lang.Integer::<init> (10 bytes)   inline
+                                @ 1   java.lang.Number::<init> (5 bytes)   inline
+                                  @ 1   java.lang.Object::<init> (1 bytes)   inline
+                              @ 0   compiler.loopopts.TestMoveStoresOutOfLoops::array_init (9 bytes)   inline
+                              @ 7   jdk.internal.reflect.Reflection::getCallerClass (0 bytes)   native method
+                              @ 21   java.lang.reflect.Modifier::isStatic (13 bytes)   inline
+                              @ 32   java.lang.Object::getClass (0 bytes)   native method
+                              @ 39   java.lang.reflect.AccessibleObject::checkAccess (40 bytes)   callee is too large
+                              @ 52   java.lang.reflect.Method::acquireMethodAccessor (44 bytes)   callee is too large
+                              @ 59   jdk.internal.reflect.MethodAccessor::invoke (0 bytes)   not inlineable
+                              @ 19   java.lang.reflect.Modifier::isProtected (12 bytes)   inline
+                              @ 80   java.lang.reflect.AccessibleObject::slowVerifyAccess (62 bytes)   callee is too large
+                              @ 6   jdk.internal.reflect.MethodAccessorImpl::invoke (0 bytes)   no static binding
+                              @ 4   compiler.loopopts.TestMoveStoresOutOfLoops::array_check (35 bytes)   inline
+                                @ 25  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+                                @ 30  java/io/PrintStream::println (not loaded)   not inlineable
+                              @ 7   java.lang.Boolean::valueOf (14 bytes)   inline
+                              @ 12  java/lang/IllegalArgumentException::<init> (not loaded)   not inlineable
+                              @ 33   java.lang.Byte::byteValue (5 bytes)   inline
+                              @ 50   java.lang.Character::charValue (5 bytes)   inline
+                              @ 67   java.lang.Short::shortValue (5 bytes)   inline
+                              @ 84   java.lang.Integer::intValue (5 bytes)   inline
+                              @ 98   compiler.loopopts.TestMoveStoresOutOfLoops::test_after_1 (23 bytes)   inlining prohibited by policy
+                              @ 120  java/lang/reflect/InvocationTargetException::<init> (not loaded)   not inlineable
+                              @ 94  java/lang/IllegalArgumentException::<init> (not loaded)   not inlineable
+                              @ 103   java.lang.Object::toString (36 bytes)   callee is too large
+                              @ 111  java/lang/IllegalArgumentException::<init> (not loaded)   not inlineable
+                              @ 6   java.lang.reflect.AccessibleObject::verifyAccess (84 bytes)   callee is too large
+                              @ 17   jdk.internal.reflect.Reflection::newIllegalAccessException (276 bytes)   callee is too large
+                              @ 22   java.lang.reflect.AccessibleObject::printStackTraceWhenAccessFails (48 bytes)   callee is too large
+                              @ 33  java/lang/IllegalAccessException::printStackTrace (not loaded)   not inlineable
+                              @ 6   java.lang.reflect.AccessibleObject::verifyAccess (84 bytes)   inline (hot)
+                              @ 0   compiler.loopopts.TestMoveStoresOutOfLoops::array_init (9 bytes)   inline (hot)
+                              @ 7   jdk.internal.reflect.Reflection::getCallerClass (0 bytes)   native method
+                              @ 21   java.lang.reflect.Modifier::isStatic (13 bytes)   inline (hot)
+                              @ 39   java.lang.reflect.AccessibleObject::checkAccess (40 bytes)   already compiled into a big method
+                              @ 59   jdk.internal.reflect.DelegatingMethodAccessorImpl::invoke (10 bytes)   inline (hot)
+                               \-> TypeProfile (5119/5119 counts) = jdk/internal/reflect/DelegatingMethodAccessorImpl
+               !                @ 6   jdk.internal.reflect.GeneratedMethodAccessor1::invoke (124 bytes)   inline (hot)
+                                 \-> TypeProfile (5119/5119 counts) = jdk/internal/reflect/GeneratedMethodAccessor1
+                                  @ 84   java.lang.Integer::intValue (5 bytes)   accessor
+                                  @ 98   compiler.loopopts.TestMoveStoresOutOfLoops::test_after_1 (23 bytes)   already compiled into a big method
+               !              @ 6   jdk.internal.reflect.GeneratedMethodAccessor1::invoke (124 bytes)   inline (hot)
+                               \-> TypeProfile (5119/5119 counts) = jdk/internal/reflect/GeneratedMethodAccessor1
+                                @ 84   java.lang.Integer::intValue (5 bytes)   accessor
+                                @ 98   compiler.loopopts.TestMoveStoresOutOfLoops::test_after_1 (23 bytes)   already compiled into a big method
+                              @ 4   compiler.loopopts.TestMoveStoresOutOfLoops::array_check (35 bytes)   inline (hot)
+                              @ 7   java.lang.Boolean::valueOf (14 bytes)   inline (hot)
+                              @ 24   java.lang.AbstractStringBuilder::newCapacity (55 bytes)   callee is too large
+                              @ 32   java.util.Arrays::copyOf (19 bytes)   inline
+                                @ 11   java.lang.Math::min (11 bytes)   inline
+                                @ 14   java.lang.System::arraycopy (0 bytes)   native method
+                              @ 3   java.lang.ref.Reference::<init> (25 bytes)   inline
+                                @ 1   java.lang.Object::<init> (1 bytes)   inline
+                              @ 10   jdk.internal.reflect.ClassFileAssembler::emitByte (11 bytes)   inline
+                                @ 5   jdk.internal.reflect.ByteVectorImpl::add (38 bytes)   callee is too large
+                              @ 20   jdk.internal.reflect.ClassFileAssembler::emitByte (11 bytes)   inline
+                                @ 5   jdk.internal.reflect.ByteVectorImpl::add (38 bytes)   callee is too large
+                              @ 13   java.lang.RuntimeException::<init> (6 bytes)   don't inline Throwable constructors
+                              @ 11   jdk.internal.reflect.ByteVectorImpl::resize (44 bytes)   callee is too large
+                              @ 25  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+                              @ 30  java/io/PrintStream::println (not loaded)   not inlineable
+                              @ 7   jdk.internal.reflect.Reflection::getCallerClass (0 bytes)   native method
+                              @ 21   java.lang.reflect.Modifier::isStatic (13 bytes)   inline
+                              @ 32   java.lang.Object::getClass (0 bytes)   native method
+                              @ 39   java.lang.reflect.AccessibleObject::checkAccess (40 bytes)   callee is too large
+                              @ 52   java.lang.reflect.Method::acquireMethodAccessor (44 bytes)   callee is too large
+                              @ 59   jdk.internal.reflect.MethodAccessor::invoke (0 bytes)   not inlineable
+               !              @ 6   jdk.internal.reflect.GeneratedMethodAccessor1::invoke (124 bytes)   inline (hot)
+                               \-> TypeProfile (5120/5251 counts) = jdk/internal/reflect/GeneratedMethodAccessor1
+                                @ 84   java.lang.Integer::intValue (5 bytes)   accessor
+                                @ 98   compiler.loopopts.TestMoveStoresOutOfLoops::test_after_1 (23 bytes)   already compiled into a big method
+                              @ 0   compiler.loopopts.TestMoveStoresOutOfLoops::array_init (9 bytes)   inline
+                              @ 4   compiler.loopopts.TestMoveStoresOutOfLoops::array_check (35 bytes)   inline
+                                @ 25  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+                                @ 30  java/io/PrintStream::println (not loaded)   not inlineable
+                              @ 7   java.lang.Boolean::valueOf (14 bytes)   inline
+                              @ 12  java/lang/IllegalArgumentException::<init> (not loaded)   not inlineable
+                              @ 33   java.lang.Byte::byteValue (5 bytes)   inline
+                              @ 50   java.lang.Character::charValue (5 bytes)   inline
+                              @ 67   java.lang.Short::shortValue (5 bytes)   inline
+                              @ 84   java.lang.Integer::intValue (5 bytes)   inline
+                              @ 98   compiler.loopopts.TestMoveStoresOutOfLoops::test_after_2 (33 bytes)   inlining prohibited by policy
+                              @ 120  java/lang/reflect/InvocationTargetException::<init> (not loaded)   not inlineable
+                              @ 94  java/lang/IllegalArgumentException::<init> (not loaded)   not inlineable
+                              @ 103   java.lang.Object::toString (36 bytes)   callee is too large
+                              @ 111  java/lang/IllegalArgumentException::<init> (not loaded)   not inlineable
+                              @ 7   jdk.internal.reflect.Reflection::getCallerClass (0 bytes)   native method
+                              @ 21   java.lang.reflect.Modifier::isStatic (13 bytes)   inline (hot)
+                              @ 39   java.lang.reflect.AccessibleObject::checkAccess (40 bytes)   already compiled into a big method
+                              @ 52   java.lang.reflect.Method::acquireMethodAccessor (44 bytes)   too big
+                              @ 59   jdk.internal.reflect.DelegatingMethodAccessorImpl::invoke (10 bytes)   already compiled into a big method
+                               \-> TypeProfile (10240/10240 counts) = jdk/internal/reflect/DelegatingMethodAccessorImpl
+                              @ 0   compiler.loopopts.TestMoveStoresOutOfLoops::array_init (9 bytes)   inline (hot)
+                              @ 4   compiler.loopopts.TestMoveStoresOutOfLoops::array_check (35 bytes)   inline (hot)
+                              @ 7   java.lang.Boolean::valueOf (14 bytes)   inline (hot)
+                              @ 84   java.lang.Integer::intValue (5 bytes)   accessor
+                              @ 98   compiler.loopopts.TestMoveStoresOutOfLoops::test_after_2 (33 bytes)   already compiled into a big method
+                              @ 1   java.lang.String::isLatin1 (19 bytes)   inline
+                              @ 13   java.lang.StringLatin1::indexOf (61 bytes)   callee is too large
+                              @ 25  java/lang/StringUTF16::indexOf (not loaded)   not inlineable
+                              @ 1   java.lang.Object::<init> (1 bytes)   inline
+                              @ 8   jdk.internal.org.objectweb.asm.Item::set (219 bytes)   callee is too large
+                              @ 16   jdk.internal.org.objectweb.asm.ClassWriter::get (49 bytes)   callee is too large
+                              @ 29   jdk.internal.org.objectweb.asm.ByteVector::putByte (39 bytes)   callee is too large
+                              @ 33   jdk.internal.org.objectweb.asm.ByteVector::putUTF8 (142 bytes)   callee is too large
+                              @ 56   jdk.internal.org.objectweb.asm.Item::<init> (66 bytes)   callee is too large
+                              @ 62   jdk.internal.org.objectweb.asm.ClassWriter::put (152 bytes)   callee is too large
+                              @ 1   java.lang.String::length (11 bytes)   inline
+                                @ 6   java.lang.String::coder (15 bytes)   inline
+                              @ 16   java.lang.String::charAt (25 bytes)   inline
+                                @ 1   java.lang.String::isLatin1 (19 bytes)   inline
+                                @ 12   java.lang.StringLatin1::charAt (28 bytes)   inline
+                                  @ 15  java/lang/StringIndexOutOfBoundsException::<init> (not loaded)   not inlineable
+                                @ 21  java/lang/StringUTF16::charAt (not loaded)   not inlineable
+                              @ 1   java.lang.String::length (11 bytes)   inline
+                                @ 6   java.lang.String::coder (15 bytes)   inline
+                              @ 6   jdk.internal.reflect.UTF8::utf8Length (81 bytes)   callee is too large
+                              @ 26   java.lang.String::charAt (25 bytes)   inline
+                                @ 1   java.lang.String::isLatin1 (19 bytes)   inline
+                                @ 12   java.lang.StringLatin1::charAt (28 bytes)   inline
+                                  @ 15  java/lang/StringIndexOutOfBoundsException::<init> (not loaded)   not inlineable
+                                @ 21  java/lang/StringUTF16::charAt (not loaded)   not inlineable
+                              @ 185  java/lang/InternalError::<init> (not loaded)   not inlineable
+               !              @ 1   jdk.internal.reflect.UTF8::encode (191 bytes)   callee is too large
+                              @ 7   jdk.internal.reflect.ClassFileAssembler::emitByte (11 bytes)   inline
+                                @ 5   jdk.internal.reflect.ByteVectorImpl::add (38 bytes)   callee is too large
+                              @ 14   jdk.internal.reflect.ClassFileAssembler::emitShort (24 bytes)   inline
+                                @ 10   jdk.internal.reflect.ClassFileAssembler::emitByte (11 bytes)   inline
+                                  @ 5   jdk.internal.reflect.ByteVectorImpl::add (38 bytes)   callee is too large
+                                @ 20   jdk.internal.reflect.ClassFileAssembler::emitByte (11 bytes)   inline
+                                  @ 5   jdk.internal.reflect.ByteVectorImpl::add (38 bytes)   callee is too large
+                              @ 29   jdk.internal.reflect.ClassFileAssembler::emitByte (11 bytes)   inline
+                                @ 5   jdk.internal.reflect.ByteVectorImpl::add (38 bytes)   callee is too large
+                              @ 0   compiler.loopopts.TestMoveStoresOutOfLoops::array_init (9 bytes)   inline
+                              @ 4   compiler.loopopts.TestMoveStoresOutOfLoops::array_check (35 bytes)   inline
+                                @ 25  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+                                @ 30  java/io/PrintStream::println (not loaded)   not inlineable
+                              @ 7   java.lang.Boolean::valueOf (14 bytes)   inline
+                              @ 12  java/lang/IllegalArgumentException::<init> (not loaded)   not inlineable
+                              @ 33   java.lang.Byte::byteValue (5 bytes)   inline
+                              @ 50   java.lang.Character::charValue (5 bytes)   inline
+                              @ 67   java.lang.Short::shortValue (5 bytes)   inline
+                              @ 84   java.lang.Integer::intValue (5 bytes)   inline
+                              @ 98   compiler.loopopts.TestMoveStoresOutOfLoops::test_after_3 (38 bytes)   inlining prohibited by policy
+                              @ 120  java/lang/reflect/InvocationTargetException::<init> (not loaded)   not inlineable
+                              @ 94  java/lang/IllegalArgumentException::<init> (not loaded)   not inlineable
+                              @ 103   java.lang.Object::toString (36 bytes)   callee is too large
+                              @ 111  java/lang/IllegalArgumentException::<init> (not loaded)   not inlineable
+                              @ 0   compiler.loopopts.TestMoveStoresOutOfLoops::array_init (9 bytes)   inline (hot)
+                              @ 4   compiler.loopopts.TestMoveStoresOutOfLoops::array_check (35 bytes)   inline (hot)
+                              @ 7   java.lang.Boolean::valueOf (14 bytes)   inline (hot)
+                              @ 84   java.lang.Integer::intValue (5 bytes)   accessor
+                              @ 98   compiler.loopopts.TestMoveStoresOutOfLoops::test_after_3 (38 bytes)   already compiled into a big method
+                              @ 3   java.lang.String::indexOf (29 bytes)   inline
+                                @ 1   java.lang.String::isLatin1 (19 bytes)   inline
+                                @ 13   java.lang.StringLatin1::indexOf (61 bytes)   callee is too large
+                                @ 25  java/lang/StringUTF16::indexOf (not loaded)   not inlineable
+                              @ 1   java.lang.Object::<init> (1 bytes)   inline
+                              @ 24   jdk.internal.reflect.ByteVectorImpl::resize (44 bytes)   too big
+                              @ 0   compiler.loopopts.TestMoveStoresOutOfLoops::array_init (9 bytes)   inline
+                              @ 4   compiler.loopopts.TestMoveStoresOutOfLoops::array_check (35 bytes)   inline
+                                @ 25  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+                                @ 30  java/io/PrintStream::println (not loaded)   not inlineable
+                              @ 7   java.lang.Boolean::valueOf (14 bytes)   inline
+                              @ 12  java/lang/IllegalArgumentException::<init> (not loaded)   not inlineable
+                              @ 33   java.lang.Byte::byteValue (5 bytes)   inline
+                              @ 50   java.lang.Character::charValue (5 bytes)   inline
+                              @ 67   java.lang.Short::shortValue (5 bytes)   inline
+                              @ 84   java.lang.Integer::intValue (5 bytes)   inline
+                              @ 98   compiler.loopopts.TestMoveStoresOutOfLoops::test_after_4 (38 bytes)   inlining prohibited by policy
+                              @ 120  java/lang/reflect/InvocationTargetException::<init> (not loaded)   not inlineable
+                              @ 94  java/lang/IllegalArgumentException::<init> (not loaded)   not inlineable
+                              @ 103   java.lang.Object::toString (36 bytes)   callee is too large
+                              @ 111  java/lang/IllegalArgumentException::<init> (not loaded)   not inlineable
+                              @ 5   java.util.HashMap::get (23 bytes)   no static binding
+                              @ 25   java.lang.Runnable::run (0 bytes)   not inlineable
+                              @ 40   java.lang.Integer::valueOf (32 bytes)   inline
+                              @ 44   java.lang.reflect.Method::invoke (65 bytes)   force inline by annotation
+                                @ 7   jdk.internal.reflect.Reflection::getCallerClass (0 bytes)   native method
+                                @ 21   java.lang.reflect.Modifier::isStatic (13 bytes)   inline
+                                @ 32   java.lang.Object::getClass (0 bytes)   native method
+                                @ 39   java.lang.reflect.AccessibleObject::checkAccess (40 bytes)   callee is too large
+                                @ 52   java.lang.reflect.Method::acquireMethodAccessor (44 bytes)   callee is too large
+                                @ 59   jdk.internal.reflect.MethodAccessor::invoke (0 bytes)   not inlineable
+                              @ 58   java.util.function.Function::apply (0 bytes)   no static binding
+                              @ 66   java.lang.Boolean::booleanValue (5 bytes)   inline
+                              @ 5   java.util.HashMap::get (23 bytes)   no static binding
+                              @ 25   java.lang.Runnable::run (0 bytes)   not inlineable
+                              @ 40   java.lang.Integer::valueOf (32 bytes)   inline
+                              @ 44   java.lang.reflect.Method::invoke (65 bytes)   force inline by annotation
+                                @ 7   jdk.internal.reflect.Reflection::getCallerClass (0 bytes)   native method
+                                @ 21   java.lang.reflect.Modifier::isStatic (13 bytes)   inline
+                                @ 32   java.lang.Object::getClass (0 bytes)   native method
+                                @ 39   java.lang.reflect.AccessibleObject::checkAccess (40 bytes)   callee is too large
+                                @ 52   java.lang.reflect.Method::acquireMethodAccessor (44 bytes)   callee is too large
+                                @ 59   jdk.internal.reflect.MethodAccessor::invoke (0 bytes)   not inlineable
+                              @ 58   java.util.function.Function::apply (0 bytes)   no static binding
+                              @ 66   java.lang.Boolean::booleanValue (5 bytes)   inline
+                              @ 0   compiler.loopopts.TestMoveStoresOutOfLoops::array_init (9 bytes)   inline (hot)
+                              @ 4   compiler.loopopts.TestMoveStoresOutOfLoops::array_check (35 bytes)   inline (hot)
+                              @ 7   java.lang.Boolean::valueOf (14 bytes)   inline (hot)
+                              @ 84   java.lang.Integer::intValue (5 bytes)   accessor
+                              @ 98   compiler.loopopts.TestMoveStoresOutOfLoops::test_after_4 (38 bytes)   already compiled into a big method
+                              @ 2   java.lang.AbstractStringBuilder::append (45 bytes)   callee is too large
+                              @ 5   java.lang.AbstractStringBuilder::appendNull (83 bytes)   callee is too large
+                              @ 10   java.lang.String::length (11 bytes)   inline
+                                @ 6   java.lang.String::coder (15 bytes)   inline
+                              @ 21   java.lang.AbstractStringBuilder::ensureCapacityInternal (39 bytes)   callee is too large
+                              @ 30   java.lang.AbstractStringBuilder::putStringAt (29 bytes)   inline
+                                @ 1   java.lang.AbstractStringBuilder::getCoder (15 bytes)   inline
+                                @ 5   java.lang.String::coder (15 bytes)   inline
+                                @ 12   java.lang.AbstractStringBuilder::inflate (42 bytes)   callee is too large
+                                @ 25   java.lang.String::getBytes (44 bytes)   callee is too large
+                              @ 0   compiler.loopopts.TestMoveStoresOutOfLoops::array_init2 (23 bytes)   inline
+                              @ 4   compiler.loopopts.TestMoveStoresOutOfLoops::array_check2 (50 bytes)   callee is too large
+                              @ 7   java.lang.Boolean::valueOf (14 bytes)   inline
+                              @ 12  java/lang/IllegalArgumentException::<init> (not loaded)   not inlineable
+                              @ 33   java.lang.Byte::byteValue (5 bytes)   inline
+                              @ 50   java.lang.Character::charValue (5 bytes)   inline
+                              @ 67   java.lang.Short::shortValue (5 bytes)   inline
+                              @ 84   java.lang.Integer::intValue (5 bytes)   inline
+                              @ 98   compiler.loopopts.TestMoveStoresOutOfLoops::test_after_5 (68 bytes)   disallowed by CompileCommand
+                              @ 120  java/lang/reflect/InvocationTargetException::<init> (not loaded)   not inlineable
+                              @ 94  java/lang/IllegalArgumentException::<init> (not loaded)   not inlineable
+                              @ 103   java.lang.Object::toString (36 bytes)   callee is too large
+                              @ 111  java/lang/IllegalArgumentException::<init> (not loaded)   not inlineable
+                              @ 34  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+                              @ 39  java/io/PrintStream::println (not loaded)   not inlineable
+                              @ 0   compiler.loopopts.TestMoveStoresOutOfLoops::array_init2 (23 bytes)   inline (hot)
+                              @ 4   compiler.loopopts.TestMoveStoresOutOfLoops::array_check2 (50 bytes)   already compiled into a big method
+                              @ 7   java.lang.Boolean::valueOf (14 bytes)   inline (hot)
+                              @ 84   java.lang.Integer::intValue (5 bytes)   accessor
+                              @ 98   compiler.loopopts.TestMoveStoresOutOfLoops::test_after_5 (68 bytes)   disallowed by CompileCommand

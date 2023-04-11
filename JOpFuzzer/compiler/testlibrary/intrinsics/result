@@ -1,0 +1,2 @@
+Exception in thread "main" java.lang.RuntimeException: Test bug, nothing to verify
+	at compiler.testlibrary.intrinsics.Verifier.main(Verifier.java:100)

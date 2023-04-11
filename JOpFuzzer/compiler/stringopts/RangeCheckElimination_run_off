@@ -1,0 +1,6 @@
+[0.250s][warning][os,thread] Failed to start thread "GC Thread#0" - pthread_create failed (EAGAIN) for attributes: stacksize: 1024k, guardsize: 4k, detached.
+#
+# There is insufficient memory for the Java Runtime Environment to continue.
+# Cannot create worker GC thread. Out of system resources.
+# An error report file with more information is saved as:
+# /home/dgx/JOpFuzzer/JOpFuzzer/hs_err_pid22687.log

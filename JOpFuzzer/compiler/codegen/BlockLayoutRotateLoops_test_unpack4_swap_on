@@ -1,0 +1,16 @@
+Testing Char vectors
+Warmup
+Verification
+Time
+test_sum: 4
+test_addc: 94
+test_addv: 1938
+test_adda: 131
+test_subc: 216
+test_subv: 140
+test_suba: 43
+test_mulc: 1750
+test_mulv: 6
+test_mula: 104
+test_divc: 314
+test_divv: 544

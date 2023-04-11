@@ -1,0 +1,2 @@
+CompileCommand: exclude compiler/intrinsics/bigInteger/TestMulAdd.stringify
+Success

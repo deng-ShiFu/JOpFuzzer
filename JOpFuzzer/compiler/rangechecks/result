@@ -1,0 +1,2 @@
+Exception in thread "main" java.lang.RuntimeException: Not enough arguments!
+	at compiler.rangechecks.TestUncommonTrapMerging.main(TestUncommonTrapMerging.java:42)

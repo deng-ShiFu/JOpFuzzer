@@ -1,0 +1,43 @@
+CompileCommand: exclude compiler/c2/cr6340864/TestByteVect.test_unpack8_swap
+Testing Byte vectors
+Warmup
+Verification
+Time
+test_sum: 3
+test_addc: 0
+test_addv: 2
+test_adda: 2
+test_subc: 1
+test_subv: 1
+test_suba: 0
+test_mulc: 1
+test_mulv: 2
+test_mula: 2
+test_divc: 6
+test_divv: 32
+test_diva: 25
+test_mulc_n: 1
+test_mulv_n: 1
+test_mula_n: 1
+test_divc_n: 8
+test_divv_n: 24
+test_diva_n: 26
+test_andc: 0
+test_andv: 1
+test_anda: 0
+test_orc: 0
+test_orv: 1
+test_ora: 1
+test_xorc: 1
+test_xorv: 1
+test_xora: 1
+test_sllc: 1
+test_sllv: 1
+test_srlc: 3
+test_srlv: 5
+test_srac: 1
+test_srav: 1
+test_sllc_n: 1
+test_sllv_n: 1
+test_srlc_n: 3
+test_srlv_n: 4

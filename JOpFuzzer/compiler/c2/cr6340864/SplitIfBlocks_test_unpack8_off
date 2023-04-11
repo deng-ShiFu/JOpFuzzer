@@ -1,0 +1,66 @@
+CompileCommand: exclude compiler/c2/cr6340864/TestByteVect.test_unpack8
+Testing Byte vectors
+Warmup
+Verification
+Time
+test_sum: 13
+test_addc: 1
+test_addv: 3
+test_adda: 1
+test_subc: 1
+test_subv: 1
+test_suba: 1
+test_mulc: 3
+test_mulv: 2
+test_mula: 3
+test_divc: 22
+test_divv: 40
+test_diva: 25
+test_mulc_n: 2
+test_mulv_n: 2
+test_mula_n: 1
+test_divc_n: 11
+test_divv_n: 24
+test_diva_n: 26
+test_andc: 1
+test_andv: 1
+test_anda: 1
+test_orc: 0
+test_orv: 1
+test_ora: 1
+test_xorc: 1
+test_xorv: 1
+test_xora: 1
+test_sllc: 1
+test_sllv: 1
+test_srlc: 7
+test_srlv: 8
+test_srac: 1
+test_srav: 1
+test_sllc_n: 1
+test_sllv_n: 1
+test_srlc_n: 3
+test_srlv_n: 5
+test_srac_n: 1
+test_srav_n: 1
+test_sllc_o: 1
+test_sllv_o: 2
+test_srlc_o: 3
+test_srlv_o: 5
+test_srac_o: 1
+test_srav_o: 1
+test_sllc_on: 1
+test_sllv_on: 1
+test_srlc_on: 1
+test_srlv_on: 5
+test_srac_on: 1
+test_srav_on: 1
+test_sllc_add: 1
+test_sllv_add: 1
+test_srlc_add: 3
+test_srlv_add: 4
+test_srac_add: 3
+test_srav_add: 4
+test_sllc_and: 1
+test_sllv_and: 1
+test_srlc_and: 4

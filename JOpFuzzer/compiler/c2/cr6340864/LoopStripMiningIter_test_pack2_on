@@ -1,0 +1,12 @@
+OpenJDK 64-Bit Server VM warning: Disabling counted safepoints implies no loop strip mining: setting LoopStripMiningIter to 0
+Testing Short vectors
+Warmup
+Verification
+Time
+test_sum: 5
+test_addc: 94
+test_addv: 2028
+test_adda: 17
+test_subc: 15
+test_subv: 8
+test_suba: 11

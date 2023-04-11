@@ -1,0 +1,12 @@
+ offset = 0
+msgSize = 512 bytes
+  iters = 20000
+-------------------------------------------------------
+Adler32.update(byte[]) runtime = 0.004735713 seconds
+Adler32.update(byte[]) throughput = 2162.2931963993597 MB/s
+Adlers: adler0 = e36cff01, adler1 = e36cff01
+-------------------------------------------------------
+Adler32.update(ByteBuffer) runtime = 0.009211336 seconds
+Adler32.update(ByteBuffer) throughput = 1111.6737029243097 MB/s
+Adlers: adler0 = e36cff01, adler1 = e36cff01
+-------------------------------------------------------

@@ -1,0 +1,9 @@
+Exception in thread "main" java.lang.RuntimeException: TEST failure: can't open test file
+	at compiler.c2.cr6890943.Test6890943.go(Test6890943.java:61)
+	at compiler.c2.cr6890943.Test6890943.main(Test6890943.java:49)
+Caused by: java.io.FileNotFoundException: ./input6890943.txt (没有那个文件或目录)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at compiler.c2.cr6890943.Test6890943.go(Test6890943.java:58)
+	... 1 more

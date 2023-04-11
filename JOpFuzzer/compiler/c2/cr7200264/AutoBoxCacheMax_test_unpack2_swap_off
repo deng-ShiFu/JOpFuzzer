@@ -1,0 +1,5 @@
+CompileCommand: exclude compiler/c2/cr7200264/TestIntVect.test_unpack2_swap
+Error occurred during initialization of VM
+java.lang.OutOfMemoryError: Requested array size exceeds VM limit
+	<<no stack trace available>>
+

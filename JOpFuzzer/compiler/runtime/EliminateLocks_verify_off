@@ -1,0 +1,2 @@
+CompileCommand: exclude compiler/runtime/Test7196199.verify
+Warmup

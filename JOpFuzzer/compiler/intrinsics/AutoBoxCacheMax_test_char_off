@@ -1,0 +1,5 @@
+CompileCommand: exclude compiler/intrinsics/Test6982370.test_char
+Error occurred during initialization of VM
+java.lang.OutOfMemoryError: Requested array size exceeds VM limit
+	<<no stack trace available>>
+

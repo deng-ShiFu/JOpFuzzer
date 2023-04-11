@@ -1,0 +1,1754 @@
+CompileCommand: exclude compiler/c2/cr6340864/TestShortVect.test_unpack4_swap
+                              @ 15   jdk.internal.misc.Unsafe::getObjectAcquire (7 bytes)   inline
+                                @ 3   jdk.internal.misc.Unsafe::getObjectVolatile (0 bytes)   native method
+                              @ 1   java.lang.String::isLatin1 (19 bytes)   inline
+                              @ 12   java.lang.StringLatin1::charAt (28 bytes)   inline
+                                @ 15  java/lang/StringIndexOutOfBoundsException::<init> (not loaded)   not inlineable
+                              @ 21  java/lang/StringUTF16::charAt (not loaded)   not inlineable
+                              @ 19   java.lang.String::isLatin1 (19 bytes)   inline
+                              @ 29   java.lang.StringLatin1::hashCode (42 bytes)   callee is too large
+                              @ 39  java/lang/StringUTF16::hashCode (not loaded)   not inlineable
+                              @ 1   java.util.ImmutableCollections$SetN$SetNIterator::hasNext (13 bytes)   inline
+                              @ 15   java.util.ImmutableCollections$SetN$SetNIterator::nextIndex (56 bytes)   callee is too large
+                              @ 43  java/util/NoSuchElementException::<init> (not loaded)   not inlineable
+                              @ 17   java.lang.Object::hashCode (0 bytes)   no static binding
+                              @ 20   java.util.concurrent.ConcurrentHashMap::spread (10 bytes)   inline
+                              @ 69   java.util.concurrent.ConcurrentHashMap::tabAt (22 bytes)   inline
+                                @ 15   jdk.internal.misc.Unsafe::getObjectAcquire (7 bytes)   inline
+                                  @ 3   jdk.internal.misc.Unsafe::getObjectVolatile (0 bytes)   native method
+                              @ 91   java.util.concurrent.ConcurrentHashMap$Node::<init> (20 bytes)   inline
+                                @ 1   java.lang.Object::<init> (1 bytes)   inline
+                              @ 94   java.util.concurrent.ConcurrentHashMap::casTabAt (21 bytes)   inline
+                                @ 17   jdk.internal.misc.Unsafe::compareAndSetObject (0 bytes)   native method
+                              @ 120   java.util.concurrent.ConcurrentHashMap::helpTransfer (123 bytes)   callee is too large
+                              @ 159   java.lang.Object::equals (11 bytes)   no static binding
+                              @ 192   java.util.concurrent.ConcurrentHashMap::tabAt (22 bytes)   inline
+                                @ 15   jdk.internal.misc.Unsafe::getObjectAcquire (7 bytes)   inline
+                                  @ 3   jdk.internal.misc.Unsafe::getObjectVolatile (0 bytes)   native method
+                              @ 242   java.lang.Object::equals (11 bytes)   no static binding
+                              @ 293   java.util.concurrent.ConcurrentHashMap$Node::<init> (20 bytes)   inline
+                                @ 1   java.lang.Object::<init> (1 bytes)   inline
+                              @ 331  java/util/concurrent/ConcurrentHashMap$TreeBin::putTreeVal (not loaded)   not inlineable
+                              @ 374  java/lang/IllegalStateException::<init> (not loaded)   not inlineable
+               !m             @ 409   java.util.concurrent.ConcurrentHashMap::treeifyBin (164 bytes)   callee is too large
+                              @ 427   java.util.concurrent.ConcurrentHashMap::addCount (279 bytes)   callee is too large
+               !              @ 49   java.util.concurrent.ConcurrentHashMap::initTable (112 bytes)   callee is too large
+                              @ 12   java.lang.NullPointerException::<init> (5 bytes)   don't inline Throwable constructors
+                              @ 6   java.lang.String::coder (15 bytes)   inline
+               !m             @ 4   java.util.concurrent.ConcurrentHashMap::putVal (432 bytes)   callee is too large
+                              @ 31   jdk.internal.misc.Unsafe::compareAndSetLong (0 bytes)   native method
+                              @ 58  java/util/concurrent/ThreadLocalRandom::getProbe (not loaded)   not inlineable
+                              @ 91   jdk.internal.misc.Unsafe::compareAndSetLong (0 bytes)   native method
+                              @ 115   java.util.concurrent.ConcurrentHashMap::sumCount (60 bytes)   callee is too large
+                              @ 161   java.util.concurrent.ConcurrentHashMap::resizeStamp (8 bytes)   inline
+                                @ 1   java.lang.Integer::numberOfLeadingZeros (78 bytes)   callee is too large
+                              @ 226   jdk.internal.misc.Unsafe::compareAndSetInt (0 bytes)   native method
+               !m             @ 237   java.util.concurrent.ConcurrentHashMap::transfer (828 bytes)   callee is too large
+                              @ 256   jdk.internal.misc.Unsafe::compareAndSetInt (0 bytes)   native method
+               !m             @ 266   java.util.concurrent.ConcurrentHashMap::transfer (828 bytes)   callee is too large
+                              @ 270   java.util.concurrent.ConcurrentHashMap::sumCount (60 bytes)   callee is too large
+               !              @ 104   java.util.concurrent.ConcurrentHashMap::fullAddCount (462 bytes)   callee is too large
+                              @ 9   java.lang.Object::hashCode (0 bytes)   no static binding
+                              @ 20   java.lang.String::coder (15 bytes)   inline
+                              @ 24   java.lang.String::coder (15 bytes)   inline
+                              @ 31   java.lang.String::isLatin1 (19 bytes)   inline
+                              @ 45   java.lang.StringLatin1::equals (36 bytes)   callee is too large
+                              @ 59  java/lang/StringUTF16::equals (not loaded)   not inlineable
+                              @ 8   java.lang.NullPointerException::<init> (5 bytes)   don't inline Throwable constructors
+                              @ 59   java.lang.Object::equals (11 bytes)   no static binding
+                              @ 94   java.util.HashMap$TreeNode::getTreeNode (22 bytes)   not inlineable
+                              @ 126   java.lang.Object::equals (11 bytes)   no static binding
+                              @ 2   java.util.HashMap::hash (20 bytes)   inline
+                                @ 9   java.lang.Object::hashCode (0 bytes)   no static binding
+                              @ 9   java.util.HashMap::putVal (300 bytes)   callee is too large
+                              @ 1   java.lang.Object::<init> (1 bytes)   inline
+                              @ 9   java.util.HashMap$Node::<init> (26 bytes)   inline
+                                @ 1   java.lang.Object::<init> (1 bytes)   inline
+                              @ 2   java.util.HashMap::hash (20 bytes)   inline
+                                @ 9   java.lang.Object::hashCode (0 bytes)   no static binding
+                              @ 6   java.util.HashMap::getNode (148 bytes)   callee is too large
+                              @ 20   java.util.HashMap::resize (356 bytes)   callee is too large
+                              @ 56   java.util.HashMap::newNode (13 bytes)   no static binding
+                              @ 91   java.lang.Object::equals (11 bytes)   no static binding
+                              @ 123   java.util.HashMap$TreeNode::putTreeVal (314 bytes)   not inlineable
+                              @ 152   java.util.HashMap::newNode (13 bytes)   no static binding
+                              @ 169   java.util.HashMap::treeifyBin (110 bytes)   callee is too large
+                              @ 203   java.lang.Object::equals (11 bytes)   no static binding
+                              @ 253   java.util.HashMap::afterNodeAccess (1 bytes)   no static binding
+                              @ 288   java.util.HashMap::resize (356 bytes)   callee is too large
+                              @ 295   java.util.HashMap::afterNodeInsertion (1 bytes)   no static binding
+                              @ 1   java.lang.module.ResolvedModule::reference (5 bytes)   inline
+                              @ 4   java.lang.module.ModuleReference::descriptor (5 bytes)   inline
+                              @ 7   java.lang.module.ModuleDescriptor::name (5 bytes)   inline
+                              @ 8   java.util.HashMap::put (13 bytes)   inline
+                                @ 2   java.util.HashMap::hash (20 bytes)   inline
+                                  @ 9   java.lang.Object::hashCode (0 bytes)   no static binding
+                                @ 9   java.util.HashMap::putVal (300 bytes)   callee is too large
+                              @ 1   java.util.AbstractCollection::size (0 bytes)   no static binding
+                              @ 88  java/util/NoSuchElementException::<init> (not loaded)   not inlineable
+                              @ 217   java.util.HashMap$TreeNode::split (218 bytes)   not inlineable
+                              @ 4   java.util.Set::isEmpty (0 bytes)   no static binding
+                              @ 1   java.lang.Object::<init> (1 bytes)   inline
+                              @ 11   java.lang.Object::equals (11 bytes)   no static binding
+                              @ 1   java.util.AbstractMap::<init> (5 bytes)   inline
+                                @ 1   java.lang.Object::<init> (1 bytes)   inline
+                              @ 3   java.lang.Math::floorDiv (22 bytes)   inline
+                              @ 1   java.lang.Object::hashCode (0 bytes)   no static binding
+                              @ 9   java.lang.Math::floorMod (10 bytes)   inline
+                                @ 3   java.lang.Math::floorDiv (22 bytes)   inline
+                              @ 31   java.lang.Object::equals (11 bytes)   no static binding
+                              @ 1   java.lang.Object::<init> (1 bytes)   inline
+                              @ 5   java.util.ImmutableCollections$Set12$1::<init> (21 bytes)   inline
+                                @ 6   java.lang.Object::<init> (1 bytes)   inline
+                                @ 14   java.util.ImmutableCollections$Set12::size (13 bytes)   inline
+                              @ 4   java.util.Iterator::hasNext (0 bytes)   no static binding
+                              @ 16   java.util.Iterator::hasNext (0 bytes)   no static binding
+                              @ 4   java.util.Iterator::hasNext (0 bytes)   no static binding
+                              @ 16   java.util.Iterator::next (0 bytes)   no static binding
+                              @ 26   java.util.Iterator::hasNext (0 bytes)   no static binding
+                              @ 38   java.util.Iterator::next (0 bytes)   no static binding
+                              @ 48  java/util/NoSuchElementException::<init> (not loaded)   not inlineable
+                              @ 2   java.util.HashMap::hash (20 bytes)   inline
+                                @ 9   java.lang.Object::hashCode (0 bytes)   no static binding
+                              @ 9   java.util.HashMap::putVal (300 bytes)   callee is too large
+                              @ 1   java.lang.Object::hashCode (0 bytes)   no static binding
+                              @ 11   java.lang.Math::floorMod (10 bytes)   inline
+                                @ 3   java.lang.Math::floorDiv (22 bytes)   inline
+                              @ 35   java.lang.Object::equals (11 bytes)   no static binding
+                              @ 1   java.lang.StringLatin1::canEncode (13 bytes)   inline
+Testing Short vectors
+Warmup
+Verification
+                              @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+               !m             @ 112   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 127   compiler.c2.cr6340864.TestShortVect::test_sum (24 bytes)   inlining prohibited by policy
+                              @ 133   compiler.c2.cr6340864.TestShortVect::test_addc (25 bytes)   inlining prohibited by policy
+                              @ 140   compiler.c2.cr6340864.TestShortVect::test_addv (24 bytes)   inlining prohibited by policy
+                              @ 146   compiler.c2.cr6340864.TestShortVect::test_adda (26 bytes)   inlining prohibited by policy
+                              @ 151   compiler.c2.cr6340864.TestShortVect::test_subc (25 bytes)   inlining prohibited by policy
+                              @ 158   compiler.c2.cr6340864.TestShortVect::test_subv (24 bytes)   inlining prohibited by policy
+                              @ 164   compiler.c2.cr6340864.TestShortVect::test_suba (26 bytes)   inlining prohibited by policy
+                              @ 169   compiler.c2.cr6340864.TestShortVect::test_mulc (25 bytes)   inlining prohibited by policy
+                              @ 176   compiler.c2.cr6340864.TestShortVect::test_mulv (24 bytes)   inlining prohibited by policy
+                              @ 182   compiler.c2.cr6340864.TestShortVect::test_mula (26 bytes)   inlining prohibited by policy
+                              @ 187   compiler.c2.cr6340864.TestShortVect::test_divc (25 bytes)   inlining prohibited by policy
+                              @ 194   compiler.c2.cr6340864.TestShortVect::test_divv (24 bytes)   inlining prohibited by policy
+                              @ 200   compiler.c2.cr6340864.TestShortVect::test_diva (26 bytes)   inlining prohibited by policy
+                              @ 205   compiler.c2.cr6340864.TestShortVect::test_mulc_n (25 bytes)   inlining prohibited by policy
+                              @ 212   compiler.c2.cr6340864.TestShortVect::test_mulv (24 bytes)   inlining prohibited by policy
+                              @ 218   compiler.c2.cr6340864.TestShortVect::test_mula (26 bytes)   inlining prohibited by policy
+                              @ 223   compiler.c2.cr6340864.TestShortVect::test_divc_n (25 bytes)   inlining prohibited by policy
+                              @ 230   compiler.c2.cr6340864.TestShortVect::test_divv (24 bytes)   inlining prohibited by policy
+                              @ 236   compiler.c2.cr6340864.TestShortVect::test_diva (26 bytes)   inlining prohibited by policy
+                              @ 241   compiler.c2.cr6340864.TestShortVect::test_andc (25 bytes)   inlining prohibited by policy
+                              @ 249   compiler.c2.cr6340864.TestShortVect::test_andv (24 bytes)   inlining prohibited by policy
+                              @ 256   compiler.c2.cr6340864.TestShortVect::test_anda (26 bytes)   inlining prohibited by policy
+                              @ 261   compiler.c2.cr6340864.TestShortVect::test_orc (25 bytes)   inlining prohibited by policy
+                              @ 269   compiler.c2.cr6340864.TestShortVect::test_orv (24 bytes)   inlining prohibited by policy
+                              @ 276   compiler.c2.cr6340864.TestShortVect::test_ora (26 bytes)   inlining prohibited by policy
+                              @ 281   compiler.c2.cr6340864.TestShortVect::test_xorc (25 bytes)   inlining prohibited by policy
+                              @ 289   compiler.c2.cr6340864.TestShortVect::test_xorv (24 bytes)   inlining prohibited by policy
+                              @ 296   compiler.c2.cr6340864.TestShortVect::test_xora (26 bytes)   inlining prohibited by policy
+                              @ 301   compiler.c2.cr6340864.TestShortVect::test_sllc (25 bytes)   inlining prohibited by policy
+                              @ 308   compiler.c2.cr6340864.TestShortVect::test_sllv (24 bytes)   inlining prohibited by policy
+                              @ 313   compiler.c2.cr6340864.TestShortVect::test_srlc (25 bytes)   inlining prohibited by policy
+                              @ 320   compiler.c2.cr6340864.TestShortVect::test_srlv (24 bytes)   inlining prohibited by policy
+                              @ 325   compiler.c2.cr6340864.TestShortVect::test_srac (25 bytes)   inlining prohibited by policy
+                              @ 332   compiler.c2.cr6340864.TestShortVect::test_srav (24 bytes)   inlining prohibited by policy
+                              @ 337   compiler.c2.cr6340864.TestShortVect::test_sllc_n (25 bytes)   inlining prohibited by policy
+                              @ 344   compiler.c2.cr6340864.TestShortVect::test_sllv (24 bytes)   inlining prohibited by policy
+                              @ 349   compiler.c2.cr6340864.TestShortVect::test_srlc_n (25 bytes)   inlining prohibited by policy
+                              @ 356   compiler.c2.cr6340864.TestShortVect::test_srlv (24 bytes)   inlining prohibited by policy
+                              @ 361   compiler.c2.cr6340864.TestShortVect::test_srac_n (25 bytes)   inlining prohibited by policy
+                              @ 368   compiler.c2.cr6340864.TestShortVect::test_srav (24 bytes)   inlining prohibited by policy
+                              @ 373   compiler.c2.cr6340864.TestShortVect::test_sllc_o (25 bytes)   inlining prohibited by policy
+                              @ 380   compiler.c2.cr6340864.TestShortVect::test_sllv (24 bytes)   inlining prohibited by policy
+                              @ 385   compiler.c2.cr6340864.TestShortVect::test_srlc_o (25 bytes)   inlining prohibited by policy
+                              @ 392   compiler.c2.cr6340864.TestShortVect::test_srlv (24 bytes)   inlining prohibited by policy
+                              @ 397   compiler.c2.cr6340864.TestShortVect::test_srac_o (25 bytes)   inlining prohibited by policy
+                              @ 404   compiler.c2.cr6340864.TestShortVect::test_srav (24 bytes)   inlining prohibited by policy
+                              @ 409   compiler.c2.cr6340864.TestShortVect::test_sllc_on (25 bytes)   inlining prohibited by policy
+                              @ 416   compiler.c2.cr6340864.TestShortVect::test_sllv (24 bytes)   inlining prohibited by policy
+                              @ 421   compiler.c2.cr6340864.TestShortVect::test_srlc_on (25 bytes)   inlining prohibited by policy
+                              @ 428   compiler.c2.cr6340864.TestShortVect::test_srlv (24 bytes)   inlining prohibited by policy
+                              @ 433   compiler.c2.cr6340864.TestShortVect::test_srac_on (25 bytes)   inlining prohibited by policy
+                              @ 440   compiler.c2.cr6340864.TestShortVect::test_srav (24 bytes)   inlining prohibited by policy
+                              @ 445   compiler.c2.cr6340864.TestShortVect::test_sllc_add (29 bytes)   inlining prohibited by policy
+                              @ 453   compiler.c2.cr6340864.TestShortVect::test_sllv_add (27 bytes)   inlining prohibited by policy
+                              @ 458   compiler.c2.cr6340864.TestShortVect::test_srlc_add (29 bytes)   inlining prohibited by policy
+                              @ 466   compiler.c2.cr6340864.TestShortVect::test_srlv_add (27 bytes)   inlining prohibited by policy
+                              @ 471   compiler.c2.cr6340864.TestShortVect::test_srac_add (29 bytes)   inlining prohibited by policy
+                              @ 479   compiler.c2.cr6340864.TestShortVect::test_srav_add (27 bytes)   inlining prohibited by policy
+                              @ 484   compiler.c2.cr6340864.TestShortVect::test_sllc_and (28 bytes)   inlining prohibited by policy
+                              @ 491   compiler.c2.cr6340864.TestShortVect::test_sllv_and (27 bytes)   inlining prohibited by policy
+                              @ 496   compiler.c2.cr6340864.TestShortVect::test_srlc_and (28 bytes)   inlining prohibited by policy
+                              @ 503   compiler.c2.cr6340864.TestShortVect::test_srlv_and (27 bytes)   inlining prohibited by policy
+                              @ 508   compiler.c2.cr6340864.TestShortVect::test_srac_and (28 bytes)   inlining prohibited by policy
+                              @ 515   compiler.c2.cr6340864.TestShortVect::test_srav_and (27 bytes)   inlining prohibited by policy
+                              @ 521   compiler.c2.cr6340864.TestShortVect::test_pack2 (55 bytes)   inlining prohibited by policy
+                              @ 527   compiler.c2.cr6340864.TestShortVect::test_unpack2 (53 bytes)   inlining prohibited by policy
+                              @ 533   compiler.c2.cr6340864.TestShortVect::test_pack2_swap (55 bytes)   inlining prohibited by policy
+                              @ 539   compiler.c2.cr6340864.TestShortVect::test_unpack2_swap (53 bytes)   inlining prohibited by policy
+                              @ 545   compiler.c2.cr6340864.TestShortVect::test_pack4 (102 bytes)   inlining prohibited by policy
+                              @ 551   compiler.c2.cr6340864.TestShortVect::test_unpack4 (82 bytes)   inlining prohibited by policy
+                              @ 557   compiler.c2.cr6340864.TestShortVect::test_pack4_swap (102 bytes)   inlining prohibited by policy
+                              @ 563   compiler.c2.cr6340864.TestShortVect::test_unpack4_swap (82 bytes)   disallowed by CompileCommand
+               !m             @ 577   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 584   compiler.c2.cr6340864.TestShortVect::test_sum (24 bytes)   inlining prohibited by policy
+                              @ 603  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 608   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 616   compiler.c2.cr6340864.TestShortVect::test_addc (25 bytes)   inlining prohibited by policy
+                              @ 651   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 667   compiler.c2.cr6340864.TestShortVect::test_addv (24 bytes)   inlining prohibited by policy
+                              @ 702   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 717   compiler.c2.cr6340864.TestShortVect::test_adda (26 bytes)   inlining prohibited by policy
+                              @ 752   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 766   compiler.c2.cr6340864.TestShortVect::test_subc (25 bytes)   inlining prohibited by policy
+                              @ 801   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 817   compiler.c2.cr6340864.TestShortVect::test_subv (24 bytes)   inlining prohibited by policy
+                              @ 852   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 867   compiler.c2.cr6340864.TestShortVect::test_suba (26 bytes)   inlining prohibited by policy
+                              @ 902   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 916   compiler.c2.cr6340864.TestShortVect::test_mulc (25 bytes)   inlining prohibited by policy
+                              @ 951   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 967   compiler.c2.cr6340864.TestShortVect::test_mulv (24 bytes)   inlining prohibited by policy
+                              @ 1002   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 1017   compiler.c2.cr6340864.TestShortVect::test_mula (26 bytes)   inlining prohibited by policy
+                              @ 1052   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 1066   compiler.c2.cr6340864.TestShortVect::test_divc (25 bytes)   inlining prohibited by policy
+                              @ 1101   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 1117   compiler.c2.cr6340864.TestShortVect::test_divv (24 bytes)   inlining prohibited by policy
+                              @ 1152   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 1167   compiler.c2.cr6340864.TestShortVect::test_diva (26 bytes)   inlining prohibited by policy
+                              @ 1202   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 1216   compiler.c2.cr6340864.TestShortVect::test_mulc_n (25 bytes)   inlining prohibited by policy
+                              @ 1251   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 1267   compiler.c2.cr6340864.TestShortVect::test_mulv (24 bytes)   inlining prohibited by policy
+                              @ 1302   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 1317   compiler.c2.cr6340864.TestShortVect::test_mula (26 bytes)   inlining prohibited by policy
+                              @ 1352   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 1366   compiler.c2.cr6340864.TestShortVect::test_divc_n (25 bytes)   inlining prohibited by policy
+                              @ 1401   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 1417   compiler.c2.cr6340864.TestShortVect::test_divv (24 bytes)   inlining prohibited by policy
+                              @ 1452   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 1467   compiler.c2.cr6340864.TestShortVect::test_diva (26 bytes)   inlining prohibited by policy
+                              @ 1502   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 1516   compiler.c2.cr6340864.TestShortVect::test_andc (25 bytes)   inlining prohibited by policy
+                              @ 1551   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 1568   compiler.c2.cr6340864.TestShortVect::test_andv (24 bytes)   inlining prohibited by policy
+                              @ 1603   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 1619   compiler.c2.cr6340864.TestShortVect::test_anda (26 bytes)   inlining prohibited by policy
+                              @ 1654   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 1668   compiler.c2.cr6340864.TestShortVect::test_orc (25 bytes)   inlining prohibited by policy
+                              @ 1703   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 1720   compiler.c2.cr6340864.TestShortVect::test_orv (24 bytes)   inlining prohibited by policy
+                              @ 1755   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 1771   compiler.c2.cr6340864.TestShortVect::test_ora (26 bytes)   inlining prohibited by policy
+                              @ 1806   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 1820   compiler.c2.cr6340864.TestShortVect::test_xorc (25 bytes)   inlining prohibited by policy
+                              @ 1855   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 1872   compiler.c2.cr6340864.TestShortVect::test_xorv (24 bytes)   inlining prohibited by policy
+                              @ 1907   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 1923   compiler.c2.cr6340864.TestShortVect::test_xora (26 bytes)   inlining prohibited by policy
+                              @ 1958   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 1972   compiler.c2.cr6340864.TestShortVect::test_sllc (25 bytes)   inlining prohibited by policy
+                              @ 2007   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 2023   compiler.c2.cr6340864.TestShortVect::test_sllv (24 bytes)   inlining prohibited by policy
+                              @ 2058   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 2072   compiler.c2.cr6340864.TestShortVect::test_srlc (25 bytes)   inlining prohibited by policy
+                              @ 2107   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 2123   compiler.c2.cr6340864.TestShortVect::test_srlv (24 bytes)   inlining prohibited by policy
+                              @ 2158   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 2172   compiler.c2.cr6340864.TestShortVect::test_srac (25 bytes)   inlining prohibited by policy
+                              @ 2207   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 2223   compiler.c2.cr6340864.TestShortVect::test_srav (24 bytes)   inlining prohibited by policy
+                              @ 2258   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 2272   compiler.c2.cr6340864.TestShortVect::test_sllc_n (25 bytes)   inlining prohibited by policy
+                              @ 2307   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 2323   compiler.c2.cr6340864.TestShortVect::test_sllv (24 bytes)   inlining prohibited by policy
+                              @ 2358   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 2372   compiler.c2.cr6340864.TestShortVect::test_srlc_n (25 bytes)   inlining prohibited by policy
+                              @ 2407   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 2423   compiler.c2.cr6340864.TestShortVect::test_srlv (24 bytes)   inlining prohibited by policy
+                              @ 2458   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 2472   compiler.c2.cr6340864.TestShortVect::test_srac_n (25 bytes)   inlining prohibited by policy
+                              @ 2507   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 2523   compiler.c2.cr6340864.TestShortVect::test_srav (24 bytes)   inlining prohibited by policy
+                              @ 2558   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 2572   compiler.c2.cr6340864.TestShortVect::test_sllc_o (25 bytes)   inlining prohibited by policy
+                              @ 2607   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 2623   compiler.c2.cr6340864.TestShortVect::test_sllv (24 bytes)   inlining prohibited by policy
+                              @ 2658   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 2672   compiler.c2.cr6340864.TestShortVect::test_srlc_o (25 bytes)   inlining prohibited by policy
+                              @ 2707   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 2723   compiler.c2.cr6340864.TestShortVect::test_srlv (24 bytes)   inlining prohibited by policy
+                              @ 2758   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 2772   compiler.c2.cr6340864.TestShortVect::test_srac_o (25 bytes)   inlining prohibited by policy
+                              @ 2807   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 2823   compiler.c2.cr6340864.TestShortVect::test_srav (24 bytes)   inlining prohibited by policy
+                              @ 2858   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 2872   compiler.c2.cr6340864.TestShortVect::test_sllc_on (25 bytes)   inlining prohibited by policy
+                              @ 2907   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 2923   compiler.c2.cr6340864.TestShortVect::test_sllv (24 bytes)   inlining prohibited by policy
+                              @ 2958   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 2972   compiler.c2.cr6340864.TestShortVect::test_srlc_on (25 bytes)   inlining prohibited by policy
+                              @ 3007   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 3023   compiler.c2.cr6340864.TestShortVect::test_srlv (24 bytes)   inlining prohibited by policy
+                              @ 3058   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 3072   compiler.c2.cr6340864.TestShortVect::test_srac_on (25 bytes)   inlining prohibited by policy
+                              @ 3107   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 3123   compiler.c2.cr6340864.TestShortVect::test_srav (24 bytes)   inlining prohibited by policy
+                              @ 3158   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 3172   compiler.c2.cr6340864.TestShortVect::test_sllc_add (29 bytes)   inlining prohibited by policy
+                              @ 3211   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 3228   compiler.c2.cr6340864.TestShortVect::test_sllv_add (27 bytes)   inlining prohibited by policy
+                              @ 3267   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 3281   compiler.c2.cr6340864.TestShortVect::test_srlc_add (29 bytes)   inlining prohibited by policy
+                              @ 3320   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 3337   compiler.c2.cr6340864.TestShortVect::test_srlv_add (27 bytes)   inlining prohibited by policy
+                              @ 3376   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 3390   compiler.c2.cr6340864.TestShortVect::test_srac_add (29 bytes)   inlining prohibited by policy
+                              @ 3429   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 3446   compiler.c2.cr6340864.TestShortVect::test_srav_add (27 bytes)   inlining prohibited by policy
+                              @ 3485   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 3499   compiler.c2.cr6340864.TestShortVect::test_sllc_and (28 bytes)   inlining prohibited by policy
+                              @ 3537   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 3553   compiler.c2.cr6340864.TestShortVect::test_sllv_and (27 bytes)   inlining prohibited by policy
+                              @ 3591   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 3605   compiler.c2.cr6340864.TestShortVect::test_srlc_and (28 bytes)   inlining prohibited by policy
+                              @ 3643   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 3659   compiler.c2.cr6340864.TestShortVect::test_srlv_and (27 bytes)   inlining prohibited by policy
+                              @ 3697   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 3711   compiler.c2.cr6340864.TestShortVect::test_srac_and (28 bytes)   inlining prohibited by policy
+                              @ 3749   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 3765   compiler.c2.cr6340864.TestShortVect::test_srav_and (27 bytes)   inlining prohibited by policy
+                              @ 3803   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 3818   compiler.c2.cr6340864.TestShortVect::test_pack2 (55 bytes)   inlining prohibited by policy
+                              @ 3868   compiler.c2.cr6340864.TestShortVect::verify (30 bytes)   inline
+                                @ 11  java/lang/Integer::toHexString (not loaded)   not inlineable
+                                @ 15  java/lang/Integer::toHexString (not loaded)   not inlineable
+                                @ 18  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 23   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 3905   compiler.c2.cr6340864.TestShortVect::test_unpack2 (53 bytes)   inlining prohibited by policy
+                              @ 3936   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 3951   compiler.c2.cr6340864.TestShortVect::test_pack2_swap (55 bytes)   inlining prohibited by policy
+                              @ 4001   compiler.c2.cr6340864.TestShortVect::verify (30 bytes)   inline
+                                @ 11  java/lang/Integer::toHexString (not loaded)   not inlineable
+                                @ 15  java/lang/Integer::toHexString (not loaded)   not inlineable
+                                @ 18  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 23   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 4038   compiler.c2.cr6340864.TestShortVect::test_unpack2_swap (53 bytes)   inlining prohibited by policy
+                              @ 4069   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 4084   compiler.c2.cr6340864.TestShortVect::test_pack4 (102 bytes)   inlining prohibited by policy
+                              @ 4181   compiler.c2.cr6340864.TestShortVect::verify (33 bytes)   inline
+                                @ 13  java/lang/Long::toHexString (not loaded)   not inlineable
+                                @ 18  java/lang/Long::toHexString (not loaded)   not inlineable
+                                @ 21  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 26   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 4218   compiler.c2.cr6340864.TestShortVect::test_unpack4 (82 bytes)   inlining prohibited by policy
+                              @ 4249   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 4264   compiler.c2.cr6340864.TestShortVect::test_pack4_swap (102 bytes)   inlining prohibited by policy
+                              @ 4361   compiler.c2.cr6340864.TestShortVect::verify (33 bytes)   inline
+                                @ 13  java/lang/Long::toHexString (not loaded)   not inlineable
+                                @ 18  java/lang/Long::toHexString (not loaded)   not inlineable
+                                @ 21  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 26   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 4398   compiler.c2.cr6340864.TestShortVect::test_unpack4_swap (82 bytes)   disallowed by CompileCommand
+                              @ 4429   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+               !m             @ 4454   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 4457   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 4474   compiler.c2.cr6340864.TestShortVect::test_sum (24 bytes)   inlining prohibited by policy
+                              @ 4484   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 4497  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 4502   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 4505   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 4523   compiler.c2.cr6340864.TestShortVect::test_addc (25 bytes)   inlining prohibited by policy
+                              @ 4532   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 4545  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 4550   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 4553   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 4573   compiler.c2.cr6340864.TestShortVect::test_addv (24 bytes)   inlining prohibited by policy
+                              @ 4582   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 4595  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 4600   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 4603   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 4622   compiler.c2.cr6340864.TestShortVect::test_adda (26 bytes)   inlining prohibited by policy
+                              @ 4631   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 4644  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 4649   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 4652   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 4670   compiler.c2.cr6340864.TestShortVect::test_subc (25 bytes)   inlining prohibited by policy
+                              @ 4679   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 4692  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 4697   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 4700   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 4720   compiler.c2.cr6340864.TestShortVect::test_subv (24 bytes)   inlining prohibited by policy
+                              @ 4729   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 4742  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 4747   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 4750   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 4769   compiler.c2.cr6340864.TestShortVect::test_suba (26 bytes)   inlining prohibited by policy
+                              @ 4778   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 4791  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 4796   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 4799   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 4817   compiler.c2.cr6340864.TestShortVect::test_mulc (25 bytes)   inlining prohibited by policy
+                              @ 4826   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 4839  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 4844   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 4847   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 4867   compiler.c2.cr6340864.TestShortVect::test_mulv (24 bytes)   inlining prohibited by policy
+                              @ 4876   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 4889  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 4894   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 4897   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 4916   compiler.c2.cr6340864.TestShortVect::test_mula (26 bytes)   inlining prohibited by policy
+                              @ 4925   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 4938  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 4943   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 4946   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 4964   compiler.c2.cr6340864.TestShortVect::test_divc (25 bytes)   inlining prohibited by policy
+                              @ 4973   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 4986  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 4991   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 4994   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 5014   compiler.c2.cr6340864.TestShortVect::test_divv (24 bytes)   inlining prohibited by policy
+                              @ 5023   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 5036  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 5041   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 5044   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 5063   compiler.c2.cr6340864.TestShortVect::test_diva (26 bytes)   inlining prohibited by policy
+                              @ 5072   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 5085  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 5090   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 5093   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 5111   compiler.c2.cr6340864.TestShortVect::test_mulc_n (25 bytes)   inlining prohibited by policy
+                              @ 5120   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 5133  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 5138   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 5141   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 5161   compiler.c2.cr6340864.TestShortVect::test_mulv (24 bytes)   inlining prohibited by policy
+                              @ 5170   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 5183  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 5188   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 5191   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 5210   compiler.c2.cr6340864.TestShortVect::test_mula (26 bytes)   inlining prohibited by policy
+                              @ 5219   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 5232  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 5237   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 5240   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 5258   compiler.c2.cr6340864.TestShortVect::test_divc_n (25 bytes)   inlining prohibited by policy
+                              @ 5267   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 5280  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 5285   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 5288   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 5308   compiler.c2.cr6340864.TestShortVect::test_divv (24 bytes)   inlining prohibited by policy
+                              @ 5317   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 5330  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 5335   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 5338   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 5357   compiler.c2.cr6340864.TestShortVect::test_diva (26 bytes)   inlining prohibited by policy
+                              @ 5366   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 5379  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 5384   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 5387   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 5405   compiler.c2.cr6340864.TestShortVect::test_andc (25 bytes)   inlining prohibited by policy
+                              @ 5414   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 5427  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 5432   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 5435   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 5456   compiler.c2.cr6340864.TestShortVect::test_andv (24 bytes)   inlining prohibited by policy
+                              @ 5465   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 5478  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 5483   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 5486   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 5506   compiler.c2.cr6340864.TestShortVect::test_anda (26 bytes)   inlining prohibited by policy
+                              @ 5515   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 5528  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 5533   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 5536   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 5554   compiler.c2.cr6340864.TestShortVect::test_orc (25 bytes)   inlining prohibited by policy
+                              @ 5563   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 5576  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 5581   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 5584   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 5605   compiler.c2.cr6340864.TestShortVect::test_orv (24 bytes)   inlining prohibited by policy
+                              @ 5614   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 5627  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 5632   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 5635   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 5655   compiler.c2.cr6340864.TestShortVect::test_ora (26 bytes)   inlining prohibited by policy
+                              @ 5664   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 5677  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 5682   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 5685   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 5703   compiler.c2.cr6340864.TestShortVect::test_xorc (25 bytes)   inlining prohibited by policy
+                              @ 5712   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 5725  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 5730   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 5733   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 5754   compiler.c2.cr6340864.TestShortVect::test_xorv (24 bytes)   inlining prohibited by policy
+                              @ 5763   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 5776  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 5781   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 5784   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 5804   compiler.c2.cr6340864.TestShortVect::test_xora (26 bytes)   inlining prohibited by policy
+                              @ 5813   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 5826  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 5831   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 5834   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 5852   compiler.c2.cr6340864.TestShortVect::test_sllc (25 bytes)   inlining prohibited by policy
+                              @ 5861   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 5874  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 5879   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 5882   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 5902   compiler.c2.cr6340864.TestShortVect::test_sllv (24 bytes)   inlining prohibited by policy
+                              @ 5911   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 5924  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 5929   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 5932   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 5950   compiler.c2.cr6340864.TestShortVect::test_srlc (25 bytes)   inlining prohibited by policy
+                              @ 5959   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 5972  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 5977   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 5980   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 6000   compiler.c2.cr6340864.TestShortVect::test_srlv (24 bytes)   inlining prohibited by policy
+                              @ 6009   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 6022  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 6027   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 6030   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 6048   compiler.c2.cr6340864.TestShortVect::test_srac (25 bytes)   inlining prohibited by policy
+                              @ 6057   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 6070  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 6075   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 6078   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 6098   compiler.c2.cr6340864.TestShortVect::test_srav (24 bytes)   inlining prohibited by policy
+                              @ 6107   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 6120  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 6125   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 6128   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 6146   compiler.c2.cr6340864.TestShortVect::test_sllc_n (25 bytes)   inlining prohibited by policy
+                              @ 6155   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 6168  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 6173   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 6176   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 6196   compiler.c2.cr6340864.TestShortVect::test_sllv (24 bytes)   inlining prohibited by policy
+                              @ 6205   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 6218  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 6223   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 6226   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 6244   compiler.c2.cr6340864.TestShortVect::test_srlc_n (25 bytes)   inlining prohibited by policy
+                              @ 6253   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 6266  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 6271   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 6274   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 6294   compiler.c2.cr6340864.TestShortVect::test_srlv (24 bytes)   inlining prohibited by policy
+                              @ 6303   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 6316  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 6321   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 6324   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 6342   compiler.c2.cr6340864.TestShortVect::test_srac_n (25 bytes)   inlining prohibited by policy
+                              @ 6351   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 6364  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 6369   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 6372   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 6392   compiler.c2.cr6340864.TestShortVect::test_srav (24 bytes)   inlining prohibited by policy
+                              @ 6401   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 6414  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 6419   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 6422   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 6440   compiler.c2.cr6340864.TestShortVect::test_sllc_o (25 bytes)   inlining prohibited by policy
+                              @ 6449   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 6462  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 6467   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 6470   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 6490   compiler.c2.cr6340864.TestShortVect::test_sllv (24 bytes)   inlining prohibited by policy
+                              @ 6499   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 6512  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 6517   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 6520   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 6538   compiler.c2.cr6340864.TestShortVect::test_srlc_o (25 bytes)   inlining prohibited by policy
+                              @ 6547   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 6560  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 6565   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 6568   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 6588   compiler.c2.cr6340864.TestShortVect::test_srlv (24 bytes)   inlining prohibited by policy
+                              @ 6597   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 6610  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 6615   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 6618   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 6636   compiler.c2.cr6340864.TestShortVect::test_srac_o (25 bytes)   inlining prohibited by policy
+                              @ 6645   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 6658  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 6663   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 6666   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 6686   compiler.c2.cr6340864.TestShortVect::test_srav (24 bytes)   inlining prohibited by policy
+                              @ 6695   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 6708  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 6713   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 6716   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 6734   compiler.c2.cr6340864.TestShortVect::test_sllc_on (25 bytes)   inlining prohibited by policy
+                              @ 6743   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 6756  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 6761   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 6764   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 6784   compiler.c2.cr6340864.TestShortVect::test_sllv (24 bytes)   inlining prohibited by policy
+                              @ 6793   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 6806  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 6811   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 6814   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 6832   compiler.c2.cr6340864.TestShortVect::test_srlc_on (25 bytes)   inlining prohibited by policy
+                              @ 6841   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 6854  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 6859   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 6862   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 6882   compiler.c2.cr6340864.TestShortVect::test_srlv (24 bytes)   inlining prohibited by policy
+                              @ 6891   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 6904  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 6909   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 6912   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 6930   compiler.c2.cr6340864.TestShortVect::test_srac_on (25 bytes)   inlining prohibited by policy
+                              @ 6939   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 6952  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 6957   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 6960   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 6980   compiler.c2.cr6340864.TestShortVect::test_srav (24 bytes)   inlining prohibited by policy
+                              @ 6989   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 7002  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 7007   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 7010   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 7028   compiler.c2.cr6340864.TestShortVect::test_sllc_add (29 bytes)   inlining prohibited by policy
+                              @ 7037   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 7050  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 7055   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 7058   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 7079   compiler.c2.cr6340864.TestShortVect::test_sllv_add (27 bytes)   inlining prohibited by policy
+                              @ 7088   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 7101  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 7106   java.io.PrintStream::println (24 bytes)   total inlining greater than DesiredMethodLimit
+                              @ 7109   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 7127   compiler.c2.cr6340864.TestShortVect::test_srlc_add (29 bytes)   inlining prohibited by policy
+                              @ 7136   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 7149  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 7154   java.io.PrintStream::println (24 bytes)   total inlining greater than DesiredMethodLimit
+                              @ 7157   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 7178   compiler.c2.cr6340864.TestShortVect::test_srlv_add (27 bytes)   inlining prohibited by policy
+                              @ 7187   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 7200  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 7205   java.io.PrintStream::println (24 bytes)   total inlining greater than DesiredMethodLimit
+                              @ 7208   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 7226   compiler.c2.cr6340864.TestShortVect::test_srac_add (29 bytes)   inlining prohibited by policy
+                              @ 7235   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 7248  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 7253   java.io.PrintStream::println (24 bytes)   total inlining greater than DesiredMethodLimit
+                              @ 7256   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 7277   compiler.c2.cr6340864.TestShortVect::test_srav_add (27 bytes)   inlining prohibited by policy
+                              @ 7286   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 7299  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 7304   java.io.PrintStream::println (24 bytes)   total inlining greater than DesiredMethodLimit
+                              @ 7307   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 7325   compiler.c2.cr6340864.TestShortVect::test_sllc_and (28 bytes)   inlining prohibited by policy
+                              @ 7334   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 7347  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 7352   java.io.PrintStream::println (24 bytes)   total inlining greater than DesiredMethodLimit
+                              @ 7355   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 7375   compiler.c2.cr6340864.TestShortVect::test_sllv_and (27 bytes)   inlining prohibited by policy
+                              @ 7384   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 7397  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 7402   java.io.PrintStream::println (24 bytes)   total inlining greater than DesiredMethodLimit
+                              @ 7405   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 7423   compiler.c2.cr6340864.TestShortVect::test_srlc_and (28 bytes)   inlining prohibited by policy
+                              @ 7432   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 7445  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 7450   java.io.PrintStream::println (24 bytes)   total inlining greater than DesiredMethodLimit
+                              @ 7453   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 7473   compiler.c2.cr6340864.TestShortVect::test_srlv_and (27 bytes)   inlining prohibited by policy
+                              @ 7482   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 7495  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 7500   java.io.PrintStream::println (24 bytes)   total inlining greater than DesiredMethodLimit
+                              @ 7503   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 7521   compiler.c2.cr6340864.TestShortVect::test_srac_and (28 bytes)   inlining prohibited by policy
+                              @ 7530   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 7543  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 7548   java.io.PrintStream::println (24 bytes)   total inlining greater than DesiredMethodLimit
+                              @ 7551   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 7571   compiler.c2.cr6340864.TestShortVect::test_srav_and (27 bytes)   inlining prohibited by policy
+                              @ 7580   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 7593  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 7598   java.io.PrintStream::println (24 bytes)   total inlining greater than DesiredMethodLimit
+                              @ 7601   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 7620   compiler.c2.cr6340864.TestShortVect::test_pack2 (55 bytes)   inlining prohibited by policy
+                              @ 7629   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 7642  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 7647   java.io.PrintStream::println (24 bytes)   total inlining greater than DesiredMethodLimit
+                              @ 7650   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 7669   compiler.c2.cr6340864.TestShortVect::test_unpack2 (53 bytes)   inlining prohibited by policy
+                              @ 7678   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 7691  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 7696   java.io.PrintStream::println (24 bytes)   total inlining greater than DesiredMethodLimit
+                              @ 7699   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 7718   compiler.c2.cr6340864.TestShortVect::test_pack2_swap (55 bytes)   inlining prohibited by policy
+                              @ 7727   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 7740  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 7745   java.io.PrintStream::println (24 bytes)   total inlining greater than DesiredMethodLimit
+                              @ 7748   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 7767   compiler.c2.cr6340864.TestShortVect::test_unpack2_swap (53 bytes)   inlining prohibited by policy
+                              @ 7776   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 7789  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 7794   java.io.PrintStream::println (24 bytes)   total inlining greater than DesiredMethodLimit
+                              @ 7797   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 7816   compiler.c2.cr6340864.TestShortVect::test_pack4 (102 bytes)   inlining prohibited by policy
+                              @ 7825   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 7838  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 7843   java.io.PrintStream::println (24 bytes)   total inlining greater than DesiredMethodLimit
+                              @ 7846   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 7865   compiler.c2.cr6340864.TestShortVect::test_unpack4 (82 bytes)   inlining prohibited by policy
+                              @ 7874   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 7887  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 7892   java.io.PrintStream::println (24 bytes)   total inlining greater than DesiredMethodLimit
+                              @ 7895   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 7914   compiler.c2.cr6340864.TestShortVect::test_pack4_swap (102 bytes)   inlining prohibited by policy
+                              @ 7923   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 7936  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 7941   java.io.PrintStream::println (24 bytes)   total inlining greater than DesiredMethodLimit
+                              @ 7944   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 7963   compiler.c2.cr6340864.TestShortVect::test_unpack4_swap (82 bytes)   disallowed by CompileCommand
+                              @ 7972   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 7985  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 7990   java.io.PrintStream::println (24 bytes)   total inlining greater than DesiredMethodLimit
+               !m             @ 112   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 127   compiler.c2.cr6340864.TestShortVect::test_sum (24 bytes)   inlining prohibited by policy
+                              @ 133   compiler.c2.cr6340864.TestShortVect::test_addc (25 bytes)   inlining prohibited by policy
+                              @ 140   compiler.c2.cr6340864.TestShortVect::test_addv (24 bytes)   inlining prohibited by policy
+                              @ 146   compiler.c2.cr6340864.TestShortVect::test_adda (26 bytes)   inlining prohibited by policy
+                              @ 151   compiler.c2.cr6340864.TestShortVect::test_subc (25 bytes)   inlining prohibited by policy
+                              @ 158   compiler.c2.cr6340864.TestShortVect::test_subv (24 bytes)   inlining prohibited by policy
+                              @ 164   compiler.c2.cr6340864.TestShortVect::test_suba (26 bytes)   inlining prohibited by policy
+                              @ 169   compiler.c2.cr6340864.TestShortVect::test_mulc (25 bytes)   inlining prohibited by policy
+                              @ 176   compiler.c2.cr6340864.TestShortVect::test_mulv (24 bytes)   inlining prohibited by policy
+                              @ 182   compiler.c2.cr6340864.TestShortVect::test_mula (26 bytes)   inlining prohibited by policy
+                              @ 187   compiler.c2.cr6340864.TestShortVect::test_divc (25 bytes)   inlining prohibited by policy
+                              @ 194   compiler.c2.cr6340864.TestShortVect::test_divv (24 bytes)   inlining prohibited by policy
+                              @ 200   compiler.c2.cr6340864.TestShortVect::test_diva (26 bytes)   inlining prohibited by policy
+                              @ 205   compiler.c2.cr6340864.TestShortVect::test_mulc_n (25 bytes)   inlining prohibited by policy
+                              @ 212   compiler.c2.cr6340864.TestShortVect::test_mulv (24 bytes)   inlining prohibited by policy
+                              @ 218   compiler.c2.cr6340864.TestShortVect::test_mula (26 bytes)   inlining prohibited by policy
+                              @ 223   compiler.c2.cr6340864.TestShortVect::test_divc_n (25 bytes)   inlining prohibited by policy
+                              @ 230   compiler.c2.cr6340864.TestShortVect::test_divv (24 bytes)   inlining prohibited by policy
+                              @ 236   compiler.c2.cr6340864.TestShortVect::test_diva (26 bytes)   inlining prohibited by policy
+                              @ 241   compiler.c2.cr6340864.TestShortVect::test_andc (25 bytes)   inlining prohibited by policy
+                              @ 249   compiler.c2.cr6340864.TestShortVect::test_andv (24 bytes)   inlining prohibited by policy
+                              @ 256   compiler.c2.cr6340864.TestShortVect::test_anda (26 bytes)   inlining prohibited by policy
+                              @ 261   compiler.c2.cr6340864.TestShortVect::test_orc (25 bytes)   inlining prohibited by policy
+                              @ 269   compiler.c2.cr6340864.TestShortVect::test_orv (24 bytes)   inlining prohibited by policy
+                              @ 276   compiler.c2.cr6340864.TestShortVect::test_ora (26 bytes)   inlining prohibited by policy
+                              @ 281   compiler.c2.cr6340864.TestShortVect::test_xorc (25 bytes)   inlining prohibited by policy
+                              @ 289   compiler.c2.cr6340864.TestShortVect::test_xorv (24 bytes)   inlining prohibited by policy
+                              @ 296   compiler.c2.cr6340864.TestShortVect::test_xora (26 bytes)   inlining prohibited by policy
+                              @ 301   compiler.c2.cr6340864.TestShortVect::test_sllc (25 bytes)   inlining prohibited by policy
+                              @ 308   compiler.c2.cr6340864.TestShortVect::test_sllv (24 bytes)   inlining prohibited by policy
+                              @ 313   compiler.c2.cr6340864.TestShortVect::test_srlc (25 bytes)   inlining prohibited by policy
+                              @ 320   compiler.c2.cr6340864.TestShortVect::test_srlv (24 bytes)   inlining prohibited by policy
+                              @ 325   compiler.c2.cr6340864.TestShortVect::test_srac (25 bytes)   inlining prohibited by policy
+                              @ 332   compiler.c2.cr6340864.TestShortVect::test_srav (24 bytes)   inlining prohibited by policy
+                              @ 337   compiler.c2.cr6340864.TestShortVect::test_sllc_n (25 bytes)   inlining prohibited by policy
+                              @ 344   compiler.c2.cr6340864.TestShortVect::test_sllv (24 bytes)   inlining prohibited by policy
+                              @ 349   compiler.c2.cr6340864.TestShortVect::test_srlc_n (25 bytes)   inlining prohibited by policy
+                              @ 356   compiler.c2.cr6340864.TestShortVect::test_srlv (24 bytes)   inlining prohibited by policy
+                              @ 361   compiler.c2.cr6340864.TestShortVect::test_srac_n (25 bytes)   inlining prohibited by policy
+                              @ 368   compiler.c2.cr6340864.TestShortVect::test_srav (24 bytes)   inlining prohibited by policy
+                              @ 373   compiler.c2.cr6340864.TestShortVect::test_sllc_o (25 bytes)   inlining prohibited by policy
+                              @ 380   compiler.c2.cr6340864.TestShortVect::test_sllv (24 bytes)   inlining prohibited by policy
+                              @ 385   compiler.c2.cr6340864.TestShortVect::test_srlc_o (25 bytes)   inlining prohibited by policy
+                              @ 392   compiler.c2.cr6340864.TestShortVect::test_srlv (24 bytes)   inlining prohibited by policy
+                              @ 397   compiler.c2.cr6340864.TestShortVect::test_srac_o (25 bytes)   inlining prohibited by policy
+                              @ 404   compiler.c2.cr6340864.TestShortVect::test_srav (24 bytes)   inlining prohibited by policy
+                              @ 409   compiler.c2.cr6340864.TestShortVect::test_sllc_on (25 bytes)   inlining prohibited by policy
+                              @ 416   compiler.c2.cr6340864.TestShortVect::test_sllv (24 bytes)   inlining prohibited by policy
+                              @ 421   compiler.c2.cr6340864.TestShortVect::test_srlc_on (25 bytes)   inlining prohibited by policy
+                              @ 428   compiler.c2.cr6340864.TestShortVect::test_srlv (24 bytes)   inlining prohibited by policy
+                              @ 433   compiler.c2.cr6340864.TestShortVect::test_srac_on (25 bytes)   inlining prohibited by policy
+                              @ 440   compiler.c2.cr6340864.TestShortVect::test_srav (24 bytes)   inlining prohibited by policy
+                              @ 445   compiler.c2.cr6340864.TestShortVect::test_sllc_add (29 bytes)   inlining prohibited by policy
+                              @ 453   compiler.c2.cr6340864.TestShortVect::test_sllv_add (27 bytes)   inlining prohibited by policy
+                              @ 458   compiler.c2.cr6340864.TestShortVect::test_srlc_add (29 bytes)   inlining prohibited by policy
+                              @ 466   compiler.c2.cr6340864.TestShortVect::test_srlv_add (27 bytes)   inlining prohibited by policy
+                              @ 471   compiler.c2.cr6340864.TestShortVect::test_srac_add (29 bytes)   inlining prohibited by policy
+                              @ 479   compiler.c2.cr6340864.TestShortVect::test_srav_add (27 bytes)   inlining prohibited by policy
+                              @ 484   compiler.c2.cr6340864.TestShortVect::test_sllc_and (28 bytes)   inlining prohibited by policy
+                              @ 491   compiler.c2.cr6340864.TestShortVect::test_sllv_and (27 bytes)   inlining prohibited by policy
+                              @ 496   compiler.c2.cr6340864.TestShortVect::test_srlc_and (28 bytes)   inlining prohibited by policy
+                              @ 503   compiler.c2.cr6340864.TestShortVect::test_srlv_and (27 bytes)   inlining prohibited by policy
+                              @ 508   compiler.c2.cr6340864.TestShortVect::test_srac_and (28 bytes)   inlining prohibited by policy
+                              @ 515   compiler.c2.cr6340864.TestShortVect::test_srav_and (27 bytes)   inlining prohibited by policy
+                              @ 521   compiler.c2.cr6340864.TestShortVect::test_pack2 (55 bytes)   inlining prohibited by policy
+                              @ 527   compiler.c2.cr6340864.TestShortVect::test_unpack2 (53 bytes)   inlining prohibited by policy
+                              @ 533   compiler.c2.cr6340864.TestShortVect::test_pack2_swap (55 bytes)   inlining prohibited by policy
+                              @ 539   compiler.c2.cr6340864.TestShortVect::test_unpack2_swap (53 bytes)   inlining prohibited by policy
+                              @ 545   compiler.c2.cr6340864.TestShortVect::test_pack4 (102 bytes)   inlining prohibited by policy
+                              @ 551   compiler.c2.cr6340864.TestShortVect::test_unpack4 (82 bytes)   inlining prohibited by policy
+                              @ 557   compiler.c2.cr6340864.TestShortVect::test_pack4_swap (102 bytes)   inlining prohibited by policy
+                              @ 563   compiler.c2.cr6340864.TestShortVect::test_unpack4_swap (82 bytes)   disallowed by CompileCommand
+               !m             @ 577   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 584   compiler.c2.cr6340864.TestShortVect::test_sum (24 bytes)   inlining prohibited by policy
+                              @ 603  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 608   java.io.PrintStream::println (24 bytes)   inline
+                                @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                  @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                    @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                 @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m               @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 616   compiler.c2.cr6340864.TestShortVect::test_addc (25 bytes)   inlining prohibited by policy
+                              @ 651   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 667   compiler.c2.cr6340864.TestShortVect::test_addv (24 bytes)   inlining prohibited by policy
+                              @ 702   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 717   compiler.c2.cr6340864.TestShortVect::test_adda (26 bytes)   inlining prohibited by policy
+                              @ 752   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 766   compiler.c2.cr6340864.TestShortVect::test_subc (25 bytes)   inlining prohibited by policy
+                              @ 801   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 817   compiler.c2.cr6340864.TestShortVect::test_subv (24 bytes)   inlining prohibited by policy
+                              @ 852   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 867   compiler.c2.cr6340864.TestShortVect::test_suba (26 bytes)   inlining prohibited by policy
+                              @ 902   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 916   compiler.c2.cr6340864.TestShortVect::test_mulc (25 bytes)   inlining prohibited by policy
+                              @ 951   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 967   compiler.c2.cr6340864.TestShortVect::test_mulv (24 bytes)   inlining prohibited by policy
+                              @ 1002   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 1017   compiler.c2.cr6340864.TestShortVect::test_mula (26 bytes)   inlining prohibited by policy
+                              @ 1052   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 1066   compiler.c2.cr6340864.TestShortVect::test_divc (25 bytes)   inlining prohibited by policy
+                              @ 1101   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 1117   compiler.c2.cr6340864.TestShortVect::test_divv (24 bytes)   inlining prohibited by policy
+                              @ 1152   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 1167   compiler.c2.cr6340864.TestShortVect::test_diva (26 bytes)   inlining prohibited by policy
+                              @ 1202   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 1216   compiler.c2.cr6340864.TestShortVect::test_mulc_n (25 bytes)   inlining prohibited by policy
+                              @ 1251   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 1267   compiler.c2.cr6340864.TestShortVect::test_mulv (24 bytes)   inlining prohibited by policy
+                              @ 1302   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 1317   compiler.c2.cr6340864.TestShortVect::test_mula (26 bytes)   inlining prohibited by policy
+                              @ 1352   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 1366   compiler.c2.cr6340864.TestShortVect::test_divc_n (25 bytes)   inlining prohibited by policy
+                              @ 1401   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 1417   compiler.c2.cr6340864.TestShortVect::test_divv (24 bytes)   inlining prohibited by policy
+                              @ 1452   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 1467   compiler.c2.cr6340864.TestShortVect::test_diva (26 bytes)   inlining prohibited by policy
+                              @ 1502   compiler.c2.cr6340864.TestShortVect::verify (24 bytes)   inline
+                                @ 12  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m               @ 17   java.io.PrintStream::println (24 bytes)   inline
+                                  @ 6   java.io.PrintStream::print (9 bytes)   inline
+                                    @ 2   java.lang.String::valueOf (14 bytes)   inline
+                                      @ 10   java.lang.String::toString (2 bytes)   inline
+               !m                   @ 5   java.io.PrintStream::write (83 bytes)   callee is too large
+               !m                 @ 10   java.io.PrintStream::newLine (73 bytes)   callee is too large
+                              @ 1516   compiler.c2.cr6340864.TestShortVect::test_andc (25 bytes)   inlining prohibited by policy
+                              @ 1551   compiler.c2.cr6340864.TestShortVect::verify

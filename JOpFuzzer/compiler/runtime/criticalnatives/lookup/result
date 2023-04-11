@@ -1,0 +1,5 @@
+Exception in thread "main" java.lang.UnsatisfiedLinkError: no CNLookUp in java.library.path: [/usr/java/packages/lib, /usr/lib/x86_64-linux-gnu/jni, /lib/x86_64-linux-gnu, /usr/lib/x86_64-linux-gnu, /usr/lib/jni, /lib, /usr/lib]
+	at java.base/java.lang.ClassLoader.loadLibrary(ClassLoader.java:2673)
+	at java.base/java.lang.Runtime.loadLibrary0(Runtime.java:830)
+	at java.base/java.lang.System.loadLibrary(System.java:1873)
+	at compiler.runtime.criticalnatives.lookup.LookUp.<clinit>(LookUp.java:33)

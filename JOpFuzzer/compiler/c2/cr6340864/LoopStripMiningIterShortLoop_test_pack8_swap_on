@@ -1,0 +1,26 @@
+Testing Byte vectors
+Warmup
+Verification
+Time
+test_sum: 123
+test_addc: 126
+test_addv: 223
+test_adda: 200
+test_subc: 135
+test_subv: 223
+test_suba: 278
+test_mulc: 218
+test_mulv: 190
+test_mula: 152
+test_divc: 385
+test_divv: 794
+test_diva: 651
+test_mulc_n: 341
+test_mulv_n: 169
+test_mula_n: 184
+test_divc_n: 272
+test_divv_n: 880
+test_diva_n: 508
+test_andc: 159
+test_andv: 137
+test_anda: 176

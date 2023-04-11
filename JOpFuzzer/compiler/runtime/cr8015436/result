@@ -1,0 +1,3 @@
+someMethod() invoked
+defaultMethod() invoked directly
+defaultMethod() invoked via a MethodHandle

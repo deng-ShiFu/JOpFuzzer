@@ -1,0 +1,45 @@
+OpenJDK 64-Bit Server VM warning: Disabling counted safepoints implies no loop strip mining: setting LoopStripMiningIter to 0
+CompileCommand: exclude compiler/codegen/TestCharVect.test_2vi_oppos
+Testing Char vectors
+Warmup
+Verification
+Time
+test_ci: 1
+test_vi: 1
+test_cp: 14
+test_2ci: 1017
+test_2vi: 123
+test_ci_neg: 74
+test_vi_neg: 3
+test_cp_neg: 35
+test_2ci_neg: 713
+test_2vi_neg: 116
+test_ci_oppos: 203
+test_vi_oppos: 91
+test_cp_oppos: 44
+test_2ci_oppos: 923
+test_2vi_oppos: 2793
+test_ci_off: 104
+test_vi_off: 3
+test_cp_off: 81
+test_2ci_off: 714
+test_2vi_off: 12
+test_ci_inv: 71
+test_vi_inv: 73
+test_cp_inv: 113
+test_2ci_inv: 877
+test_2vi_inv: 157
+test_ci_scl: 89
+test_vi_scl: 91
+test_cp_scl: 140
+test_2ci_scl: 1050
+test_2vi_scl: 24
+test_cp_alndst: 32
+test_cp_alnsrc: 5
+test_2ci_aln: 18
+test_2vi_aln: 269
+test_cp_unalndst: 4
+test_cp_unalnsrc: 3
+test_2ci_unaln: 15
+test_2vi_unaln: 11
+PASSED

@@ -40,7 +40,7 @@ public class Task implements Runnable {
 
     @Override
     public void run() {
-        System.out.println("Running task\n");
+        //System.out.println("Running task\n");
         int exitValue1, exitValue2;
         try {
             exitValue1 = execute(cmdOn);
@@ -64,31 +64,37 @@ public class Task implements Runnable {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+        //记录方法中的是否有某种特征：如IF语句、赋值等
         ArrayList<Integer> structureIndex = enc.getStructureIndex();
         for (Integer index : structureIndex) {
             synchronized (this) {
                 if (similarity == -1)
                     break;
+                //构建代码特征和选项的相关性矩阵
                 StructureOptionRelation[index][optionIndex] += similarity;
+                //特征和选项的相关次数
                 StructureOptionRelationTime[index][optionIndex]++;
             }
         }
     }
 
+    //计算两个文件的相似性
     private double CalculateProfileSimilarity(String seedPath, String option, String methodName) throws IOException {
         List<String> result = Files.readAllLines(Paths.get(seedPath + "result"));
         Path path_on = Paths.get(seedPath + option + "_" + methodName + "_on");
         Path path_off = Paths.get(seedPath + option + "_" + methodName + "_off");
         List<String> dProfile = Files.readAllLines(path_on);
         List<String> sProfile = Files.readAllLines(path_off);
+        //文件太大，无法进行比较相似度
         if (dProfile.size() > 10_000 || sProfile.size() > 10_000) {
             Files.delete(path_on);
             Files.delete(path_off);
             return -1;
         }
-
+        //移除标准文件中的行
         dProfile.removeAll(result);
         sProfile.removeAll(result);
+        //差异比较
         Patch<String> diff = DiffUtils.diff(dProfile, sProfile);
         double originLineNumber = dProfile.size() + sProfile.size();
         double similarity;

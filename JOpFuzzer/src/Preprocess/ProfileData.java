@@ -7,6 +7,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
+/*
+    用于管理和提供JVM性能分析的选项及其相关值
+ */
 public enum ProfileData {
     PrintInlining {
         public List<Tuple3<String, List<Integer>, Boolean>> getOptionAndValue() {

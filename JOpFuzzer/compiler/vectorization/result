@@ -1,0 +1,2 @@
+Exception in thread "main" java.lang.RuntimeException:  Missing test name: test1, test2, test3, test4
+	at compiler.vectorization.TestForEachRem.main(TestForEachRem.java:81)

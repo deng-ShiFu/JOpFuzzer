@@ -1,0 +1,10 @@
+Warmup ...
+ Warmup is done in 5253 msec
+sum int:    1283
+sum long:   995
+sum float:  1184
+sum double: 1165
+prod int:    1119
+prod long:   1064
+prod float:  1692
+prod double: 1864

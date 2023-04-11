@@ -1,0 +1,11 @@
+Testing Float vectors
+Warmup
+Verification
+Time
+test_init: 9
+test_addi: 17
+test_divi: 8
+test_unrl_init: 3
+test_unrl_addi: 3
+test_unrl_divi: 4
+PASSED

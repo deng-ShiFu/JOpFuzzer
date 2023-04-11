@@ -22,11 +22,13 @@ public class Encode {
     public Encode(CtMethod method) {
         methodName = method.getSimpleName();
         CtBlock block = method.getBody();
+        //block.getElements 获取代码体中的每一行代码
         if (block == null || block.getElements(new LineFilter()).size() <= 3 || block.getElements(new LineFilter()).size() > 100) { // do not consider methods with less three statements, or with too many statements
             uselessMethod = true;
             return;
         }
-        analyzeStmt(method);
+        //初步判断是检查方法体中是否含有相应的元素
+        analyzeStmt(method);//标记语句特征如：赋值语句、
         analyzeOperator(method);
         analyzeType(method);
         analyzeLoop(method);
@@ -270,12 +272,17 @@ public class Encode {
 
 
     public void analyzeStmt(CtMethod method) {
+        //方法体的所有赋值语句
         if (method.getElements(new TypeFilter<>(CtAssignment.class)).size() != 0)
+            //SourceCodeFeature.assignmentStmt.ordinal()用于获取某个枚举常量在其枚举类型中的序号 这里是0
             code[SourceCodeFeature.assignmentStmt.ordinal()] = 1;
+        //返回元素
         if (method.getElements(new TypeFilter<>(CtReturn.class)).size() != 0)
             code[SourceCodeFeature.returnStmt.ordinal()] = 1;
+        //IF元素
         if (method.getElements(new TypeFilter<>(CtIf.class)).size() != 0)
             code[SourceCodeFeature.ifStmt.ordinal()] = 1;
+        //所有的方法调用语句元素
         if (method.getElements(new TypeFilter<>(CtInvocation.class)).size() != 0)
             code[SourceCodeFeature.invocationStmt.ordinal()] = 1;
         if (method.getElements(new TypeFilter<>(CtSwitch.class)).size() != 0)

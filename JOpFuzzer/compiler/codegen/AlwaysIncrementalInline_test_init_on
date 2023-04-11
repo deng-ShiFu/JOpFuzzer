@@ -1,0 +1,1539 @@
+                              @ 15   jdk.internal.misc.Unsafe::getObjectAcquire (7 bytes)   not inlineable
+                              @ 3   jdk.internal.misc.Unsafe::getObjectVolatile (0 bytes)   not inlineable
+                              @ 1   java.lang.String::isLatin1 (19 bytes)   not inlineable
+                              @ 12   java.lang.StringLatin1::charAt (28 bytes)   not inlineable
+                              @ 21  java/lang/StringUTF16::charAt (not loaded)   not inlineable
+                              @ 15  java/lang/StringIndexOutOfBoundsException::<init> (not loaded)   not inlineable
+                              @ 19   java.lang.String::isLatin1 (19 bytes)   not inlineable
+                              @ 29   java.lang.StringLatin1::hashCode (42 bytes)   not inlineable
+                              @ 39  java/lang/StringUTF16::hashCode (not loaded)   not inlineable
+                              @ 1   java.util.ImmutableCollections$SetN$SetNIterator::hasNext (13 bytes)   not inlineable
+                              @ 15   java.util.ImmutableCollections$SetN$SetNIterator::nextIndex (56 bytes)   not inlineable
+                              @ 43  java/util/NoSuchElementException::<init> (not loaded)   not inlineable
+                              @ 17   java.lang.Object::hashCode (0 bytes)   not inlineable
+                              @ 20   java.util.concurrent.ConcurrentHashMap::spread (10 bytes)   not inlineable
+                              @ 69   java.util.concurrent.ConcurrentHashMap::tabAt (22 bytes)   not inlineable
+                              @ 91   java.util.concurrent.ConcurrentHashMap$Node::<init> (20 bytes)   not inlineable
+                              @ 94   java.util.concurrent.ConcurrentHashMap::casTabAt (21 bytes)   not inlineable
+                              @ 120   java.util.concurrent.ConcurrentHashMap::helpTransfer (123 bytes)   not inlineable
+                              @ 159   java.lang.Object::equals (11 bytes)   not inlineable
+                              @ 192   java.util.concurrent.ConcurrentHashMap::tabAt (22 bytes)   not inlineable
+                              @ 242   java.lang.Object::equals (11 bytes)   not inlineable
+                              @ 293   java.util.concurrent.ConcurrentHashMap$Node::<init> (20 bytes)   not inlineable
+                              @ 331  java/util/concurrent/ConcurrentHashMap$TreeBin::putTreeVal (not loaded)   not inlineable
+                              @ 374  java/lang/IllegalStateException::<init> (not loaded)   not inlineable
+               !m             @ 409   java.util.concurrent.ConcurrentHashMap::treeifyBin (164 bytes)   not inlineable
+                              @ 427   java.util.concurrent.ConcurrentHashMap::addCount (279 bytes)   not inlineable
+               !              @ 49   java.util.concurrent.ConcurrentHashMap::initTable (112 bytes)   not inlineable
+                              @ 12   java.lang.NullPointerException::<init> (5 bytes)   not inlineable
+                              @ 31   jdk.internal.misc.Unsafe::compareAndSetLong (0 bytes)   not inlineable
+                              @ 58  java/util/concurrent/ThreadLocalRandom::getProbe (not loaded)   not inlineable
+                              @ 91   jdk.internal.misc.Unsafe::compareAndSetLong (0 bytes)   not inlineable
+                              @ 115   java.util.concurrent.ConcurrentHashMap::sumCount (60 bytes)   not inlineable
+                              @ 161   java.util.concurrent.ConcurrentHashMap::resizeStamp (8 bytes)   not inlineable
+                              @ 226   jdk.internal.misc.Unsafe::compareAndSetInt (0 bytes)   not inlineable
+               !m             @ 237   java.util.concurrent.ConcurrentHashMap::transfer (828 bytes)   not inlineable
+                              @ 256   jdk.internal.misc.Unsafe::compareAndSetInt (0 bytes)   not inlineable
+               !m             @ 266   java.util.concurrent.ConcurrentHashMap::transfer (828 bytes)   not inlineable
+                              @ 270   java.util.concurrent.ConcurrentHashMap::sumCount (60 bytes)   not inlineable
+               !              @ 104   java.util.concurrent.ConcurrentHashMap::fullAddCount (462 bytes)   not inlineable
+                              @ 1   java.lang.Object::<init> (1 bytes)   not inlineable
+                              @ 17   jdk.internal.misc.Unsafe::compareAndSetObject (0 bytes)   not inlineable
+               !m             @ 4   java.util.concurrent.ConcurrentHashMap::putVal (432 bytes)   not inlineable
+                              @ 6   java.lang.String::coder (15 bytes)   not inlineable
+                              @ 9   java.lang.Object::hashCode (0 bytes)   not inlineable
+                              @ 20   java.lang.String::coder (15 bytes)   not inlineable
+                              @ 24   java.lang.String::coder (15 bytes)   not inlineable
+                              @ 31   java.lang.String::isLatin1 (19 bytes)   not inlineable
+                              @ 45   java.lang.StringLatin1::equals (36 bytes)   not inlineable
+                              @ 59  java/lang/StringUTF16::equals (not loaded)   not inlineable
+                              @ 8   java.lang.NullPointerException::<init> (5 bytes)   not inlineable
+                              @ 59   java.lang.Object::equals (11 bytes)   not inlineable
+                              @ 94   java.util.HashMap$TreeNode::getTreeNode (22 bytes)   not inlineable
+                              @ 126   java.lang.Object::equals (11 bytes)   not inlineable
+                              @ 2   java.util.HashMap::hash (20 bytes)   not inlineable
+                              @ 9   java.util.HashMap::putVal (300 bytes)   not inlineable
+                              @ 20   java.util.HashMap::resize (356 bytes)   not inlineable
+                              @ 56   java.util.HashMap::newNode (13 bytes)   not inlineable
+                              @ 91   java.lang.Object::equals (11 bytes)   not inlineable
+                              @ 123   java.util.HashMap$TreeNode::putTreeVal (314 bytes)   not inlineable
+                              @ 152   java.util.HashMap::newNode (13 bytes)   not inlineable
+                              @ 169   java.util.HashMap::treeifyBin (110 bytes)   not inlineable
+                              @ 203   java.lang.Object::equals (11 bytes)   not inlineable
+                              @ 253   java.util.HashMap::afterNodeAccess (1 bytes)   not inlineable
+                              @ 288   java.util.HashMap::resize (356 bytes)   not inlineable
+                              @ 295   java.util.HashMap::afterNodeInsertion (1 bytes)   not inlineable
+                              @ 1   java.lang.Object::<init> (1 bytes)   not inlineable
+                              @ 9   java.util.HashMap$Node::<init> (26 bytes)   not inlineable
+                              @ 2   java.util.HashMap::hash (20 bytes)   not inlineable
+                              @ 6   java.util.HashMap::getNode (148 bytes)   not inlineable
+                              @ 8   java.util.HashMap::put (13 bytes)   not inlineable
+                              @ 1   java.lang.module.ResolvedModule::reference (5 bytes)   not inlineable
+                              @ 4   java.lang.module.ModuleReference::descriptor (5 bytes)   not inlineable
+                              @ 7   java.lang.module.ModuleDescriptor::name (5 bytes)   not inlineable
+                              @ 1   java.util.AbstractCollection::size (0 bytes)   not inlineable
+                              @ 4   java.util.Set::isEmpty (0 bytes)   not inlineable
+                              @ 88  java/util/NoSuchElementException::<init> (not loaded)   not inlineable
+                              @ 1   java.lang.Object::<init> (1 bytes)   not inlineable
+                              @ 217   java.util.HashMap$TreeNode::split (218 bytes)   not inlineable
+                              @ 1   java.util.AbstractMap::<init> (5 bytes)   not inlineable
+                              @ 11   java.lang.Object::equals (11 bytes)   not inlineable
+                              @ 3   java.lang.Math::floorDiv (22 bytes)   not inlineable
+                              @ 1   java.lang.Object::hashCode (0 bytes)   not inlineable
+                              @ 9   java.lang.Math::floorMod (10 bytes)   not inlineable
+                              @ 31   java.lang.Object::equals (11 bytes)   not inlineable
+                              @ 1   java.lang.Object::<init> (1 bytes)   not inlineable
+                              @ 5   java.util.ImmutableCollections$Set12$1::<init> (21 bytes)   not inlineable
+                              @ 6   java.lang.Object::<init> (1 bytes)   not inlineable
+                              @ 14   java.util.ImmutableCollections$Set12::size (13 bytes)   not inlineable
+                              @ 1   java.lang.Object::hashCode (0 bytes)   not inlineable
+                              @ 11   java.lang.Math::floorMod (10 bytes)   not inlineable
+                              @ 35   java.lang.Object::equals (11 bytes)   not inlineable
+                              @ 4   java.util.Iterator::hasNext (0 bytes)   not inlineable
+                              @ 16   java.util.Iterator::hasNext (0 bytes)   not inlineable
+                              @ 4   java.util.Iterator::hasNext (0 bytes)   not inlineable
+                              @ 16   java.util.Iterator::next (0 bytes)   not inlineable
+                              @ 26   java.util.Iterator::hasNext (0 bytes)   not inlineable
+                              @ 38   java.util.Iterator::next (0 bytes)   not inlineable
+                              @ 48  java/util/NoSuchElementException::<init> (not loaded)   not inlineable
+                              @ 2   java.util.HashMap::hash (20 bytes)   not inlineable
+                              @ 9   java.util.HashMap::putVal (300 bytes)   not inlineable
+                              @ 1   java.lang.StringLatin1::canEncode (13 bytes)   not inlineable
+                              @ 1   java.lang.Object::hashCode (0 bytes)   not inlineable
+                              @ 4   java.util.concurrent.ConcurrentHashMap::spread (10 bytes)   not inlineable
+                              @ 34   java.util.concurrent.ConcurrentHashMap::tabAt (22 bytes)   not inlineable
+                              @ 73   java.lang.Object::equals (11 bytes)   not inlineable
+                              @ 93   java.util.concurrent.ConcurrentHashMap$Node::find (52 bytes)   not inlineable
+                              @ 149   java.lang.Object::equals (11 bytes)   not inlineable
+                              @ 10   java.lang.Class::isPrimitive (0 bytes)   not inlineable
+                              @ 53   sun.invoke.util.Wrapper::asPrimitiveType (20 bytes)   not inlineable
+                              @ 149   sun.invoke.util.Wrapper::asWrapperType (18 bytes)   not inlineable
+                              @ 1   java.lang.Object::<init> (1 bytes)   not inlineable
+                              @ 1   java.util.Objects::requireNonNull (14 bytes)   not inlineable
+                              @ 14   java.lang.invoke.MethodHandleStatics::newIllegalArgumentException (9 bytes)   not inlineable
+                              @ 17   java.lang.ref.ReferenceQueue::reallyPoll (65 bytes)   not inlineable
+                              @ 6   java.lang.Object::hashCode (0 bytes)   not inlineable
+                              @ 40   java.lang.Object::hashCode (0 bytes)   not inlineable
+               !m             @ 4   java.lang.ref.ReferenceQueue::poll (28 bytes)   not inlineable
+                              @ 17   java.util.concurrent.ConcurrentMap::remove (10 bytes)   not inlineable
+                              @ 13   java.lang.StringBuilder::<init> (7 bytes)   not inlineable
+                              @ 18   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 22   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 25   java.lang.StringBuilder::toString (35 bytes)   not inlineable
+                              @ 28   java.lang.invoke.MethodHandleStatics::newIllegalArgumentException (9 bytes)   not inlineable
+                              @ 24   java.lang.AbstractStringBuilder::newCapacity (55 bytes)   not inlineable
+                              @ 32   java.util.Arrays::copyOf (19 bytes)   not inlineable
+                              @ 14   java.lang.Class::initClassName (0 bytes)   not inlineable
+                              @ 3   java.lang.invoke.MemberName::testAnyFlags (15 bytes)   not inlineable
+                              @ 3   java.lang.invoke.MemberName::testFlags (16 bytes)   not inlineable
+                              @ 3   java.lang.ref.Reference::<init> (25 bytes)   not inlineable
+                              @ 180   java.lang.String::hashCode (49 bytes)   not inlineable
+                              @ 184   java.lang.String::hashCode (49 bytes)   not inlineable
+                              @ 166   java.lang.String::hashCode (49 bytes)   not inlineable
+                              @ 199   java.lang.String::hashCode (49 bytes)   not inlineable
+                              @ 203   java.lang.String::hashCode (49 bytes)   not inlineable
+                              @ 209   java.lang.String::hashCode (49 bytes)   not inlineable
+                              @ 33   jdk.internal.org.objectweb.asm.Item::isEqualTo (354 bytes)   not inlineable
+                              @ 1   java.lang.String::isLatin1 (19 bytes)   already compiled into a big method
+                              @ 12   java.lang.StringLatin1::charAt (28 bytes)   not an accessor
+                              @ 1   java.lang.String::length (11 bytes)   not inlineable
+                              @ 15   java.lang.IllegalArgumentException::<init> (5 bytes)   not inlineable
+                              @ 41   jdk.internal.org.objectweb.asm.ByteVector::enlarge (51 bytes)   not inlineable
+                              @ 83   java.lang.String::charAt (25 bytes)   not inlineable
+                              @ 125   jdk.internal.org.objectweb.asm.ByteVector::encodeUTF8 (335 bytes)   not inlineable
+                              @ 2   java.lang.ref.Reference::<init> (7 bytes)   not inlineable
+                              @ 1   java.lang.Object::<init> (1 bytes)   not inlineable
+                              @ 17   java.lang.invoke.MethodType::<init> (15 bytes)   not inlineable
+                              @ 25   java.lang.invoke.MethodType$ConcurrentWeakInternSet::get (54 bytes)   not inlineable
+                              @ 42   java.lang.invoke.MethodType::checkRtype (6 bytes)   not inlineable
+                              @ 50   java.lang.invoke.MethodType::checkPtypes (61 bytes)   not inlineable
+                              @ 63   java.util.Arrays::copyOf (10 bytes)   not inlineable
+                              @ 71   java.lang.invoke.MethodType::checkPtypes (61 bytes)   not inlineable
+                              @ 81   java.lang.invoke.MethodType::<init> (15 bytes)   not inlineable
+                              @ 90   java.lang.invoke.MethodTypeForm::findForm (25 bytes)   not inlineable
+                              @ 101   java.lang.invoke.MethodType$ConcurrentWeakInternSet::add (66 bytes)   not inlineable
+                              @ 8   java.lang.NullPointerException::<init> (5 bytes)   not inlineable
+                              @ 13   java.lang.invoke.MethodType$ConcurrentWeakInternSet::expungeStaleElements (27 bytes)   not inlineable
+                              @ 25   java.lang.invoke.MethodType$ConcurrentWeakInternSet$WeakEntry::<init> (14 bytes)   not inlineable
+                              @ 28   java.util.concurrent.ConcurrentMap::get (10 bytes)   not inlineable
+                              @ 42   java.lang.ref.Reference::get (5 bytes)   not inlineable
+                              @ 2   java.lang.ref.WeakReference::<init> (6 bytes)   not inlineable
+                              @ 7   java.lang.Object::hashCode (0 bytes)   not inlineable
+                              @ 1   java.lang.Class::isPrimitive (0 bytes)   not inlineable
+                              @ 12   sun.invoke.util.Wrapper::forPrimitiveType (49 bytes)   not inlineable
+                              @ 15   java.lang.invoke.LambdaForm$BasicType::basicType (10 bytes)   not inlineable
+                              @ 12   java.lang.invoke.LambdaForm$Name::<init> (9 bytes)   not inlineable
+                              @ 20   java.lang.Enum::ordinal (5 bytes)   not inlineable
+                              @ 1   java.lang.Object::<init> (1 bytes)   not inlineable
+                              @ 18   jdk.internal.org.objectweb.asm.ByteVector::enlarge (51 bytes)   not inlineable
+                              @ 3   java.lang.invoke.MemberName::testFlags (16 bytes)   not inlineable
+                              @ 1   java.lang.Object::<init> (1 bytes)   not inlineable
+                              @ 18   jdk.internal.org.objectweb.asm.ByteVector::enlarge (51 bytes)   not inlineable
+                              @ 1   java.lang.Class::getName (18 bytes)   not inlineable
+                              @ 6   java.lang.String::length (11 bytes)   not inlineable
+                              @ 17   java.lang.String::charAt (25 bytes)   not inlineable
+                              @ 22   java.lang.String::charAt (25 bytes)   not inlineable
+                              @ 16   java.lang.StringBuilder::<init> (7 bytes)   not inlineable
+                              @ 20   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 25   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 29   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 32   java.lang.StringBuilder::toString (35 bytes)   not inlineable
+                              @ 35   java.lang.IllegalArgumentException::<init> (6 bytes)   not inlineable
+                              @ 54   java.lang.Math::min (11 bytes)   not inlineable
+                              @ 57   java.lang.System::arraycopy (0 bytes)   not inlineable
+                              @ 9   java.util.Arrays::copyOfRange (63 bytes)   not inlineable
+                              @ 13   java.lang.String::<init> (15 bytes)   not inlineable
+                              @ 1   sun.invoke.util.Wrapper::findPrimitiveType (25 bytes)   not inlineable
+                              @ 12   java.lang.Class::isPrimitive (0 bytes)   not inlineable
+                              @ 22  java/lang/InternalError::<init> (not loaded)   not inlineable
+                              @ 30   java.lang.StringBuilder::<init> (7 bytes)   not inlineable
+                              @ 35   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 39   java.lang.StringBuilder::append (9 bytes)   not inlineable
+                              @ 42   java.lang.StringBuilder::toString (35 bytes)   not inlineable
+                              @ 45   sun.invoke.util.Wrapper::newIllegalArgumentException (9 bytes)   not inlineable
+                              @ 4   sun.invoke.util.Wrapper::hashPrim (30 bytes)   not inlineable
+                              @ 24   java.lang.invoke.MethodType::checkPtype (19 bytes)   not inlineable
+                              @ 56   java.lang.invoke.MethodType::checkSlotCount (33 bytes)   not inlineable
+                              @ 14   java.lang.Class::getComponentType (14 bytes)   not inlineable
+                              @ 18   java.lang.reflect.Array::newInstance (6 bytes)   not inlineable
+                              @ 32   java.lang.Math::min (11 bytes)   not inlineable
+                              @ 35   java.lang.System::arraycopy (0 bytes)   not inlineable
+                              @ 80   java.lang.invoke.LambdaForm::argument (27 bytes)   not inlineable
+                              @ 822   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 955   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 979   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 964   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 970   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 988   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 994   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1006   jdk.internal.org.objectweb.asm.ClassWriter::addType (39 bytes)   not inlineable
+                              @ 1010   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1022   jdk.internal.org.objectweb.asm.ClassWriter::addType (39 bytes)   not inlineable
+                              @ 1026   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1038   jdk.internal.org.objectweb.asm.ClassWriter::addType (39 bytes)   not inlineable
+                              @ 1042   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1054   jdk.internal.org.objectweb.asm.ClassWriter::addType (39 bytes)   not inlineable
+                              @ 1058   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 831   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 840   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 846   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 855   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 864   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 870   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1067   jdk.internal.org.objectweb.asm.Frame::get (46 bytes)   not inlineable
+                              @ 1070   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1112   jdk.internal.org.objectweb.asm.Frame::pop (45 bytes)   not inlineable
+                              @ 1118   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1146   jdk.internal.org.objectweb.asm.Frame::pop (45 bytes)   not inlineable
+                              @ 1150   jdk.internal.org.objectweb.asm.Frame::pop (43 bytes)   not inlineable
+                              @ 1173   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1078   jdk.internal.org.objectweb.asm.Frame::pop (45 bytes)   not inlineable
+                              @ 1084   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1258   jdk.internal.org.objectweb.asm.Frame::pop (45 bytes)   not inlineable
+                              @ 1262   jdk.internal.org.objectweb.asm.Frame::pop (43 bytes)   not inlineable
+                              @ 1271   jdk.internal.org.objectweb.asm.Frame::set (65 bytes)   not inlineable
+                              @ 1280   jdk.internal.org.objectweb.asm.Frame::set (65 bytes)   not inlineable
+                              @ 1291   jdk.internal.org.objectweb.asm.Frame::get (46 bytes)   not inlineable
+                              @ 1341   jdk.internal.org.objectweb.asm.Frame::set (65 bytes)   not inlineable
+                              @ 1316   jdk.internal.org.objectweb.asm.Frame::set (65 bytes)   not inlineable
+                              @ 1180   jdk.internal.org.objectweb.asm.Frame::pop (43 bytes)   not inlineable
+                              @ 1189   jdk.internal.org.objectweb.asm.Frame::set (65 bytes)   not inlineable
+                              @ 1200   jdk.internal.org.objectweb.asm.Frame::get (46 bytes)   not inlineable
+                              @ 1250   jdk.internal.org.objectweb.asm.Frame::set (65 bytes)   not inlineable
+                              @ 1225   jdk.internal.org.objectweb.asm.Frame::set (65 bytes)   not inlineable
+                              @ 1357   jdk.internal.org.objectweb.asm.Frame::pop (45 bytes)   not inlineable
+                              @ 1349   jdk.internal.org.objectweb.asm.Frame::pop (45 bytes)   not inlineable
+                              @ 1380   jdk.internal.org.objectweb.asm.Frame::pop (43 bytes)   not inlineable
+                              @ 1388   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1394   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1401   jdk.internal.org.objectweb.asm.Frame::pop (43 bytes)   not inlineable
+                              @ 1407   jdk.internal.org.objectweb.asm.Frame::pop (43 bytes)   not inlineable
+                              @ 1415   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1421   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1427   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1434   jdk.internal.org.objectweb.asm.Frame::pop (43 bytes)   not inlineable
+                              @ 1440   jdk.internal.org.objectweb.asm.Frame::pop (43 bytes)   not inlineable
+                              @ 1446   jdk.internal.org.objectweb.asm.Frame::pop (43 bytes)   not inlineable
+                              @ 1454   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1460   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1466   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1472   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1479   jdk.internal.org.objectweb.asm.Frame::pop (43 bytes)   not inlineable
+                              @ 1485   jdk.internal.org.objectweb.asm.Frame::pop (43 bytes)   not inlineable
+                              @ 1493   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1499   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1505   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1511   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1518   jdk.internal.org.objectweb.asm.Frame::pop (43 bytes)   not inlineable
+                              @ 1524   jdk.internal.org.objectweb.asm.Frame::pop (43 bytes)   not inlineable
+                              @ 1530   jdk.internal.org.objectweb.asm.Frame::pop (43 bytes)   not inlineable
+                              @ 1538   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1544   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1550   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1556   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1562   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1569   jdk.internal.org.objectweb.asm.Frame::pop (43 bytes)   not inlineable
+                              @ 1575   jdk.internal.org.objectweb.asm.Frame::pop (43 bytes)   not inlineable
+                              @ 1581   jdk.internal.org.objectweb.asm.Frame::pop (43 bytes)   not inlineable
+                              @ 1587   jdk.internal.org.objectweb.asm.Frame::pop (43 bytes)   not inlineable
+                              @ 1595   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1601   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1607   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1613   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1619   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1625   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1632   jdk.internal.org.objectweb.asm.Frame::pop (43 bytes)   not inlineable
+                              @ 1638   jdk.internal.org.objectweb.asm.Frame::pop (43 bytes)   not inlineable
+                              @ 1646   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1652   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1708   jdk.internal.org.objectweb.asm.Frame::pop (45 bytes)   not inlineable
+                              @ 1714   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1720   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1728   jdk.internal.org.objectweb.asm.Frame::pop (45 bytes)   not inlineable
+                              @ 1734   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1740   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1674   jdk.internal.org.objectweb.asm.Frame::pop (45 bytes)   not inlineable
+                              @ 1680   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1686   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1750   jdk.internal.org.objectweb.asm.Frame::set (65 bytes)   not inlineable
+                              @ 1778   jdk.internal.org.objectweb.asm.Frame::pop (45 bytes)   not inlineable
+                              @ 1784   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1126   jdk.internal.org.objectweb.asm.Frame::pop (45 bytes)   not inlineable
+                              @ 1132   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1138   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1758   jdk.internal.org.objectweb.asm.Frame::pop (45 bytes)   not inlineable
+                              @ 1764   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1770   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1792   jdk.internal.org.objectweb.asm.Frame::pop (45 bytes)   not inlineable
+                              @ 1798   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1804   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1092   jdk.internal.org.objectweb.asm.Frame::pop (45 bytes)   not inlineable
+                              @ 1098   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1104   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1694   jdk.internal.org.objectweb.asm.Frame::pop (45 bytes)   not inlineable
+                              @ 1700   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1660   jdk.internal.org.objectweb.asm.Frame::pop (45 bytes)   not inlineable
+                              @ 1666   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1826   jdk.internal.org.objectweb.asm.Frame::pop (45 bytes)   not inlineable
+                              @ 1832   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1844   java.lang.RuntimeException::<init> (6 bytes)   not inlineable
+                              @ 1373   jdk.internal.org.objectweb.asm.Frame::pop (45 bytes)   not inlineable
+                              @ 1855   jdk.internal.org.objectweb.asm.Frame::push (34 bytes)   not inlineable
+                              @ 1867   jdk.internal.org.objectweb.asm.Frame::pop (53 bytes)   not inlineable
+                              @ 1875   jdk.internal.org.objectweb.asm.Frame::pop (45 bytes)   not inlineable
+                              @ 1885   jdk.internal.org.objectweb.asm.Frame::push (34 bytes)   not inlineable
+                              @ 1897   jdk.internal.org.objectweb.asm.Frame::pop (53 bytes)   not inlineable
+                              @ 1901   jdk.internal.org.objectweb.asm.Frame::pop (43 bytes)   not inlineable
+                              @ 1914   jdk.internal.org.objectweb.asm.Frame::pop (53 bytes)   not inlineable
+                              @ 1925   jdk.internal.org.objectweb.asm.Frame::pop (43 bytes)   not inlineable
+                              @ 1943   java.lang.String::charAt (25 bytes)   not inlineable
+                              @ 1954   jdk.internal.org.objectweb.asm.Frame::init (77 bytes)   not inlineable
+                              @ 1964   jdk.internal.org.objectweb.asm.Frame::push (34 bytes)   not inlineable
+                              @ 1976   jdk.internal.org.objectweb.asm.Frame::pop (53 bytes)   not inlineable
+                              @ 1986   jdk.internal.org.objectweb.asm.Frame::push (34 bytes)   not inlineable
+                              @ 2002   jdk.internal.org.objectweb.asm.ClassWriter::addUninitializedType (71 bytes)   not inlineable
+                              @ 2006   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 2013   jdk.internal.org.objectweb.asm.Frame::pop (43 bytes)   not inlineable
+                              @ 2063   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 2072   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 2108   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 2117   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 2081   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 2090   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 2099   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 2126   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 2140   jdk.internal.org.objectweb.asm.Frame::pop (43 bytes)   not inlineable
+                              @ 2147   java.lang.String::charAt (25 bytes)   not inlineable
+                              @ 2161   java.lang.StringBuilder::<init> (7 bytes)   not inlineable
+                              @ 2166   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 2171   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 2174   java.lang.StringBuilder::toString (35 bytes)   not inlineable
+                              @ 2177   jdk.internal.org.objectweb.asm.Frame::push (34 bytes)   not inlineable
+                              @ 2189   jdk.internal.org.objectweb.asm.ClassWriter::addType (39 bytes)   not inlineable
+                              @ 2193   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 2207   jdk.internal.org.objectweb.asm.Frame::pop (43 bytes)   not inlineable
+                              @ 2214   java.lang.String::charAt (25 bytes)   not inlineable
+                              @ 2226   jdk.internal.org.objectweb.asm.Frame::push (34 bytes)   not inlineable
+                              @ 2238   jdk.internal.org.objectweb.asm.ClassWriter::addType (39 bytes)   not inlineable
+                              @ 2242   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1812   jdk.internal.org.objectweb.asm.Frame::pop (45 bytes)   not inlineable
+                              @ 1818   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 1365   jdk.internal.org.objectweb.asm.Frame::pop (45 bytes)   not inlineable
+                              @ 2250   jdk.internal.org.objectweb.asm.Frame::pop (45 bytes)   not inlineable
+                              @ 2260   jdk.internal.org.objectweb.asm.Frame::push (34 bytes)   not inlineable
+                              @ 8   jdk.internal.org.objectweb.asm.Item::set (219 bytes)   not inlineable
+                              @ 16   jdk.internal.org.objectweb.asm.ClassWriter::get (49 bytes)   not inlineable
+                              @ 29   jdk.internal.org.objectweb.asm.ByteVector::putByte (39 bytes)   not inlineable
+                              @ 33   jdk.internal.org.objectweb.asm.ByteVector::putUTF8 (142 bytes)   not inlineable
+                              @ 56   jdk.internal.org.objectweb.asm.Item::<init> (66 bytes)   not inlineable
+                              @ 62   jdk.internal.org.objectweb.asm.ClassWriter::put (152 bytes)   not inlineable
+                              @ 8   java.lang.Class::isArray (0 bytes)   not inlineable
+                              @ 15   java.lang.Class::getComponentType (14 bytes)   not inlineable
+                              @ 23   java.lang.Class::isPrimitive (0 bytes)   not inlineable
+                              @ 38   java.lang.Class::getClassLoader (28 bytes)   not inlineable
+                              @ 43   java.lang.Class::getClassLoader (28 bytes)   not inlineable
+                              @ 69   java.lang.Class::getName (18 bytes)   not inlineable
+                              @ 74   java.lang.String::startsWith (7 bytes)   not inlineable
+                              @ 83   java.lang.Class::getName (18 bytes)   not inlineable
+                              @ 95  sun/invoke/util/VerifyAccess$1::<init> (not loaded)   not inlineable
+                              @ 98   java.security.AccessController::doPrivileged (0 bytes)   not inlineable
+                              @ 1   java.lang.Object::<init> (1 bytes)   not inlineable
+                              @ 41   java.util.Objects::equals (23 bytes)   not inlineable
+                              @ 18   jdk.internal.org.objectweb.asm.ByteVector::enlarge (51 bytes)   not inlineable
+                              @ 38   java.lang.Math::max (11 bytes)   not inlineable
+                              @ 52   java.lang.System::arraycopy (0 bytes)   not inlineable
+                              @ 11   java.lang.ref.Reference::get (5 bytes)   not inlineable
+                              @ 16   java.lang.ref.Reference::get (5 bytes)   not inlineable
+                              @ 43   java.lang.Object::equals (11 bytes)   not inlineable
+                              @ 17   java.lang.invoke.MethodType::equals (31 bytes)   not inlineable
+                              @ 19   java.util.Arrays::equals (57 bytes)   not inlineable
+                              @ 3   java.lang.invoke.MemberName::testAllFlags (7 bytes)   not inlineable
+                              @ 2   java.lang.AbstractStringBuilder::append (45 bytes)   not inlineable
+                              @ 5   java.lang.AbstractStringBuilder::appendNull (83 bytes)   not inlineable
+                              @ 10   java.lang.String::length (11 bytes)   not inlineable
+                              @ 21   java.lang.AbstractStringBuilder::ensureCapacityInternal (39 bytes)   not inlineable
+                              @ 30   java.lang.AbstractStringBuilder::putStringAt (29 bytes)   not inlineable
+                              @ 1   java.lang.AbstractStringBuilder::getCoder (15 bytes)   not inlineable
+                              @ 5   java.lang.String::coder (15 bytes)   not inlineable
+                              @ 12   java.lang.AbstractStringBuilder::inflate (42 bytes)   not inlineable
+                              @ 25   java.lang.String::getBytes (44 bytes)   not inlineable
+                              @ 1   java.lang.String::coder (15 bytes)   not inlineable
+                              @ 22   java.lang.System::arraycopy (0 bytes)   not inlineable
+                              @ 40   java.lang.StringLatin1::inflate (10 bytes)   not inlineable
+                              @ 4   java.lang.reflect.Modifier::isStatic (13 bytes)   not inlineable
+                              @ 11   java.lang.invoke.MethodHandle::type (5 bytes)   not inlineable
+                              @ 19   java.lang.invoke.MemberName::getInvocationType (56 bytes)   not inlineable
+                              @ 234   java.lang.String::equals (65 bytes)   not inlineable
+                              @ 248   java.lang.String::equals (65 bytes)   not inlineable
+                              @ 280   java.lang.String::equals (65 bytes)   not inlineable
+                              @ 294   java.lang.String::equals (65 bytes)   not inlineable
+                              @ 156   java.lang.String::equals (65 bytes)   not inlineable
+                              @ 214   java.lang.String::equals (65 bytes)   not inlineable
+                              @ 314   java.lang.String::equals (65 bytes)   not inlineable
+                              @ 328   java.lang.String::equals (65 bytes)   not inlineable
+                              @ 342   java.lang.String::equals (65 bytes)   not inlineable
+                              @ 84   jdk.internal.org.objectweb.asm.MethodWriter::noSuccessor (95 bytes)   not inlineable
+                              @ 44   jdk.internal.org.objectweb.asm.Frame::execute (2264 bytes)   not inlineable
+                              @ 225   jdk.internal.org.objectweb.asm.ByteVector::putByte (39 bytes)   not inlineable
+                              @ 246   jdk.internal.org.objectweb.asm.ByteVector::putByte (39 bytes)   not inlineable
+                              @ 251   jdk.internal.org.objectweb.asm.ByteVector::put12 (64 bytes)   not inlineable
+                              @ 264   jdk.internal.org.objectweb.asm.ByteVector::put11 (52 bytes)   not inlineable
+                              @ 293   jdk.internal.org.objectweb.asm.Label::<init> (5 bytes)   not inlineable
+                              @ 296   jdk.internal.org.objectweb.asm.MethodWriter::visitLabel (321 bytes)   not inlineable
+                              @ 1   java.lang.Object::<init> (1 bytes)   not inlineable
+                              @ 1   java.lang.Number::<init> (5 bytes)   not inlineable
+                              @ 19   java.lang.String::isLatin1 (19 bytes)   already compiled into a big method
+                              @ 29   java.lang.StringLatin1::hashCode (42 bytes)   not an accessor
+                              @ 148   java.lang.StringBuilder::<init> (7 bytes)   not inlineable
+                              @ 153   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 157   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 162   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 165   java.lang.StringBuilder::toString (35 bytes)   not inlineable
+                              @ 168   java.lang.invoke.MethodHandleStatics::newInternalError (9 bytes)   not inlineable
+                              @ 2   java.lang.AbstractStringBuilder::append (77 bytes)   not inlineable
+                              @ 7   java.lang.AbstractStringBuilder::ensureCapacityInternal (39 bytes)   not inlineable
+                              @ 11   java.lang.AbstractStringBuilder::isLatin1 (19 bytes)   not inlineable
+                              @ 18   java.lang.StringLatin1::canEncode (13 bytes)   not inlineable
+                              @ 46   java.lang.AbstractStringBuilder::isLatin1 (19 bytes)   not inlineable
+                              @ 53   java.lang.AbstractStringBuilder::inflate (42 bytes)   not inlineable
+                              @ 72  java/lang/StringUTF16::putCharSB (not loaded)   not inlineable
+                              @ 121   java.lang.Object::clone (0 bytes)   not inlineable
+                              @ 170   java.lang.invoke.LambdaForm$Name::<init> (44 bytes)   not inlineable
+                              @ 3   java.lang.invoke.LambdaForm$NamedFunction::returnType (11 bytes)   not inlineable
+                              @ 12   java.util.Arrays::copyOf (40 bytes)   not inlineable
+                              @ 17   java.lang.invoke.LambdaForm$Name::<init> (54 bytes)   not inlineable
+                              @ 1   java.lang.invoke.LambdaForm$NamedFunction::methodType (23 bytes)   not inlineable
+                              @ 4   java.lang.invoke.MethodType::returnType (5 bytes)   not inlineable
+                              @ 7   java.lang.invoke.LambdaForm$BasicType::basicType (19 bytes)   not inlineable
+                              @ 1   java.lang.Object::<init> (1 bytes)   not inlineable
+                              @ 1   java.lang.AbstractStringBuilder::isLatin1 (19 bytes)   not inlineable
+                              @ 16   java.lang.StringLatin1::newString (17 bytes)   not inlineable
+                              @ 31  java/lang/StringUTF16::newString (not loaded)   not inlineable
+                              @ 3   java.lang.AbstractStringBuilder::<init> (39 bytes)   not inlineable
+                              @ 24   java.lang.invoke.LambdaForm$BasicType::basicTypeClass (5 bytes)   not inlineable
+                              @ 42   java.lang.Enum::ordinal (5 bytes)   not inlineable
+                              @ 108   sun.invoke.util.VerifyType::isNullConversion (157 bytes)   not inlineable
+                              @ 116   java.lang.invoke.LambdaForm$BasicType::basicTypeWrapper (5 bytes)   not inlineable
+                              @ 120   sun.invoke.util.Wrapper::forPrimitiveType (49 bytes)   not inlineable
+                              @ 123   java.lang.invoke.InvokerBytecodeGenerator::emitPrimCast (328 bytes)   not inlineable
+                              @ 76   sun.invoke.util.VerifyType::isNullConversion (157 bytes)   not inlineable
+                              @ 99   java.lang.invoke.InvokerBytecodeGenerator::emitReferenceCast (185 bytes)   not inlineable
+                              @ 131   java.lang.StringBuilder::<init> (7 bytes)   not inlineable
+                              @ 136   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 140   java.lang.StringBuilder::append (9 bytes)   not inlineable
+                              @ 145   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 149   java.lang.StringBuilder::append (9 bytes)   not inlineable
+                              @ 152   java.lang.StringBuilder::toString (35 bytes)   not inlineable
+                              @ 155   java.lang.invoke.MethodHandleStatics::newInternalError (9 bytes)   not inlineable
+                              @ 1   java.lang.String::isLatin1 (19 bytes)   not inlineable
+                              @ 13   java.lang.StringLatin1::indexOf (61 bytes)   not inlineable
+                              @ 25  java/lang/StringUTF16::indexOf (not loaded)   not inlineable
+                              @ 1   java.lang.invoke.LambdaForm$BasicType::basicType (19 bytes)   not inlineable
+                              @ 26   java.lang.invoke.LambdaForm$Name::index (5 bytes)   not inlineable
+                              @ 29   java.lang.invoke.InvokerBytecodeGenerator::emitLoadInsn (21 bytes)   not inlineable
+                              @ 41   java.lang.invoke.InvokerBytecodeGenerator::emitImplicitConversion (159 bytes)   not inlineable
+                              @ 67   java.lang.invoke.InvokerBytecodeGenerator::emitConst (333 bytes)   not inlineable
+                              @ 74   java.lang.Object::getClass (0 bytes)   not inlineable
+                              @ 77   sun.invoke.util.Wrapper::isWrapperType (13 bytes)   not inlineable
+                              @ 92   java.lang.invoke.InvokerBytecodeGenerator::emitConst (333 bytes)   not inlineable
+                              @ 104   java.lang.invoke.InvokerBytecodeGenerator::constantPlaceholder (97 bytes)   not inlineable
+                              @ 107   jdk.internal.org.objectweb.asm.MethodVisitor::visitLdcInsn (16 bytes)   not inlineable
+                              @ 116   java.lang.invoke.InvokerBytecodeGenerator::emitImplicitConversion (159 bytes)   not inlineable
+                              @ 2   java.lang.invoke.InvokerBytecodeGenerator::loadInsnOpcode (86 bytes)   not inlineable
+                              @ 17   jdk.internal.org.objectweb.asm.MethodVisitor::visitVarInsn (17 bytes)   not inlineable
+                              @ 4   java.lang.Enum::ordinal (5 bytes)   not inlineable
+                              @ 67   java.lang.StringBuilder::<init> (7 bytes)   not inlineable
+                              @ 72   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 76   java.lang.StringBuilder::append (9 bytes)   not inlineable
+                              @ 79   java.lang.StringBuilder::toString (35 bytes)   not inlineable
+                              @ 82  java/lang/InternalError::<init> (not loaded)   not inlineable
+Start search variable size substring in string (33 chars)
+                              @ 1   java.lang.String::isLatin1 (19 bytes)   not inlineable
+                              @ 11   java.lang.StringLatin1::toChars (16 bytes)   not inlineable
+                              @ 21   java.lang.StringUTF16::toChars (18 bytes)   not inlineable
+                              @ 11   java.lang.StringLatin1::inflate (34 bytes)   not inlineable
+                              @ 6   java.lang.String::<init> (74 bytes)   not inlineable
+                              @ 1   java.lang.Object::<init> (1 bytes)   not inlineable
+                              @ 36   java.lang.StringUTF16::compress (20 bytes)   not inlineable
+                              @ 67   java.lang.StringUTF16::toBytes (34 bytes)   not inlineable
+                              @ 9   java.lang.StringUTF16::compress (50 bytes)   not inlineable
+                              @ 1   sun.invoke.util.Wrapper::basicTypeChar (5 bytes)   not inlineable
+                              @ 6   java.lang.invoke.LambdaForm$BasicType::basicType (172 bytes)   not inlineable
+                              @ 2   java.lang.invoke.LambdaForm::parameter (52 bytes)   not inlineable
+                              @ 8   java.lang.invoke.MemberName::expandFromVM (21 bytes)   not inlineable
+                              @ 21   java.lang.invoke.MemberName::isInvocable (7 bytes)   not inlineable
+                              @ 29   java.lang.invoke.MethodHandleStatics::newIllegalArgumentException (9 bytes)   not inlineable
+                              @ 76   java.lang.StringBuilder::<init> (7 bytes)   not inlineable
+                              @ 81   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 85   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 88   java.lang.StringBuilder::toString (35 bytes)   not inlineable
+                              @ 92   java.lang.invoke.MemberName::getClassLoader (8 bytes)   not inlineable
+                              @ 95   java.lang.invoke.MethodType::fromDescriptor (88 bytes)   not inlineable
+                              @ 100   java.lang.invoke.MethodType::returnType (5 bytes)   not inlineable
+                              @ 4   java.lang.invoke.MethodTypeForm::parameterSlotCount (9 bytes)   not inlineable
+                              @ 5   java.lang.invoke.MethodTypeForm::unpack (30 bytes)   not inlineable
+                              @ 3   java.lang.String::indexOf (29 bytes)   not inlineable
+                              @ 18   jdk.internal.org.objectweb.asm.ByteVector::enlarge (51 bytes)   not inlineable
+                              @ 1   java.lang.invoke.MemberName::isInvocable (7 bytes)   not inlineable
+               !m             @ 8   java.lang.invoke.MemberName::getMethodType (203 bytes)   not inlineable
+                              @ 13   java.lang.invoke.MemberName::isGetter (8 bytes)   not inlineable
+               !m             @ 20   java.lang.invoke.MemberName::getFieldType (177 bytes)   not inlineable
+                              @ 23   java.lang.invoke.MethodType::methodType (9 bytes)   not inlineable
+                              @ 28   java.lang.invoke.MemberName::isSetter (8 bytes)   not inlineable
+               !m             @ 38   java.lang.invoke.MemberName::getFieldType (177 bytes)   not inlineable
+                              @ 41   java.lang.invoke.MethodType::methodType (14 bytes)   not inlineable
+                              @ 53   java.lang.StringBuilder::<init> (7 bytes)   not inlineable
+                              @ 58   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 62   java.lang.StringBuilder::append (9 bytes)   not inlineable
+                              @ 65   java.lang.StringBuilder::toString (35 bytes)   not inlineable
+                              @ 68  java/lang/InternalError::<init> (not loaded)   not inlineable
+                              @ 8   jdk.internal.org.objectweb.asm.Item::set (219 bytes)   not inlineable
+                              @ 16   jdk.internal.org.objectweb.asm.ClassWriter::get (49 bytes)   not inlineable
+                              @ 31   jdk.internal.org.objectweb.asm.ClassWriter::newUTF8 (70 bytes)   not inlineable
+                              @ 34   jdk.internal.org.objectweb.asm.ByteVector::put12 (64 bytes)   not inlineable
+                              @ 57   jdk.internal.org.objectweb.asm.Item::<init> (66 bytes)   not inlineable
+                              @ 63   jdk.internal.org.objectweb.asm.ClassWriter::put (152 bytes)   not inlineable
+                              @ 6   jdk.internal.org.objectweb.asm.ByteVector::put12 (64 bytes)   not inlineable
+                              @ 10   jdk.internal.org.objectweb.asm.ByteVector::putShort (52 bytes)   not inlineable
+                              @ 4   sun.invoke.util.Wrapper::stackSlots (9 bytes)   not inlineable
+                              @ 2   java.lang.String::charAt (25 bytes)   not inlineable
+                              @ 13   java.lang.String::indexOf (7 bytes)   not inlineable
+                              @ 25   java.lang.String::charAt (25 bytes)   not inlineable
+                              @ 163   java.lang.String::length (11 bytes)   not inlineable
+                              @ 168   java.lang.String::substring (58 bytes)   not inlineable
+                              @ 176   jdk.internal.org.objectweb.asm.ClassWriter::addType (39 bytes)   not inlineable
+                              @ 189   java.lang.String::charAt (25 bytes)   not inlineable
+                              @ 206   java.lang.String::charAt (25 bytes)   not inlineable
+                              @ 386   java.lang.String::length (11 bytes)   not inlineable
+                              @ 391   java.lang.String::substring (58 bytes)   not inlineable
+                              @ 399   jdk.internal.org.objectweb.asm.ClassWriter::addType (39 bytes)   not inlineable
+                              @ 24   java.lang.invoke.MethodType::checkPtypes (61 bytes)   not inlineable
+                              @ 30   java.lang.invoke.MethodType::parameterSlotCount (8 bytes)   not inlineable
+                              @ 39   java.lang.invoke.MethodType::checkSlotCount (33 bytes)   not inlineable
+                              @ 75   java.lang.System::arraycopy (0 bytes)   not inlineable
+                              @ 85   java.lang.System::arraycopy (0 bytes)   not inlineable
+                              @ 107   java.lang.System::arraycopy (0 bytes)   not inlineable
+                              @ 117   java.lang.invoke.MethodType::makeImpl (108 bytes)   not inlineable
+                              @ 16   java.lang.Integer::valueOf (32 bytes)   not inlineable
+                              @ 19   java.lang.invoke.MethodType::newIndexOutOfBoundsException (39 bytes)   not inlineable
+                              @ 8   java.lang.invoke.MemberName::expandFromVM (21 bytes)   not inlineable
+                              @ 21   java.lang.invoke.MemberName::isInvocable (7 bytes)   not inlineable
+                              @ 29   java.lang.invoke.MethodHandleStatics::newIllegalArgumentException (9 bytes)   not inlineable
+                              @ 74   java.lang.invoke.MemberName::getClassLoader (8 bytes)   not inlineable
+                              @ 77   java.lang.invoke.MethodType::fromDescriptor (88 bytes)   not inlineable
+                              @ 126   java.lang.invoke.MethodType::makeImpl (108 bytes)   not inlineable
+                              @ 83   java.lang.Class::getName (18 bytes)   not inlineable
+                              @ 90   java.lang.String::replace (42 bytes)   not inlineable
+                              @ 9   java.lang.String::charAt (25 bytes)   not inlineable
+                              @ 21   java.lang.String::charAt (25 bytes)   not inlineable
+                              @ 68   java.lang.String::charAt (25 bytes)   not inlineable
+                              @ 93   java.lang.String::charAt (25 bytes)   not inlineable
+                              @ 9   jdk.internal.org.objectweb.asm.Item::set (219 bytes)   not inlineable
+                              @ 17   jdk.internal.org.objectweb.asm.ClassWriter::get (49 bytes)   not inlineable
+                              @ 30   jdk.internal.org.objectweb.asm.ClassWriter::addType (103 bytes)   not inlineable
+                              @ 12   java.lang.Class::isInterface (0 bytes)   not inlineable
+                              @ 22   java.lang.Class::isInterface (0 bytes)   not inlineable
+                              @ 39   sun.invoke.util.VerifyType::isNullType (18 bytes)   not inlineable
+                              @ 46   java.lang.Class::isPrimitive (0 bytes)   not inlineable
+                              @ 59   java.lang.Class::isPrimitive (0 bytes)   not inlineable
+                              @ 67   java.lang.Class::isAssignableFrom (0 bytes)   not inlineable
+                              @ 72   java.lang.Class::isPrimitive (0 bytes)   not inlineable
+                              @ 81   sun.invoke.util.Wrapper::forPrimitiveType (49 bytes)   not inlineable
+                              @ 93   sun.invoke.util.Wrapper::isSubwordOrInt (20 bytes)   not inlineable
+                              @ 98   sun.invoke.util.Wrapper::forPrimitiveType (49 bytes)   not inlineable
+                              @ 104   sun.invoke.util.Wrapper::isSubwordOrInt (20 bytes)   not inlineable
+                              @ 114   sun.invoke.util.Wrapper::isSubwordOrInt (20 bytes)   not inlineable
+                              @ 124   sun.invoke.util.Wrapper::isSigned (13 bytes)   not inlineable
+                              @ 131   sun.invoke.util.Wrapper::isSigned (13 bytes)   not inlineable
+                              @ 141   sun.invoke.util.Wrapper::bitWidth (11 bytes)   not inlineable
+                              @ 145   sun.invoke.util.Wrapper::bitWidth (11 bytes)   not inlineable
+                              @ 1   java.lang.Class::getClassLoader0 (5 bytes)   not inlineable
+                              @ 11   java.lang.System::getSecurityManager (4 bytes)   not inlineable
+                              @ 20   jdk.internal.reflect.Reflection::getCallerClass (0 bytes)   not inlineable
+                              @ 23   java.lang.ClassLoader::checkClassLoaderPermission (29 bytes)   not inlineable
+                              @ 2   java.lang.invoke.LambdaForm$Name::initIndex (26 bytes)   not inlineable
+                              @ 12   java.lang.invoke.LambdaForm$Name::cloneWithIndex (47 bytes)   not inlineable
+                              @ 30   java.lang.invoke.LambdaForm$Name::isParam (13 bytes)   not inlineable
+                              @ 48   java.lang.invoke.LambdaForm::internArgument (84 bytes)   not inlineable
+                              @ 4   jdk.internal.org.objectweb.asm.ClassWriter::newStringishItem (68 bytes)   not inlineable
+                              @ 8   java.lang.invoke.MemberName::expandFromVM (21 bytes)   not inlineable
+                              @ 22   java.lang.StringBuilder::<init> (7 bytes)   not inlineable
+                              @ 27   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 31   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 36   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 40   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 45   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 49   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 52   java.lang.StringBuilder::toString (35 bytes)   not inlineable
+                              @ 55  java/lang/StringIndexOutOfBoundsException::<init> (not loaded)   not inlineable
+                              @ 32   java.lang.Math::max (11 bytes)   not inlineable
+                              @ 48   java.lang.System::arraycopy (0 bytes)   not inlineable
+                              @ 1   java.lang.String::length (11 bytes)   not inlineable
+                              @ 8   java.lang.String::checkBoundsBeginEnd (60 bytes)   not inlineable
+                              @ 28   java.lang.String::isLatin1 (19 bytes)   not inlineable
+                              @ 41   java.lang.StringLatin1::newString (17 bytes)   not inlineable
+                              @ 54   java.lang.StringUTF16::newString (50 bytes)   not inlineable
+                              @ 1   java.lang.invoke.MemberName::getMethodOrFieldType (72 bytes)   not inlineable
+                              @ 6   java.lang.invoke.MemberName::isConstructor (7 bytes)   not inlineable
+                              @ 13   java.lang.invoke.MemberName::getReferenceKind (12 bytes)   not inlineable
+                              @ 26   java.lang.invoke.MethodType::changeReturnType (20 bytes)   not inlineable
+                              @ 31   java.lang.invoke.MemberName::isStatic (8 bytes)   not inlineable
+                              @ 50   java.lang.invoke.MethodType::insertParameterTypes (121 bytes)   not inlineable
+                              @ 3   java.lang.invoke.MemberName::testAllFlags (7 bytes)   not inlineable
+                              @ 19   java.lang.invoke.MethodTypeForm::canonicalize (233 bytes)   not inlineable
+                              @ 45   java.lang.Object::clone (0 bytes)   not inlineable
+                              @ 3   java.lang.Object::getClass (0 bytes)   not inlineable
+                              @ 6   java.util.Arrays::copyOf (40 bytes)   not inlineable
+                              @ 20   java.lang.invoke.LambdaForm$Name::index (5 bytes)   not inlineable
+                              @ 23   java.lang.invoke.InvokerBytecodeGenerator::emitStoreInsn (21 bytes)   not inlineable
+                              @ 7   java.lang.invoke.MemberName::isConstructor (7 bytes)   not inlineable
+                              @ 16   java.lang.invoke.MemberName::getDeclaringClass (5 bytes)   not inlineable
+                              @ 23   java.lang.Class::isAssignableFrom (0 bytes)   not inlineable
+                              @ 30   java.lang.invoke.MemberName::isPrivate (8 bytes)   not inlineable
+                              @ 63   java.lang.Class::isArray (0 bytes)   not inlineable
+                              @ 70   java.lang.Class::isPrimitive (0 bytes)   not inlineable
+                              @ 79   java.lang.Class::isAnonymousClass (27 bytes)   not inlineable
+                              @ 86   java.lang.Class::isLocalClass (27 bytes)   not inlineable
+                              @ 95   java.lang.Class::getClassLoader (28 bytes)   not inlineable
+                              @ 100   java.lang.Class::getClassLoader (28 bytes)   not inlineable
+                              @ 109  sun/reflect/misc/ReflectUtil::isVMAnonymousClass (not loaded)   not inlineable
+                              @ 118   java.lang.invoke.MemberName::getMethodOrFieldType (72 bytes)   not inlineable
+                              @ 121   java.lang.invoke.InvokerBytecodeGenerator::isStaticallyInvocableType (50 bytes)   not inlineable
+                              @ 130   java.lang.invoke.MemberName::isPrivate (8 bytes)   not inlineable
+                              @ 139   sun.invoke.util.VerifyAccess::isSamePackage (32 bytes)   not inlineable
+                              @ 148   java.lang.invoke.MemberName::isPublic (8 bytes)   not inlineable
+                              @ 155   java.lang.invoke.InvokerBytecodeGenerator::isStaticallyNameable (148 bytes)   not inlineable
+                              @ 4   java.lang.reflect.Modifier::isPrivate (12 bytes)   not inlineable
+                              @ 29   java.lang.invoke.MemberName::getDeclaringClass (5 bytes)   not inlineable
+                              @ 35   java.lang.invoke.InvokerBytecodeGenerator::getInternalName (98 bytes)   not inlineable
+                              @ 41   java.lang.invoke.MemberName::getName (25 bytes)   not inlineable
+                              @ 47   java.lang.invoke.MemberName::getReferenceKind (12 bytes)   not inlineable
+                              @ 117   java.lang.invoke.InvokerBytecodeGenerator::emitPushArguments (45 bytes)   not inlineable
+                              @ 121   java.lang.invoke.MemberName::isMethod (7 bytes)   not inlineable
+               !m             @ 128   java.lang.invoke.MemberName::getMethodType (203 bytes)   not inlineable
+                              @ 131   java.lang.invoke.MethodType::toMethodDescriptorString (28 bytes)   not inlineable
+                              @ 143   java.lang.invoke.InvokerBytecodeGenerator::refKindOpcode (112 bytes)   not inlineable
+                              @ 153   java.lang.invoke.MemberName::getDeclaringClass (5 bytes)   not inlineable
+                              @ 156   java.lang.Class::isInterface (0 bytes)   not inlineable
+                              @ 159   jdk.internal.org.objectweb.asm.MethodVisitor::visitMethodInsn (68 bytes)   not inlineable
+               !m             @ 166   java.lang.invoke.MemberName::getFieldType (177 bytes)   not inlineable
+                              @ 169   java.lang.invoke.MethodType::toFieldDescriptorString (5 bytes)   not inlineable
+                              @ 181   java.lang.invoke.InvokerBytecodeGenerator::refKindOpcode (112 bytes)   not inlineable
+                              @ 190   jdk.internal.org.objectweb.asm.MethodVisitor::visitFieldInsn (20 bytes)   not inlineable
+                              @ 204   java.lang.invoke.MemberName::getInvocationType (56 bytes)   not inlineable
+                              @ 207   java.lang.invoke.MethodType::returnType (5 bytes)   not inlineable
+                              @ 243   java.lang.Class::isInterface (0 bytes)   not inlineable
+                              @ 253   java.lang.invoke.InvokerBytecodeGenerator::assertStaticType (58 bytes)   not inlineable
+                              @ 4   java.lang.invoke.LambdaForm$NamedFunction::methodType (23 bytes)   not inlineable
+                              @ 25   java.lang.invoke.MethodType::parameterType (7 bytes)   not inlineable
+                              @ 35   java.lang.invoke.InvokerBytecodeGenerator::emitPushArgument (120 bytes)   not inlineable
+                              @ 21   java.lang.invoke.LambdaForm::useCount (90 bytes)   not inlineable
+                              @ 35   java.lang.invoke.InvokerBytecodeGenerator::assertStaticType (58 bytes)   not inlineable
+                              @ 43   java.lang.invoke.InvokerBytecodeGenerator::isStaticallyNameable (148 bytes)   not inlineable
+                              @ 51   java.lang.invoke.InvokerBytecodeGenerator::getInternalName (98 bytes)   not inlineable
+                              @ 65   jdk.internal.org.objectweb.asm.MethodVisitor::visitTypeInsn (17 bytes)   not inlineable
+                              @ 77   java.lang.invoke.InvokerBytecodeGenerator::constantPlaceholder (97 bytes)   not inlineable
+                              @ 80   jdk.internal.org.objectweb.asm.MethodVisitor::visitLdcInsn (16 bytes)   not inlineable
+                              @ 92   jdk.internal.org.objectweb.asm.MethodVisitor::visitTypeInsn (17 bytes)   not inlineable
+                              @ 101   jdk.internal.org.objectweb.asm.MethodVisitor::visitInsn (16 bytes)   not inlineable
+                              @ 118   jdk.internal.org.objectweb.asm.MethodVisitor::visitMethodInsn (68 bytes)   not inlineable
+                              @ 124   java.lang.Class::isAssignableFrom (0 bytes)   not inlineable
+                              @ 139   jdk.internal.org.objectweb.asm.MethodVisitor::visitTypeInsn (17 bytes)   not inlineable
+                              @ 173   jdk.internal.org.objectweb.asm.MethodVisitor::visitInsn (16 bytes)   not inlineable
+                              @ 178   java.lang.invoke.LambdaForm$Name::index (5 bytes)   not inlineable
+                              @ 181   java.lang.invoke.InvokerBytecodeGenerator::emitAstoreInsn (9 bytes)   not inlineable
+                              @ 8   java.lang.invoke.LambdaForm::lastUseIndex (76 bytes)   not inlineable
+                              @ 33   java.lang.invoke.LambdaForm$Name::index (5 bytes)   not inlineable
+                              @ 75   java.lang.invoke.LambdaForm$Name::useCount (42 bytes)   not inlineable
+                              @ 65   java.lang.invoke.LambdaForm$Name::lastUseIndex (36 bytes)   not inlineable
+                              @ 92   java.lang.StringBuilder::<init> (7 bytes)   not inlineable
+                              @ 98   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 102   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 105   java.lang.StringBuilder::toString (35 bytes)   not inlineable
+                              @ 108  java/lang/InternalError::<init> (not loaded)   not inlineable
+                              @ 2   jdk.internal.org.objectweb.asm.Frame::type (416 bytes)   not inlineable
+                              @ 12   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 30   jdk.internal.org.objectweb.asm.Frame::push (110 bytes)   not inlineable
+                              @ 2   java.lang.invoke.InvokerBytecodeGenerator::storeInsnOpcode (86 bytes)   not inlineable
+                              @ 17   jdk.internal.org.objectweb.asm.MethodVisitor::visitVarInsn (17 bytes)   not inlineable
+                              @ 4   java.lang.Enum::ordinal (5 bytes)   not inlineable
+                              @ 67   java.lang.StringBuilder::<init> (7 bytes)   not inlineable
+                              @ 72   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 76   java.lang.StringBuilder::append (9 bytes)   not inlineable
+                              @ 79   java.lang.StringBuilder::toString (35 bytes)   not inlineable
+                              @ 82  java/lang/InternalError::<init> (not loaded)   not inlineable
+               !              @ 1   java.lang.invoke.MemberName::clone (14 bytes)   not inlineable
+                              @ 34   java.lang.invoke.MethodHandleNatives::resolve (0 bytes)   not inlineable
+                              @ 55   java.lang.invoke.MemberName::getDeclaringClass (5 bytes)   not inlineable
+                              @ 58   java.lang.invoke.MemberName::checkForTypeAlias (168 bytes)   not inlineable
+                              @ 129   java.lang.invoke.MemberName::initResolved (53 bytes)   not inlineable
+                              @ 1   java.lang.Object::clone (0 bytes)   not inlineable
+                              @ 10   java.lang.invoke.MethodHandleStatics::newInternalError (9 bytes)   not inlineable
+                              @ 1   java.lang.invoke.MemberName::isInvocable (7 bytes)   not inlineable
+               !m             @ 30   java.lang.invoke.MemberName::getMethodType (203 bytes)   not inlineable
+                              @ 39   java.lang.invoke.MethodType::erase (8 bytes)   not inlineable
+                              @ 49   sun.invoke.util.VerifyAccess::isTypeVisible (47 bytes)   not inlineable
+                              @ 64   java.lang.StringBuilder::<init> (7 bytes)   not inlineable
+                              @ 69   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 73   java.lang.StringBuilder::append (9 bytes)   not inlineable
+                              @ 78   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 82   java.lang.StringBuilder::append (9 bytes)   not inlineable
+                              @ 85   java.lang.StringBuilder::toString (35 bytes)   not inlineable
+                              @ 88   java.lang.LinkageError::<init> (6 bytes)   not inlineable
+               !m             @ 115   java.lang.invoke.MemberName::getFieldType (177 bytes)   not inlineable
+                              @ 125   sun.invoke.util.VerifyAccess::isTypeVisible (118 bytes)   not inlineable
+                              @ 140   java.lang.StringBuilder::<init> (7 bytes)   not inlineable
+                              @ 145   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 149   java.lang.StringBuilder::append (9 bytes)   not inlineable
+                              @ 154   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 158   java.lang.StringBuilder::append (9 bytes)   not inlineable
+                              @ 161   java.lang.StringBuilder::toString (35 bytes)   not inlineable
+                              @ 164   java.lang.LinkageError::<init> (6 bytes)   not inlineable
+                              @ 1   java.lang.Class::isArray (0 bytes)   not inlineable
+                              @ 3   jdk.internal.org.objectweb.asm.ClassWriter::newNameTypeItem (71 bytes)   not inlineable
+                              @ 9   jdk.internal.org.objectweb.asm.Item::set (219 bytes)   not inlineable
+                              @ 17   jdk.internal.org.objectweb.asm.ClassWriter::get (49 bytes)   not inlineable
+                              @ 30   jdk.internal.org.objectweb.asm.ClassWriter::newUTF8 (70 bytes)   not inlineable
+                              @ 35   jdk.internal.org.objectweb.asm.ClassWriter::newUTF8 (70 bytes)   not inlineable
+                              @ 38   jdk.internal.org.objectweb.asm.ClassWriter::put122 (15 bytes)   not inlineable
+                              @ 60   jdk.internal.org.objectweb.asm.Item::<init> (66 bytes)   not inlineable
+                              @ 66   jdk.internal.org.objectweb.asm.ClassWriter::put (152 bytes)   not inlineable
+33 33                               @ 1   java.lang.String::coder (15 bytes)   not inlineable
+                              @ 5   java.lang.String::coder (15 bytes)   not inlineable
+                              @ 12   java.lang.String::isLatin1 (19 bytes)   not inlineable
+                              @ 26   java.lang.StringLatin1::indexOf (25 bytes)   not inlineable
+                              @ 40   java.lang.StringUTF16::indexOf (31 bytes)   not inlineable
+                              @ 45   java.lang.String::coder (15 bytes)   not inlineable
+                              @ 61   java.lang.StringUTF16::indexOfLatin1 (31 bytes)   not inlineable
+                              @ 21   java.lang.StringLatin1::indexOf (121 bytes)   not inlineable
+                              @ 1   java.lang.String::coder (15 bytes)   already compiled into a big method
+                              @ 5   java.lang.String::coder (15 bytes)   already compiled into a big method
+                              @ 12   java.lang.String::isLatin1 (19 bytes)   already compiled into a big method
+                              @ 26   java.lang.StringLatin1::indexOf (25 bytes)   (intrinsic)
+                              @ 21   java.lang.StringLatin1::indexOf (121 bytes)   (intrinsic)
+                              @ 25   java.lang.String::indexOf (65 bytes)   not inlineable
+                              @ 25   java.lang.String::indexOf (65 bytes)   not inlineable
+                              @ 20   java.util.ArrayList::add (23 bytes)   not inlineable
+                              @ 7   java.util.ArrayList::grow (11 bytes)   not inlineable
+                              @ 2   java.lang.reflect.Array::newArray (0 bytes)   not inlineable
+                              @ 11   java.lang.Math::min (11 bytes)   not inlineable
+                              @ 14   java.lang.System::arraycopy (0 bytes)   not inlineable
+                              @ 5   java.lang.invoke.MethodType::makeImpl (108 bytes)   not inlineable
+                              @ 1   java.lang.invoke.MemberName::getReferenceKind (12 bytes)   not inlineable
+                              @ 4   java.lang.invoke.MethodHandleNatives::refKindIsGetter (32 bytes)   not inlineable
+                              @ 4   java.util.List::size (0 bytes)   not inlineable
+                              @ 14   java.util.List::get (0 bytes)   not inlineable
+                              @ 1   java.lang.String::length (11 bytes)   not an accessor
+                              @ 41   jdk.internal.org.objectweb.asm.ByteVector::enlarge (51 bytes)   executed < MinInliningThreshold times
+                              @ 83   java.lang.String::charAt (25 bytes)   already compiled into a big method
+                              @ 16   java.lang.invoke.LambdaForm$Name::<init> (99 bytes)   not inlineable
+                              @ 47   java.lang.AbstractStringBuilder::hugeCapacity (41 bytes)   not inlineable
+                              @ 3   java.lang.ref.Reference::<init> (25 bytes)   not inlineable
+                              @ 10   java.util.List::get (0 bytes)   not inlineable
+                              @ 30  java/util/NoSuchElementException::<init> (not loaded)   not inlineable
+                              @ 1   java.util.Objects::requireNonNull (14 bytes)   not inlineable
+                              @ 3   java.lang.invoke.MethodTypeForm::canonicalize (64 bytes)   not inlineable
+                              @ 16   java.lang.invoke.MethodTypeForm::<init> (687 bytes)   not inlineable
+                              @ 21   java.lang.invoke.MethodType::form (5 bytes)   not inlineable
+                              @ 1   java.lang.invoke.MethodType::ptypes (5 bytes)   not inlineable
+                              @ 7   java.lang.invoke.MethodTypeForm::canonicalizeAll (66 bytes)   not inlineable
+                              @ 13   java.lang.invoke.MethodType::returnType (5 bytes)   not inlineable
+                              @ 21   java.lang.invoke.MethodTypeForm::canonicalize (233 bytes)   not inlineable
+                              @ 60   java.lang.invoke.MethodType::makeImpl (108 bytes)   not inlineable
+                              @ 8   java.lang.NullPointerException::<init> (5 bytes)   not inlineable
+                              @ 21   java.lang.invoke.MethodType$ConcurrentWeakInternSet$WeakEntry::<init> (15 bytes)   not inlineable
+                              @ 26   java.lang.invoke.MethodType$ConcurrentWeakInternSet::expungeStaleElements (27 bytes)   not inlineable
+                              @ 35   java.util.concurrent.ConcurrentMap::putIfAbsent (0 bytes)   not inlineable
+                              @ 56   java.lang.ref.Reference::get (5 bytes)   not inlineable
+                              @ 3   java.lang.ref.WeakReference::<init> (7 bytes)   not inlineable
+                              @ 8   java.lang.Object::hashCode (0 bytes)   not inlineable
+ 0               !              @ 52   java.lang.invoke.LambdaForm::compileToBytecode (162 bytes)   not inlineable
+                              @ 1   sun.invoke.util.Wrapper::isIntegral (23 bytes)   not inlineable
+                              @ 8   sun.invoke.util.Wrapper::isSingleWord (15 bytes)   not inlineable
+                              @ 1   sun.invoke.util.Wrapper::isNumeric (16 bytes)   not inlineable
+               !              @ 5   java.lang.invoke.MemberName$Factory::resolve (157 bytes)   not inlineable
+                              @ 12   java.lang.invoke.MemberName::isResolved (13 bytes)   not inlineable
+                              @ 23   java.lang.invoke.MemberName::makeAccessException (140 bytes)   not inlineable
+                              @ 46   java.lang.Class::cast (27 bytes)   not inlineable
+                              @ 18   jdk.internal.org.objectweb.asm.ByteVector::enlarge (51 bytes)   not inlineable
+                              @ 249   jdk.internal.org.objectweb.asm.Type::<init> (26 bytes)   not inlineable
+                              @ 214   jdk.internal.org.objectweb.asm.Type::<init> (26 bytes)   not inlineable
+                              @ 265   jdk.internal.org.objectweb.asm.Type::<init> (26 bytes)   not inlineable
+                              @ 4   java.lang.StringBuilder::<init> (7 bytes)   not inlineable
+                              @ 10   jdk.internal.org.objectweb.asm.Type::getDescriptor (87 bytes)   not inlineable
+                              @ 14   java.lang.StringBuilder::toString (35 bytes)   not inlineable
+                              @ 19   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 38   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 55   java.lang.StringBuilder::append (10 bytes)   not inlineable
+                              @ 62   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 82   java.lang.StringBuilder::append (10 bytes)   not inlineable
+                              @ 15   java.lang.Object::clone (0 bytes)   not inlineable
+                              @ 36   java.lang.invoke.LambdaForm$Name::<init> (54 bytes)   not inlineable
+                              @ 43   java.lang.invoke.LambdaForm$Name::withConstraint (20 bytes)   not inlineable
+                              @ 1   java.lang.Class::isPrimitive (0 bytes)   not inlineable
+                              @ 8   sun.invoke.util.Wrapper::forPrimitiveType (49 bytes)   not inlineable
+                              @ 17   sun.invoke.util.BytecodeDescriptor::unparseMethod (66 bytes)   not inlineable
+                              @ 6   java.lang.String::coder (15 bytes)   already compiled into a big method
+                              @ 96   java.lang.invoke.LambdaFormBuffer::ownedCount (7 bytes)   not inlineable
+                              @ 105   java.lang.invoke.LambdaFormBuffer::growNames (281 bytes)   not inlineable
+                              @ 1   java.lang.Object::<init> (1 bytes)   not inlineable
+                              @ 11   java.lang.Class::isAssignableFrom (0 bytes)   not inlineable
+                              @ 41   java.lang.Class::isArray (0 bytes)   not inlineable
+                              @ 48   java.lang.Class::getComponentType (14 bytes)   not inlineable
+                              @ 56   java.lang.Class::isPrimitive (0 bytes)   not inlineable
+                              @ 65   sun.reflect.misc.ReflectUtil::isVMAnonymousClass (19 bytes)   not inlineable
+                              @ 74   java.lang.Class::getClassLoader (28 bytes)   not inlineable
+                              @ 79   java.lang.Class::getClassLoader (28 bytes)   not inlineable
+                              @ 90   sun.invoke.util.VerifyAccess::isSamePackage (32 bytes)   not inlineable
+                              @ 99   java.lang.Class::getModifiers (0 bytes)   not inlineable
+                              @ 102   java.lang.reflect.Modifier::isPublic (12 bytes)   not inlineable
+                              @ 132   sun.invoke.util.VerifyAccess::isSamePackage (32 bytes)   not inlineable
+                              @ 18   jdk.internal.org.objectweb.asm.ClassWriter::newStringishItem (68 bytes)   not inlineable
+                              @ 64   jdk.internal.org.objectweb.asm.Frame::execute (2264 bytes)   not inlineable
+                              @ 115   jdk.internal.org.objectweb.asm.ByteVector::put12 (64 bytes)   not inlineable
+                              @ 16   jdk.internal.org.objectweb.asm.ByteVector::enlarge (51 bytes)   not inlineable
+                              @ 34   java.lang.System::arraycopy (0 bytes)   not inlineable
+                              @ 41   java.lang.System::arraycopy (0 bytes)   not inlineable
+ time:120
+32 33                               @ 25   java.lang.String::indexOf (65 bytes)   already compiled into a big method
+                              @ 25   java.lang.String::indexOf (65 bytes)   already compiled into a big method
+ 1 time:30
+31 33  2 time:4
+30 33  3 time:2
+29 33  4 time:196
+                              @ 1   java.lang.String::isLatin1 (19 bytes)   already compiled into a big method
+                              @ 11   java.lang.StringLatin1::toChars (16 bytes)   not an accessor
+                              @ 11   java.lang.StringLatin1::inflate (34 bytes)   (intrinsic)
+                              @ 6   java.lang.String::<init> (74 bytes)   not an accessor
+                              @ 1   java.lang.Object::<init> (1 bytes)   already compiled into a big method
+                              @ 36   java.lang.StringUTF16::compress (20 bytes)   not an accessor
+                              @ 9   java.lang.StringUTF16::compress (50 bytes)   (intrinsic)
+28 33  5 time:5
+27 33  6 time:157
+26 33  7 time:204
+25 33  8 time:2
+24 33  9 time:2
+23 33  10 time:2
+22 33  11 time:2
+21 33  12 time:2
+20 33  13 time:2
+19 33  14 time:184
+18 33                               @ 11  java/lang/UnsupportedOperationException::<init> (not loaded)   not inlineable
+                              @ 26  java/nio/ReadOnlyBufferException::<init> (not loaded)   not inlineable
+ 15 time:50
+17 33  16 time:42
+16 33  17 time:93
+15 33  18 time:140
+14 33  19 time:2
+13 33  20                              @ 28   java.nio.Buffer::createPositionException (104 bytes)   not inlineable
+ time:2                              @ 11  java/lang/UnsupportedOperationException::<init> (not loaded)   not inlineable
+                              @ 26  java/nio/ReadOnlyBufferException::<init> (not loaded)   not inlineable
+
+12 33  21 time:2
+11 33  22 time:1
+10 33  23 time:130
+9 33  24 time:70
+8 33  25 time:82
+7 33  26 time:2
+6 33  27 time:95
+5 33  28 time:3
+4 33  29 time:119
+3 33  30 time:78
+2 33                               @ 13  java/io/IOException::<init> (not loaded)   not inlineable
+                              @ 2   java.nio.CharBuffer::position (8 bytes)   not inlineable
+                              @ 2   java.nio.Buffer::position (52 bytes)   not inlineable
+                              @ 11  java/lang/UnsupportedOperationException::<init> (not loaded)   not inlineable
+                              @ 26  java/nio/ReadOnlyBufferException::<init> (not loaded)   not inlineable
+                              @ 13  java/io/IOException::<init> (not loaded)   not inlineable
+ 31 time:2
+1 33  32 time:3
+                              @ 1   java.lang.Object::<init> (1 bytes)   not inlineable
+                              @ 21   jdk.internal.org.objectweb.asm.ClassWriter::newMethodItem (91 bytes)   not inlineable
+                              @ 83   jdk.internal.org.objectweb.asm.Type::getArgumentsAndReturnSizes (151 bytes)   not inlineable
+                              @ 70   jdk.internal.org.objectweb.asm.Frame::execute (2264 bytes)   not inlineable
+                              @ 174   jdk.internal.org.objectweb.asm.Type::getArgumentsAndReturnSizes (151 bytes)   not inlineable
+                              @ 198   jdk.internal.org.objectweb.asm.ByteVector::put12 (64 bytes)   not inlineable
+                              @ 206   jdk.internal.org.objectweb.asm.ByteVector::put11 (52 bytes)   not inlineable
+                              @ 223   jdk.internal.org.objectweb.asm.ByteVector::put12 (64 bytes)   not inlineable
+                              @ 23   jdk.internal.org.objectweb.asm.Item::set (219 bytes)   not inlineable
+                              @ 31   jdk.internal.org.objectweb.asm.ClassWriter::get (49 bytes)   not inlineable
+                              @ 46   jdk.internal.org.objectweb.asm.ClassWriter::newClass (11 bytes)   not inlineable
+                              @ 52   jdk.internal.org.objectweb.asm.ClassWriter::newNameType (10 bytes)   not inlineable
+                              @ 55   jdk.internal.org.objectweb.asm.ClassWriter::put122 (15 bytes)   not inlineable
+                              @ 77   jdk.internal.org.objectweb.asm.Item::<init> (66 bytes)   not inlineable
+                              @ 85   jdk.internal.org.objectweb.asm.ClassWriter::put (152 bytes)   not inlineable
+                              @ 2   java.lang.String::charAt (25 bytes)   not inlineable
+                              @ 14   jdk.internal.org.objectweb.asm.Type::getArgumentsAndReturnSizes (151 bytes)   not inlineable
+                              @ 21   jdk.internal.org.objectweb.asm.Frame::pop (45 bytes)   not inlineable
+                              @ 49   jdk.internal.org.objectweb.asm.Frame::pop (45 bytes)   not inlineable
+                              @ 41   jdk.internal.org.objectweb.asm.Frame::pop (45 bytes)   not inlineable
+                              @ 1   sun.invoke.util.BytecodeDescriptor::unparse (37 bytes)   not inlineable
+                              @ 23   java.lang.StringBuilder::<init> (7 bytes)   not inlineable
+                              @ 29   sun.invoke.util.BytecodeDescriptor::unparseSig (91 bytes)   not inlineable
+                              @ 33   java.lang.StringBuilder::toString (35 bytes)   not inlineable
+                              @ 19   jdk.internal.org.objectweb.asm.ClassWriter::newFieldItem (77 bytes)   not inlineable
+                              @ 70   java.lang.String::charAt (25 bytes)   not inlineable
+                              @ 61   jdk.internal.org.objectweb.asm.Frame::execute (2264 bytes)   not inlineable
+                              @ 251   jdk.internal.org.objectweb.asm.ByteVector::put12 (64 bytes)   not inlineable
+                              @ 9   jdk.internal.org.objectweb.asm.Item::set (219 bytes)   not inlineable
+                              @ 17   jdk.internal.org.objectweb.asm.ClassWriter::get (49 bytes)   not inlineable
+                              @ 32   jdk.internal.org.objectweb.asm.ClassWriter::newClass (11 bytes)   not inlineable
+                              @ 38   jdk.internal.org.objectweb.asm.ClassWriter::newNameType (10 bytes)   not inlineable
+                              @ 41   jdk.internal.org.objectweb.asm.ClassWriter::put122 (15 bytes)   not inlineable
+                              @ 63   jdk.internal.org.objectweb.asm.Item::<init> (66 bytes)   not inlineable
+                              @ 71   jdk.internal.org.objectweb.asm.ClassWriter::put (152 bytes)   not inlineable
+                              @ 1   java.lang.invoke.LambdaForm$Name::index (5 bytes)   not inlineable
+                              @ 27   java.lang.Class::isAssignableFrom (0 bytes)   not inlineable
+                              @ 43   java.lang.Class::isAssignableFrom (0 bytes)   not inlineable
+                              @ 32   java.lang.invoke.LambdaForm$Name::initIndex (26 bytes)   not inlineable
+                              @ 46   java.lang.Object::clone (0 bytes)   not inlineable
+                              @ 66   java.lang.invoke.LambdaForm$Name::cloneWithIndex (47 bytes)   not inlineable
+                              @ 151   java.lang.invoke.LambdaForm$Name::replaceNames (174 bytes)   not inlineable
+                              @ 166   java.lang.invoke.LambdaForm$Name::newIndex (16 bytes)   not inlineable
+                              @ 203   java.lang.Math::min (11 bytes)   not inlineable
+                              @ 232   java.lang.invoke.LambdaForm::internArgument (84 bytes)   not inlineable
+                              @ 290   java.lang.invoke.LambdaForm$Name::internArguments (59 bytes)   not inlineable
+                              @ 1   sun.invoke.util.Wrapper::forBasicType (16 bytes)   not inlineable
+                              @ 4   sun.invoke.util.Wrapper::basicTypeChar (5 bytes)   not inlineable
+                              @ 16   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 32   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 40   java.lang.Class::isArray (0 bytes)   not inlineable
+                              @ 59   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 65   java.lang.Class::getName (18 bytes)   not inlineable
+                              @ 72   java.lang.String::replace (42 bytes)   not inlineable
+                              @ 75   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 86   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 7   java.lang.AbstractStringBuilder::isLatin1 (19 bytes)   not inlineable
+                              @ 40   java.lang.StringLatin1::canEncode (13 bytes)   not inlineable
+                              @ 70   java.lang.AbstractStringBuilder::inflate (42 bytes)   not inlineable
+                              @ 83   java.lang.StringUTF16::putCharsSB (21 bytes)   not inlineable
+                              @ 116   java.lang.StringUTF16::putCharsSB (21 bytes)   not inlineable
+                              @ 199   java.lang.String::hashCode (49 bytes)   already compiled into a big method
+                              @ 203   java.lang.String::hashCode (49 bytes)   already compiled into a big method
+                              @ 209   java.lang.String::hashCode (49 bytes)   already compiled into a big method
+                              @ 180   java.lang.String::hashCode (49 bytes)   already compiled into a big method
+                              @ 184   java.lang.String::hashCode (49 bytes)   already compiled into a big method
+                              @ 166   java.lang.String::hashCode (49 bytes)   already compiled into a big method
+                              @ 33   jdk.internal.org.objectweb.asm.Item::isEqualTo (354 bytes)   hot method too big
+End search variable size substring in string (33 chars), time: 4910
+Start search variable size substring in string (32 chars)
+32 32  0 time:121
+31 32  1 time:2
+30 32  2 time:104
+29 32  3 time:66
+28 32  4 time:121
+27 32  5 time:2
+26 32  6 time:2
+25 32  7 time:111
+                              @ 1   java.lang.invoke.DirectMethodHandle::internalMemberName (8 bytes)   not inlineable
+                              @ 11   java.lang.invoke.MethodHandle::linkToStatic(IIL)I (0 bytes)   not inlineable
+24 32  8 time:3
+23 32  9 time:91
+22 32  10 time:112
+21 32  11 time:95
+20 32  12 time:104
+19 32  13 time:1
+18 32  14 time:82
+17 32  15                              @ 1   java.nio.CharBuffer::array (35 bytes)   not inlineable
+                              @ 6   java.nio.CharBuffer::arrayOffset (35 bytes)   not inlineable
+                              @ 10   java.nio.Buffer::position (5 bytes)   not inlineable
+                              @ 17   java.nio.CharBuffer::arrayOffset (35 bytes)   not inlineable
+                              @ 21   java.nio.Buffer::limit (5 bytes)   not inlineable
+                              @ 28   java.nio.ByteBuffer::array (35 bytes)   not inlineable
+                              @ 34   java.nio.ByteBuffer::arrayOffset (35 bytes)   not inlineable
+                              @ 38   java.nio.Buffer::position (5 bytes)   not inlineable
+                              @ 45   java.nio.ByteBuffer::arrayOffset (35 bytes)   not inlineable
+                              @ 49   java.nio.Buffer::limit (5 bytes)   not inlineable
+                              @ 67   java.lang.Math::min (11 bytes)   not inlineable
+                              @ 143   sun.nio.cs.UTF_8$Encoder::overflow (11 bytes)   not inlineable
+                              @ 184   sun.nio.cs.UTF_8$Encoder::overflow (11 bytes)   not inlineable
+                              @ 229   java.lang.Character::isSurrogate (18 bytes)   not inlineable
+                              @ 247  sun/nio/cs/Surrogate$Parser::<init> (not loaded)   not inlineable
+                              @ 264  sun/nio/cs/Surrogate$Parser::parse (not loaded)   not inlineable
+                              @ 280   sun.nio.cs.UTF_8::updatePositions (23 bytes)   not inlineable
+                              @ 287  sun/nio/cs/Surrogate$Parser::error (not loaded)   not inlineable
+                              @ 306   sun.nio.cs.UTF_8$Encoder::overflow (11 bytes)   not inlineable
+                              @ 409   sun.nio.cs.UTF_8$Encoder::overflow (11 bytes)   not inlineable
+                              @ 482   sun.nio.cs.UTF_8::updatePositions (23 bytes)   not inlineable
+ time:88
+16 32                               @ 1   java.io.BufferedOutputStream::flushBuffer (29 bytes)   not inlineable
+                              @ 8   java.io.OutputStream::flush (1 bytes)   not inlineable
+                              @ 20   java.io.OutputStream::write (34 bytes)   not inlineable
+ 16 time:2
+15 32  17 time:3
+14 32  18 time:48
+13 32  19 time:91
+12 32  20 time:2
+11 32  21 time:3
+10 32  22 time:193
+9 32  23 time:1
+8 32  24 time:2
+7 32  25 time:113
+6 32  26 time:2
+5 32  27 time:88
+4 32  28 time:88                              @ 1   java.lang.Object::<init> (1 bytes)   not inlineable
+                              @ 21   java.nio.Buffer::createCapacityException (52 bytes)   not inlineable
+                              @ 33   java.nio.Buffer::limit (65 bytes)   not inlineable
+                              @ 39   java.nio.Buffer::position (52 bytes)   not inlineable
+                              @ 60   java.lang.StringBuilder::<init> (7 bytes)   not inlineable
+                              @ 65   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 69   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 74   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 78   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 83   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 86   java.lang.StringBuilder::toString (35 bytes)   not inlineable
+                              @ 89   java.lang.IllegalArgumentException::<init> (6 bytes)   not inlineable
+                              @ 28   java.nio.Buffer::createLimitException (104 bytes)   not inlineable
+                              @ 2   java.nio.ByteBuffer::position (8 bytes)   not inlineable
+                              @ 2   java.nio.Buffer::position (52 bytes)   not inlineable
+
+                              @ 27   java.lang.invoke.MethodHandle::invokeBasic(ILIL)I (0 bytes)   not inlineable
+                              @ 1   java.lang.invoke.DirectMethodHandle::internalMemberName (8 bytes)   not inlineable
+                              @ 16   java.lang.invoke.MethodHandle::linkToStatic(ILILL)I (0 bytes)   not inlineable
+                              @ 2   java.lang.String::length (11 bytes)   not inlineable
+                              @ 11   java.lang.String::getBytes (44 bytes)   not inlineable
+                              @ 23   java.lang.StringBuilder::<init> (7 bytes)   not inlineable
+                              @ 28   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 32   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 37   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 41   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 46   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 50   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 53   java.lang.StringBuilder::toString (35 bytes)   not inlineable
+                              @ 56  java/lang/StringIndexOutOfBoundsException::<init> (not loaded)   not inlineable
+3 32                               @ 4   java.lang.String::length (11 bytes)   not inlineable
+               !m             @ 7   java.io.Writer::write (79 bytes)   not inlineable
+                              @ 9   java.io.BufferedWriter::ensureOpen (18 bytes)   not inlineable
+                              @ 42   java.io.BufferedWriter::min (9 bytes)   not inlineable
+                              @ 63   java.lang.String::getChars (54 bytes)   not inlineable
+               !m             @ 96   java.io.BufferedWriter::flushBuffer (53 bytes)   not inlineable
+                              @ 3   java.lang.String::length (11 bytes)   not inlineable
+                              @ 6   java.lang.String::checkBoundsBeginEnd (60 bytes)   not inlineable
+                              @ 16   java.lang.String::checkBoundsOffCount (61 bytes)   not inlineable
+                              @ 20   java.lang.String::isLatin1 (19 bytes)   not inlineable
+                              @ 35   java.lang.StringLatin1::getChars (12 bytes)   not inlineable
+                              @ 50   java.lang.StringUTF16::getChars (42 bytes)   not inlineable
+                              @ 8   java.lang.StringLatin1::inflate (34 bytes)   not inlineable
+                              @ 8   java.io.BufferedWriter::ensureOpen (18 bytes)   not inlineable
+                              @ 34   java.io.Writer::write (0 bytes)   not inlineable
+               !m             @ 7   sun.nio.cs.StreamEncoder::write (78 bytes)   not inlineable
+                              @ 9   sun.nio.cs.StreamEncoder::ensureOpen (18 bytes)   not inlineable
+                              @ 60   sun.nio.cs.StreamEncoder::implWrite (15 bytes)   not inlineable
+                              @ 44  java/lang/IndexOutOfBoundsException::<init> (not loaded)   not inlineable
+                              @ 13  java/io/IOException::<init> (not loaded)   not inlineable
+               !              @ 3   java.nio.CharBuffer::wrap (20 bytes)   not inlineable
+                              @ 11   sun.nio.cs.StreamEncoder::implWrite (137 bytes)   not inlineable
+                              @ 7   java.nio.HeapCharBuffer::<init> (21 bytes)   not inlineable
+                              @ 16  java/lang/IndexOutOfBoundsException::<init> (not loaded)   not inlineable
+                              @ 10   java.nio.CharBuffer::<init> (22 bytes)   not inlineable
+                              @ 6   java.nio.Buffer::<init> (99 bytes)   not inlineable
+                              @ 2   java.nio.CharBuffer::limit (8 bytes)   not inlineable
+                              @ 2   java.nio.Buffer::limit (65 bytes)   not inlineable
+                              @ 10   sun.nio.cs.StreamEncoder::flushLeftoverChar (243 bytes)   not inlineable
+                              @ 14   java.nio.Buffer::hasRemaining (17 bytes)   not inlineable
+               !              @ 30   java.nio.charset.CharsetEncoder::encode (285 bytes)   not inlineable
+                              @ 35   java.nio.charset.CoderResult::isUnderflow (13 bytes)   not inlineable
+                              @ 68   java.nio.Buffer::remaining (20 bytes)   not inlineable
+                              @ 82   java.nio.CharBuffer::get (0 bytes)   not inlineable
+                              @ 92   java.nio.charset.CoderResult::isOverflow (14 bytes)   not inlineable
+                              @ 123   sun.nio.cs.StreamEncoder::writeBytes (132 bytes)   not inlineable
+                              @ 130   java.nio.charset.CoderResult::throwException (91 bytes)   not inlineable
+                              @ 45   java.nio.charset.CharsetEncoder::throwIllegalStateException (44 bytes)   not inlineable
+                              @ 57   java.nio.charset.CharsetEncoder::encodeLoop (0 bytes)   not inlineable
+                              @ 73  java/nio/charset/CoderMalfunctionError::<init> (not loaded)   not inlineable
+                              @ 85  java/nio/charset/CoderMalfunctionError::<init> (not loaded)   not inlineable
+                              @ 91   java.nio.charset.CoderResult::isOverflow (14 bytes)   not inlineable
+                              @ 102   java.nio.charset.CoderResult::isUnderflow (13 bytes)   not inlineable
+                              @ 113   java.nio.Buffer::hasRemaining (17 bytes)   not inlineable
+                              @ 120   java.nio.Buffer::remaining (20 bytes)   not inlineable
+                              @ 123   java.nio.charset.CoderResult::malformedForLength (51 bytes)   not inlineable
+                              @ 139   java.nio.charset.CoderResult::isMalformed (14 bytes)   not inlineable
+                              @ 156   java.nio.charset.CoderResult::isUnmappable (14 bytes)   not inlineable
+                              @ 210   java.nio.Buffer::remaining (20 bytes)   not inlineable
+                              @ 230   java.nio.ByteBuffer::put (9 bytes)   not inlineable
+                              @ 252   java.nio.Buffer::position (5 bytes)   not inlineable
+                              @ 257   java.nio.charset.CoderResult::length (20 bytes)   not inlineable
+                              @ 261   java.nio.CharBuffer::position (8 bytes)   not inlineable
+                              @ 1   java.nio.CharBuffer::hasArray (20 bytes)   not inlineable
+                              @ 8   java.nio.ByteBuffer::hasArray (20 bytes)   not inlineable
+                              @ 17   sun.nio.cs.UTF_8$Encoder::encodeArrayLoop (489 bytes)   not inlineable
+                              @ 24   sun.nio.cs.UTF_8$Encoder::encodeBufferLoop (326 bytes)   not inlineable
+                              @ 11  java/lang/UnsupportedOperationException::<init> (not loaded)   not inlineable
+                              @ 26  java/nio/ReadOnlyBufferException::<init> (not loaded)   not inlineable
+                              @ 3   java.nio.Buffer::arrayOffset (0 bytes)   not inlineable
+                              @ 7   java.nio.Buffer::position (52 bytes)   not inlineable
+                              @ 14   java.nio.Buffer::arrayOffset (0 bytes)   not inlineable
+                              @ 18   java.nio.Buffer::position (52 bytes)   not inlineable
+               !m             @ 4   sun.nio.cs.StreamEncoder::flushBuffer (42 bytes)   not inlineable
+                              @ 8   sun.nio.cs.StreamEncoder::isOpen (13 bytes)   not inlineable
+                              @ 15   sun.nio.cs.StreamEncoder::implFlushBuffer (15 bytes)   not inlineable
+                              @ 27  java/io/IOException::<init> (not loaded)   not inlineable
+                              @ 4   java.nio.Buffer::position (5 bytes)   not inlineable
+                              @ 11   sun.nio.cs.StreamEncoder::writeBytes (132 bytes)   not inlineable
+                              @ 4   java.nio.ByteBuffer::flip (7 bytes)   not inlineable
+                              @ 12   java.nio.Buffer::limit (5 bytes)   not inlineable
+                              @ 20   java.nio.Buffer::position (5 bytes)   not inlineable
+                              @ 75  java/nio/channels/WritableByteChannel::write (not loaded)   not inlineable
+                              @ 107   java.nio.ByteBuffer::array (35 bytes)   not inlineable
+                              @ 114   java.nio.ByteBuffer::arrayOffset (35 bytes)   not inlineable
+                              @ 120   java.io.OutputStream::write (34 bytes)   not inlineable
+                              @ 127   java.nio.ByteBuffer::clear (7 bytes)   not inlineable
+                              @ 1   java.nio.Buffer::flip (20 bytes)   not inlineable
+                              @ 6   java.io.PrintStream::ensureOpen (18 bytes)   not inlineable
+                              @ 16   java.io.OutputStream::write (34 bytes)   not inlineable
+                              @ 30   java.io.OutputStream::flush (1 bytes)   not inlineable
+                              @ 52   java.lang.Thread::currentThread (0 bytes)   not inlineable
+               !m             @ 55   java.lang.Thread::interrupt (56 bytes)   not inlineable
+                              @ 10   java.io.BufferedOutputStream::flushBuffer (29 bytes)   not inlineable
+                              @ 20   java.io.OutputStream::write (34 bytes)   not inlineable
+                              @ 39   java.io.BufferedOutputStream::flushBuffer (29 bytes)   not inlineable
+                              @ 53   java.lang.System::arraycopy (0 bytes)   not inlineable
+                              @ 11   java.io.FileDescriptor$1::getAppend (5 bytes)   not inlineable
+                              @ 16   java.io.FileOutputStream::writeBytes (0 bytes)   not inlineable
+ 29                              @ 1   java.nio.Buffer::clear (20 bytes)   not inlineable
+                              @ 10   java.lang.OutOfMemoryError::<init> (6 bytes)   not inlineable
+ time:5
+2 32  30 time:2
+1 32  31 time:1
+End search variable size substring in string (32 chars), time: 2159
+Start search variable size substring in string (17 chars)
+17 17  0 time:1
+16 17  1 time:1
+15 17  2 time:32
+14 17  3 time:4
+13 17  4 time:76
+12 17  5 time:106
+11 17  6 time:2
+10 17  7 time:83
+9 17  8 time:3
+8 17  9 time:181
+7 17  10 time:87
+6 17  11 time:1
+5 17  12 time:63
+4 17  13 time:51
+3 17  14 time:4
+2 17  15                              @ 10   java.lang.Object::toString (36 bytes)   not inlineable
+ time:3
+1 17  16 time:1
+End search variable size substring in string (17 chars), time: 959
+Start search variable size substring in string (16 chars)
+16 16                               @ 2   java.lang.Integer::stringSize (47 bytes)   not inlineable
+                              @ 6   java.lang.StringConcatHelper::checkOverflow (16 bytes)   not inlineable
+                              @ 1   java.lang.invoke.DirectMethodHandle::internalMemberName (8 bytes)   not inlineable
+                              @ 16   java.lang.invoke.MethodHandle::linkToStatic(ILIIL)I (0 bytes)   not inlineable
+                              @ 7   java.lang.Integer::getChars (131 bytes)   not inlineable
+                              @ 14   java.lang.StringUTF16::getChars (139 bytes)   not inlineable
+ 0                              @ 1   java.lang.invoke.DirectMethodHandle::internalMemberName (8 bytes)   not inlineable
+                              @ 11   java.lang.invoke.MethodHandle::linkToStatic(IIL)L (0 bytes)   not inlineable
+                              @ 9   jdk.internal.misc.Unsafe::allocateUninitializedArray (52 bytes)   not inlineable
+                              @ 10   java.lang.IllegalArgumentException::<init> (6 bytes)   not inlineable
+                              @ 15   java.lang.Class::isPrimitive (0 bytes)   not inlineable
+                              @ 27   java.lang.IllegalArgumentException::<init> (6 bytes)   not inlineable
+                              @ 41   java.lang.IllegalArgumentException::<init> (6 bytes)   not inlineable
+                              @ 48   jdk.internal.misc.Unsafe::allocateUninitializedArray0 (90 bytes)   not inlineable
+                              @ 1   java.lang.invoke.DirectMethodHandle::internalMemberName (8 bytes)   not inlineable
+                              @ 14   java.lang.invoke.MethodHandle::linkToStatic(LIIL)L (0 bytes)   not inlineable
+                              @ 12   java.lang.StringBuilder::<init> (7 bytes)   not inlineable
+                              @ 17   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 21   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 26   java.lang.StringBuilder::append (8 bytes)   not inlineable
+                              @ 29   java.lang.StringBuilder::toString (35 bytes)   not inlineable
+                              @ 32  java/lang/InternalError::<init> (not loaded)   not inlineable
+                              @ 42   java.lang.String::<init> (15 bytes)   not inlineable
+                              @ 2   java.lang.String::valueOf (14 bytes)   not inlineable
+               !m             @ 5   java.io.PrintStream::write (83 bytes)   not inlineable
+                              @ 5   java.io.PrintStream::ensureOpen (18 bytes)   not inlineable
+                              @ 13   java.io.Writer::write (11 bytes)   not inlineable
+               !m             @ 20   java.io.BufferedWriter::flushBuffer (53 bytes)   not inlineable
+                              @ 27   java.io.OutputStreamWriter::flushBuffer (8 bytes)   not inlineable
+                              @ 40   java.lang.String::indexOf (7 bytes)   not inlineable
+                              @ 50   java.io.OutputStream::flush (1 bytes)   not inlineable
+                              @ 67   java.lang.Thread::currentThread (0 bytes)   not inlineable
+               !m             @ 70   java.lang.Thread::interrupt (56 bytes)   not inlineable
+ time:1
+15 16  1 time:2
+14 16  2 time:114
+13 16  3 time:3
+12 16  4 time:109
+11 16  5 time:2
+10 16  6 time:1
+9 16  7 time:1
+8 16  8 time:1
+7 16  9 time:152
+6 16  10 time:1
+5 16  11 time:2
+4 16  12 time:1
+3 16  13 time:1
+2 16  14 time:150
+1 16  15 time:42
+End search variable size substring in string (16 chars), time: 677
+Start search variable size substring in string (8 chars)
+8 8  0 time:2
+                              @ 20   java.lang.String::toCharArray (25 bytes)   not inlineable
+                              @ 23   java.lang.String::<init> (10 bytes)   not inlineable
+                              @ 40   java.lang.String::toCharArray (25 bytes)   not inlineable
+                              @ 43   java.lang.String::<init> (10 bytes)   not inlineable
+                              @ 57   java.lang.String::length (11 bytes)   not inlineable
+                              @ 61   java.lang.String::length (11 bytes)   not inlineable
+                              @ 64   java.lang.invoke.Invokers$Holder::linkToTargetMethod (10 bytes)   not inlineable
+                              @ 69   java.io.PrintStream::print (9 bytes)   not inlineable
+                              @ 72   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+7 8  1 time:2
+6 8  2 time:3
+5 8  3 time:1
+4 8  4 time:81
+3 8  5 time:68
+2 8  6 time:2
+1 8  7 time:1
+End search variable size substring in string (8 chars), time: 238
+Start search variable size substring in string (7 chars)
+7 7  0 time:1
+6 7  1 time:141
+5 7  2 time:2
+4 7  3 time:85
+3 7  4 time:70
+2 7  5 time:1
+1 7  6 time:69
+End search variable size substring in string (7 chars), time: 369
+                              @ 1   java.lang.Object::<init> (1 bytes)   not inlineable
+                              @ 6   java.util.Objects::requireNonNull (14 bytes)   not inlineable
+                              @ 17   java.util.Objects::requireNonNull (14 bytes)   not inlineable
+                              @ 23   java.lang.invoke.LambdaForm::uncustomize (57 bytes)   not inlineable
+                              @ 33   java.lang.invoke.LambdaForm::prepare (112 bytes)   not inlineable
+                              @ 7   java.lang.invoke.LambdaForm::forceInterpretation (14 bytes)   not inlineable
+               !              @ 21   java.lang.invoke.LambdaForm::compileToBytecode (162 bytes)   not inlineable
+                              @ 33   java.lang.invoke.LambdaForm::methodType (48 bytes)   not inlineable
+                              @ 38   java.lang.invoke.MethodType::form (5 bytes)   not inlineable
+                              @ 43   java.lang.invoke.MethodTypeForm::cachedLambdaForm (44 bytes)   not inlineable
+                              @ 80   java.lang.invoke.LambdaForm::<init> (212 bytes)   not inlineable
+                              @ 86   java.lang.invoke.InvokerBytecodeGenerator::generateLambdaFormInterpreterEntryPoint (83 bytes)   not inlineable
+                              @ 93   java.lang.invoke.MethodType::form (5 bytes)   not inlineable
+              s               @ 99   java.lang.invoke.MethodTypeForm::setCachedLambdaForm (44 bytes)   not inlineable
+Start search substring (17 chars) in variable size string
+17 32  15 time:4
+17 31  14 time:138
+17 30  13 time:51
+17 29  12 time:8
+17 28  11 time:118
+17 27  10 time:2
+17 26  9 time:82
+17 25  8 time:4
+17 24  7                              @ 1   java.lang.invoke.DirectMethodHandle::internalMemberName (8 bytes)   not inlineable
+                              @ 13   java.lang.invoke.MethodHandle::linkToStatic(IJL)I (0 bytes)   not inlineable
+ time:138
+17 23  6 time:3
+17 22  5 time:25
+17 21  4 time:76
+17 20  3 time:109
+17 19  2 time:72
+17 18  1 time:58
+17 17  0 time:106
+                              @ 2   java.lang.ref.Reference::<init> (7 bytes)   not inlineable
+End search substring (17 chars) in variable size string, time: 1159
+Start search substring (16 chars) in variable size string
+16 32  16 time:2
+16 31  15 time:80
+16 30  14 time:1
+16 29  13 time:2
+16 28  12 time:110
+16 27  11 time:4
+16 26  10 time:93
+16 25  9 time:117
+16 24  8 time:1
+16 23  7 time:61
+16 22  6 time:2
+16 21  5 time:110
+16 20  4 time:76
+16 19  3 time:92
+16 18  2 time:83
+16 17  1 time:2
+16 16  0 time:2
+End search substring (16 chars) in variable size string, time: 839
+Start search substring (9 chars) in variable size string
+9 32  23 time:86
+9 31  22 time:82
+9 30  21 time:31
+9 29  20 time:35
+9 28  19 time:79
+9 27  18 time:2
+9 26  17 time:89
+9 25  16 time:100
+9 24  15 time:67
+9 23  14 time:85
+9 22  13 time:3
+9 21  12 time:94
+9 20  11 time:64
+9 19  10 time:74
+9 18  9 time:2
+9 17  8 time:93
+9 16  7 time:13
+9 15  6 time:3
+9 14  5 time:153
+9 13  4 time:1
+9 12  3 time:1
+9 11  2 time:1
+9 10  1 time:143
+9 9  0 time:2
+End search substring (9 chars) in variable size string, time: 1330
+Start search substring (8 chars) in variable size string
+8 32  24 time:100
+8 31  23 time:71
+8 30  22 time:87
+8 29  21 time:63
+8 28  20 time:92
+8 27  19 time:3
+8 26  18 time:3
+8 25  17 time:174
+8 24  16 time:33
+                              @ 20   java.lang.String::toCharArray (25 bytes)   already compiled into a big method
+                              @ 23   java.lang.String::<init> (10 bytes)   already compiled into a big method
+                              @ 40   java.lang.String::toCharArray (25 bytes)   already compiled into a big method
+                              @ 43   java.lang.String::<init> (10 bytes)   already compiled into a big method
+                              @ 57   java.lang.String::length (11 bytes)   already compiled into a medium method
+                              @ 61   java.lang.String::length (11 bytes)   already compiled into a medium method
+                              @ 64   java.lang.invoke.Invokers$Holder::linkToTargetMethod (10 bytes)   not an accessor
+                              @ 69   java.io.PrintStream::print (9 bytes)   not an accessor
+                              @ 72   java.lang.System::currentTimeMillis (0 bytes)   native method
+                              @ 20   java.lang.String::toCharArray (25 bytes)   already compiled into a big method
+                              @ 23   java.lang.String::<init> (10 bytes)   already compiled into a big method
+                              @ 40   java.lang.String::toCharArray (25 bytes)   already compiled into a big method
+                              @ 43   java.lang.String::<init> (10 bytes)   already compiled into a big method
+                              @ 57   java.lang.String::length (11 bytes)   already compiled into a medium method
+                              @ 61   java.lang.String::length (11 bytes)   already compiled into a medium method
+                              @ 64   java.lang.invoke.Invokers$Holder::linkToTargetMethod (10 bytes)   not an accessor
+                              @ 69   java.io.PrintStream::print (9 bytes)   not an accessor
+                              @ 72   java.lang.System::currentTimeMillis (0 bytes)   native method
+8 23  15 time:3
+8 22  14 time:3
+8 21  13 time:70
+8 20  12 time:1
+8 19  11 time:2
+8 18  10 time:81
+8 17  9 time:135
+8 16  8 time:1
+8 15  7 time:2
+8 14  6 time:1
+8 13  5 time:108
+8 12  4 time:72
+8 11  3 time:97
+8 10  2 time:72
+8 9  1 time:66
+8 8  0 time:1
+End search substring (8 chars) in variable size string, time: 1476
+Start search substring (4 chars) in variable size string
+4 32  28 time:69
+4 31  27 time:79
+4 30  26 time:103
+4 29  25 time:3
+4 28  24 time:83
+4 27  23 time:79
+4 26  22 time:2
+4 25  21 time:2
+4 24  20 time:1
+4 23  19 time:446
+4 22  18 time:212
+4 21  17 time:2
+4 20  16 time:2
+4 19  15 time:157
+4 18  14 time:102
+4 17  13 time:2
+4 16  12 time:357
+4 15  11 time:3
+4 14  10 time:198
+4 13  9 time:2
+4 12  8 time:186
+4 11  7 time:208
+4 10  6 time:259
+4 9  5 time:1
+4 8  4 time:2
+4 7  3 time:265
+4 6  2 time:1
+4 5  1 time:1
+4 4  0 time:146
+End search substring (4 chars) in variable size string, time: 3215
+Start search substring (3 chars) in variable size string
+3 32  29 time:124
+3 31  28 time:126
+3 30  27 time:3
+3 29  26 time:150
+3 28  25 time:2
+3 27  24 time:170
+3 26  23 time:4
+3 25  22 time:216
+3 24  21                              @ 6   java.io.PrintStream::print (9 bytes)   not inlineable
+               !m             @ 10   java.io.PrintStream::newLine (73 bytes)   not inlineable
+ time:3                              @ 5   java.io.PrintStream::ensureOpen (18 bytes)   not inlineable
+                              @ 12   java.io.BufferedWriter::newLine (8 bytes)   not inlineable
+               !m             @ 19   java.io.BufferedWriter::flushBuffer (53 bytes)   not inlineable
+                              @ 26   java.io.OutputStreamWriter::flushBuffer (8 bytes)   not inlineable
+                              @ 40   java.io.OutputStream::flush (1 bytes)   not inlineable
+                              @ 57   java.lang.Thread::currentThread (0 bytes)   not inlineable
+               !m             @ 60   java.lang.Thread::interrupt (56 bytes)   not inlineable
+                              @ 1   java.lang.System::lineSeparator (4 bytes)   not inlineable
+                              @ 4   java.io.Writer::write (11 bytes)   not inlineable
+
+3 23  20 time:39
+3 22  19 time:28
+                              @ 9  java/lang/StringIndexOutOfBoundsException::<init> (not loaded)   not inlineable
+                              @ 14   java.lang.String::length (11 bytes)   not inlineable
+                              @ 29  java/lang/StringIndexOutOfBoundsException::<init> (not loaded)   not inlineable
+                              @ 40   java.lang.String::isLatin1 (19 bytes)   not inlineable
+                              @ 52   java.lang.StringLatin1::newString (17 bytes)   not inlineable
+                              @ 64   java.lang.StringUTF16::newString (50 bytes)   not inlineable
+3 21  18 time:2
+3 20  17 time:45
+3 19  16 time:69
+3 18  15 time:2
+3 17  14 time:98
+3 16  13 time:3
+3 15  12 time:114
+3 14  11 time:32
+3 13                               @ 5   java.lang.invoke.MethodHandle::invokeBasic(I)L (0 bytes)   not inlineable
+ 10 time:1
+3 12  9                              @ 2   java.lang.Long::stringSize (55 bytes)   not inlineable
+                              @ 6   java.lang.StringConcatHelper::checkOverflow (16 bytes)   not inlineable
+                              @ 1   java.lang.invoke.DirectMethodHandle::internalMemberName (8 bytes)   not inlineable
+                              @ 16   java.lang.invoke.MethodHandle::linkToStatic(ILIJL)I (0 bytes)   not inlineable
+                              @ 7   java.lang.Long::getChars (208 bytes)   not inlineable
+                              @ 14   java.lang.StringUTF16::getChars (220 bytes)   not inlineable
+ time:167
+3 11  8 time:34
+3 10  7 time:26
+3 9  6 time:1
+3 8  5 time:100
+3 7  4 time:1
+3 6  3 time:2
+3 5  2 time:1
+3 4  1 time:25
+3 3  0 time:2
+End search substring (3 chars) in variable size string, time: 1990
+Start search substring (2 chars) in variable size string
+2 32  30 time:120
+                              @ 6   java.lang.invoke.MethodHandle::invokeBasic(II)L (0 bytes)   not inlineable
+                              @ 29   java.lang.invoke.MethodHandle::invokeBasic(II)I (0 bytes)   not inlineable
+                              @ 48   java.lang.invoke.MethodHandle::invokeBasic(II)I (0 bytes)   not inlineable
+                              @ 67   java.lang.invoke.MethodHandle::invokeBasic(II)I (0 bytes)   not inlineable
+                              @ 86   java.lang.invoke.MethodHandle::invokeBasic(II)I (0 bytes)   not inlineable
+                              @ 106   java.lang.invoke.MethodHandle::invokeBasic(II)L (0 bytes)   not inlineable
+                              @ 128   java.lang.invoke.MethodHandle::invokeBasic(ILI)I (0 bytes)   not inlineable
+                              @ 151   java.lang.invoke.MethodHandle::invokeBasic(ILII)I (0 bytes)   not inlineable
+                              @ 173   java.lang.invoke.MethodHandle::invokeBasic(ILI)I (0 bytes)   not inlineable
+                              @ 196   java.lang.invoke.MethodHandle::invokeBasic(ILII)I (0 bytes)   not inlineable
+                              @ 218   java.lang.invoke.MethodHandle::invokeBasic(LII)L (0 bytes)   not inlineable
+2 31                               @ 0   java.lang.System::currentTimeMillis (0 bytes)   not inlineable
+                              @ 16   java.lang.invoke.Invokers$Holder::linkToTargetMethod (9 bytes)   not inlineable
+                              @ 21   java.io.PrintStream::print (9 bytes)   not inlineable
+                              @ 32   java.lang.invoke.LambdaForm$MH/0x000000084006e840::linkToTargetMethod (9 bytes)   not inlineable
+               !m             @ 37   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 52  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 57   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 65  java/lang/invoke/MethodHandle::invokeBasic (not loaded)   not inlineable
+               !m             @ 70   java.io.PrintStream::println (24 bytes)   not inlineable
+                              @ 75   java.lang.System::exit (8 bytes)   not inlineable
+                              @ 28   java.lang.invoke.MethodHandle::invokeBasic(II)I (0 bytes)   not inlineable
+                              @ 46   java.lang.invoke.MethodHandle::invokeBasic(II)I (0 bytes)   not inlineable
+                              @ 66   java.lang.invoke.MethodHandle::invokeBasic(II)L (0 bytes)   not inlineable
+                              @ 89   java.lang.invoke.MethodHandle::invokeBasic(ILII)I (0 bytes)   not inlineable
+                              @ 111   java.lang.invoke.MethodHandle::invokeBasic(ILI)I (0 bytes)   not inlineable
+                              @ 133   java.lang.invoke.MethodHandle::invokeBasic(LII)L (0 bytes)   not inlineable
+ 29                              @ 5   java.lang.invoke.MethodHandle::invokeBasic(J)L (0 bytes)   not inlineable
+                              @ 29   java.lang.invoke.MethodHandle::invokeBasic(IJ)I (0 bytes)   not inlineable
+                              @ 48   java.lang.invoke.MethodHandle::invokeBasic(IJ)I (0 bytes)   not inlineable
+                              @ 68   java.lang.invoke.MethodHandle::invokeBasic(II)L (0 bytes)   not inlineable
+                              @ 91   java.lang.invoke.MethodHandle::invokeBasic(ILIJ)I (0 bytes)   not inlineable
+                              @ 113   java.lang.invoke.MethodHandle::invokeBasic(ILI)I (0 bytes)   not inlineable
+                              @ 135   java.lang.invoke.MethodHandle::invokeBasic(LII)L (0 bytes)   not inlineable
+ time:74
+2 30  28 time:3
+2 29  27 time:96
+2 28  26 time:2
+2 27  25 time:228
+2 26  24 time:1
+2 25  23 time:202
+2 24  22 time:2
+2 23  21 time:2
+2 22  20 time:2
+2 21  19 time:1
+2 20  18 time:4
+2 19  17 time:256
+2 18  16 time:2
+2 17  15 time:280
+2 16  14 time:2
+2 15  13 time:130
+2 14  12 time:2
+2 13  11 time:1
+2 12  10 time:274
+2 11  9 time:126
+2 10  8 time:3
+2 9  7 time:26
+2 8  6 time:191
+2 7  5 time:2
+2 6  4 time:198
+2 5  3 time:3
+2 4  2 time:3
+2 3  1 time:294
+2 2  0 time:1
+End search substring (2 chars) in variable size string, time: 3181
+Start search non matching variable size substring in string (33 chars)
+33 33  -1 time:4
+32 33  -1 time:197
+31 33  -1 time:2
+30 33  -1 time:2
+29 33  -1 time:439
+28 33  -1 time:2
+27 33  -1 time:302
+26 33  -1 time:155
+25 33  -1 time:4
+24 33  -1 time:137
+23 33  -1 time:2
+22 33  -1 time:181
+21 33  -1 time:4
+20 33  -1 time:516
+19 33  -1 time:164
+18 33  -1 time:8
+17 33  -1 time:141
+16 33  -1 time:75
+15 33  -1 time:2
+14 33  -1 time:190
+13 33  -1 time:3
+12 33 

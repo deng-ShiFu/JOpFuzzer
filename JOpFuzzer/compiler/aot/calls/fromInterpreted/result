@@ -1,0 +1,2 @@
+错误: 找不到或无法加载主类 InterpretedInvokeVirtual2AotTest
+原因: java.lang.ClassNotFoundException: InterpretedInvokeVirtual2AotTest
